@@ -1,0 +1,54 @@
+{
+  "native": {
+    "packageVersion": "4.6+kinetic.wrapcache1",
+    "engine": "version 4.6-2026-06-22-85aaf6450+kinetic.wrapcache1, build date 09:27:45 Sep 11 2026",
+    "numpyVersion": "2.5.3",
+    "binaries": {
+      "_actuators.so": "dc3110f8407ab6eebffccf78ba6bf0ab2c72b47a927fb8673c2181078a436727",
+      "_analyses.so": "1720a703e0f09f7316f4807e1bb769d780abda35392d87157b224563f52cbe56",
+      "_common.so": "892c8889265ea319632bcafe6033f8a18449e263c848bf61055eb9a5921ecafa",
+      "_examplecomponents.so": "2f58e386fe1215f9b83b1ea4b9f6a2aaf56d6dd607599fb9cc87054b411e0b46",
+      "_moco.so": "47c1e97a072dcd29dc4e8e663c6200eac3329eb27d83212e88ccb9887ec5680f",
+      "_simbody.so": "e2d0ff27f59c1f5cc9af99c3504d41a4756c2667f15e81e40c4514f8d83fba17",
+      "_simulation.so": "bffc9581bf195ba2614d4f631e51769ea70cade2d8344b3d61b9fb0c56b1ebd0",
+      "_tools.so": "f801dd72ae6965fc5d32054086e279f4685d480a20ac2a0915c9dffef775aa04",
+      "libSimTKcommon.so": "daf2aa0d31d7c696335c04e423a21193800378dadd5b8e845cf7118663bf97fc",
+      "libSimTKcommon.so.3.9": "daf2aa0d31d7c696335c04e423a21193800378dadd5b8e845cf7118663bf97fc",
+      "libSimTKmath.so": "4fa8911d7a133849a7e50cae0304fd77105696d2fd20a12e4db3698293f9e7a0",
+      "libSimTKmath.so.3.9": "4fa8911d7a133849a7e50cae0304fd77105696d2fd20a12e4db3698293f9e7a0",
+      "libSimTKsimbody.so": "762f8c0d0935a0417bdd878bcc79852d12b306090126e69fa6c638f7f5f630e0",
+      "libSimTKsimbody.so.3.9": "762f8c0d0935a0417bdd878bcc79852d12b306090126e69fa6c638f7f5f630e0",
+      "libosimActuators.so": "c8e2291f5d0266a6db5132bfde6222aa90b73030cd669b2ce19ea97e08af6a9a",
+      "libosimAnalyses.so": "6340b277ccae4a46048939829020aff75e0f5517b822a87cbff81456cd203dd0",
+      "libosimCommon.so": "26190e9402901ac1f680c241de90ae5441b0bf759a1e502d9ff6869c46f48060",
+      "libosimExampleComponents.so": "045d69e61474ecd3b7a9660d9853b8f210059f455f7f5c72b8d95585a8a06568",
+      "libosimLepton.so": "e001561e165657c2a87eec63918f11d3eb3be39ccf6d112d604d5085665d6db5",
+      "libosimMoco.so": "54330fd35ba3ba9a2cdfa630cc2c9f06a1577ba09d61f6409ed000a921e3d05a",
+      "libosimSimulation.so": "b676a8e1b84188e548348c7f352e9de015b05f2dfb20de52ac8640f72b3161cf",
+      "libosimTools.so": "0092fc6c86a812e998f85b34d3f6016db1d5522025f2e6073c2a17017f069b6c",
+      "libosimdocopt.so": "ba21546e382eedaf979292d11e95e78abccef2067a066362b4d53d65d2cb2e9b"
+    },
+    "id": "aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376"
+  },
+  "wheel": {
+    "path": "biomechanics/wheels/opensim-4.6+kinetic.wrapcache1-2-cp312-cp312-linux_x86_64.whl",
+    "sha256": "74f1cdc7eac3fb853eeae1f3285e3354ffec23e8bfd09da325e09f5c0f442fbd"
+  },
+  "provenance": {
+    "packageVersion": "4.6+kinetic.wrapcache1",
+    "source": "https://github.com/opensim-org/opensim-core",
+    "commit": "85aaf6450a2f22457dac4d1ab35adfed9d3a8e43",
+    "dependencies": {
+      "simbody": "80a3f10a6daa26c8aaf18f2c672cf385b227e62c",
+      "spdlog": "6fa36017cfd5731d617e1a934f0e5ea9c4445b13"
+    },
+    "patchSha256": {
+      "opensim-85aaf64-wrap-cache.patch": "28e42249c58f457cb71ca14d92baea20a9315a4765afe465c0da40d1699e3252",
+      "package-version.patch": "66c44d807feec3d1735ca60439b5db7f797942bd6a578a30c270731c2c2ec1e8"
+    },
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "scope": "Source-built OpenSim with wrap-point cache invalidation. CasADi, C3D import and the desktop visualizer are excluded; native position/constraint/path/moment-arm evaluation is included.",
+    "buildRecipe": "scripts/build-opensim.sh"
+  },
+  "platform": "Linux x86_64 / CPython 3.12; system libblas and liblapack required"
+}

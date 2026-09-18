@@ -1,0 +1,34 @@
+[
+  {
+    "id": "atlas-spine-rotatores",
+    "label": "Rotatores"
+  },
+  {
+    "id": "atlas-spine-interspinales",
+    "label": "Interspinales"
+  },
+  {
+    "id": "atlas-spine-intertransversarii",
+    "label": "Lumbar intertransversarii"
+  },
+  {
+    "id": "atlas-spine-semispinalis",
+    "label": "Semispinalis thoracis"
+  },
+  {
+    "id": "atlas-spine-spinalis",
+    "label": "Spinalis thoracis"
+  },
+  {
+    "id": "atlas-spine-levatores",
+    "label": "Levatores costarum"
+  },
+  {
+    "id": "atlas-spine-serratus-posterior",
+    "label": "Serratus posterior"
+  },
+  {
+    "id": "atlas-spine-innermost-intercostals",
+    "label": "Innermost intercostals"
+  }
+]

@@ -1,0 +1,51 @@
+diff --git a/Bindings/Python/setup.py b/Bindings/Python/setup.py
+index dc68496c3..35a77a493 100644
+--- a/Bindings/Python/setup.py
++++ b/Bindings/Python/setup.py
+@@ -48,7 +48,7 @@ setup(name='opensim',
+       # The last 3 entries are for if OPENSIM_PYTHON_STANDALONE is ON.
+       # The asterisk after the extension is to handle version numbers on Linux.
+       package_data={'opensim': ['_*.*', '*.dylib', '*.dll', '*.so*', 'simbody-*',
+-                    'simbody-*.*/*/*/*', 'Geometry/*.*']},
++                    'simbody-*.*/*/*/*', 'Geometry/*.*', '*.txt', 'NOTICE', '*.json']},
+       # Create a command-line tool for generating a report.
+       entry_points={
+           'console_scripts': [
+diff --git a/Bindings/Python/version.py.in b/Bindings/Python/version.py.in
+index a40627e29..dd602b128 100644
+--- a/Bindings/Python/version.py.in
++++ b/Bindings/Python/version.py.in
+@@ -1 +1 @@
+-__version__ = "@OPENSIM_RELEASE_VERSION@"
++__version__ = "@OPENSIM_RELEASE_VERSION@+kinetic.wrapcache1"
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 519fe6b53..1ac2a2398 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -84,6 +84,7 @@ if(Git_FOUND)
+ else()
+     set(QUALIFIED_VERSION "${OPENSIM_RELEASE_VERSION}?")
+ endif()
++set(QUALIFIED_VERSION "${QUALIFIED_VERSION}+kinetic.wrapcache1")
+ set(OPENSIM_QUALIFIED_VERSION "${QUALIFIED_VERSION}" CACHE STRING
+         "Qualified version string, containing git commit date/hash suffix." FORCE)
+ 
+diff --git a/cmake/OpenSimMacros.cmake b/cmake/OpenSimMacros.cmake
+index 144e9bd3f..4ba298982 100644
+--- a/cmake/OpenSimMacros.cmake
++++ b/cmake/OpenSimMacros.cmake
+@@ -608,6 +608,9 @@ endfunction()
+ # Function to install the Simbody visualizer on the target platform.
+ function(OpenSimInstallVisualizer DEP_LIBS_DIR_WIN
+         DEP_LIBS_DIR_UNIX OSIM_DESTINATION)
++    if(DEFINED OPENSIM_INSTALL_VISUALIZER AND NOT OPENSIM_INSTALL_VISUALIZER)
++        return()
++    endif()
+     if(WIN32)
+         set(simbody_visualizer "${DEP_LIBS_DIR_WIN}/simbody-visualizer.exe")
+         install(FILES ${simbody_visualizer} DESTINATION "${OSIM_DESTINATION}/bin")
+@@ -716,4 +719,3 @@ macro(OpenSimFindSwigFileDependencies OSIMSWIGDEP_RETURNVAL
+     unset(_successfully_got_dependencies)
+ 
+ endmacro()
+-

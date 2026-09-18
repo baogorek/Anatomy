@@ -1,0 +1,150 @@
+{
+  "created": "2026-09-12T16:47:59.680848+00:00",
+  "scope": "Native cervical geometry and consistency; not individual movement, force, breathing or clinical validation",
+  "modelVersion": "f85b25349a0132938769c18a9f1e6c3049b6e1395c12ffb693e03f38e51acf0b",
+  "calculationBuild": "aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376",
+  "assets": 153,
+  "poses": 388,
+  "musclePaths": 52,
+  "independentLengthComparisons": 20176,
+  "maxNativeLengthErrorMm": 3.507639179112232e-07,
+  "maxRepeatErrorMm": 0,
+  "maxCoordinateErrorDegrees": 3.115328173208809e-07,
+  "maxFixedCoordinateError": 1.9447282217857184e-13,
+  "maxConstraintError": 2.706168622523819e-16,
+  "maxPathErrorMm": {
+    "stern_mast": 2.7755575615628914e-14,
+    "stern_mast_L": 2.7755575615628914e-14,
+    "cleid_mast": 2.7755575615628914e-14,
+    "cleid_mast_L": 2.7755575615628914e-14,
+    "cleid_occ": 2.7755575615628914e-14,
+    "cleid_occ_L": 2.7755575615628914e-14,
+    "scalenus_ant": 1.3877787807814457e-14,
+    "scalenus_ant_L": 1.3877787807814457e-14,
+    "scalenus_med": 1.3877787807814457e-14,
+    "scalenus_med_L": 1.3877787807814457e-14,
+    "scalenus_post": 2.7755575615628914e-14,
+    "scalenus_post_L": 2.7755575615628914e-14,
+    "long_cap_sklc4": 1.3877787807814457e-14,
+    "long_cap_sklc4_L": 1.3877787807814457e-14,
+    "long_col_c1thx": 5.551115123125783e-14,
+    "long_col_c1thx_L": 5.551115123125783e-14,
+    "long_col_c1c5": 1.3877787807814457e-14,
+    "long_col_c1c5_L": 1.3877787807814457e-14,
+    "long_col_c5thx": 1.3877787807814457e-14,
+    "long_col_c5thx_L": 2.7755575615628914e-14,
+    "trap_cl": 2.7755575615628914e-14,
+    "trap_cl_L": 2.7755575615628914e-14,
+    "trap_acr": 2.7755575615628914e-14,
+    "trap_acr_L": 2.7755575615628914e-14,
+    "splen_cap_sklc6": 2.7755575615628914e-14,
+    "splen_cap_sklc6_L": 2.7755575615628914e-14,
+    "splen_cap_sklthx": 2.7755575615628914e-14,
+    "splen_cap_sklthx_L": 2.7755575615628914e-14,
+    "splen_cerv_c3thx": 2.7755575615628914e-14,
+    "splen_cerv_c3thx_L": 2.7755575615628914e-14,
+    "semi_cap_sklc5": 1.3877787807814457e-14,
+    "semi_cap_sklc5_L": 1.3877787807814457e-14,
+    "semi_cap_sklthx": 2.7755575615628914e-14,
+    "semi_cap_sklthx_L": 2.7755575615628914e-14,
+    "semi_cerv_c3thx": 1.3877787807814457e-14,
+    "semi_cerv_c3thx_L": 1.3877787807814457e-14,
+    "levator_scap": 2.7755575615628914e-14,
+    "levator_scap_L": 2.7755575615628914e-14,
+    "longissi_cap_sklc6": 1.3877787807814457e-14,
+    "longissi_cap_sklc6_L": 1.3877787807814457e-14,
+    "longissi_cerv_c4thx": 2.7755575615628914e-14,
+    "longissi_cerv_c4thx_L": 2.7755575615628914e-14,
+    "iliocost_cerv_c5rib": 2.7755575615628914e-14,
+    "iliocost_cerv_c5rib_L": 2.7755575615628914e-14,
+    "rectcap_post_maj": 1.3877787807814457e-14,
+    "rectcap_post_maj_L": 1.3877787807814457e-14,
+    "rectcap_post_min": 6.938893903907228e-15,
+    "rectcap_post_min_L": 6.938893903907228e-15,
+    "obl_cap_sup": 6.938893903907228e-15,
+    "obl_cap_sup_L": 6.938893903907228e-15,
+    "obl_cap_inf": 1.3877787807814457e-14,
+    "obl_cap_inf_L": 1.3877787807814457e-14
+  },
+  "withheldPaths": {},
+  "withheldActions": {},
+  "finiteDifferenceChecks": 4056,
+  "maxAcceptedMomentArmErrorMm": 0.00016038414406283064,
+  "maxBilateralSymmetryErrorMm": 1.3877787807814457e-13,
+  "medianEvaluationMs": 148.47,
+  "predictions": [
+    {
+      "muscle": "stern_mast",
+      "coordinates": {
+        "yaw1": 20,
+        "yaw2": 10
+      },
+      "deltaMm": -6.052995769337432
+    },
+    {
+      "muscle": "stern_mast_L",
+      "coordinates": {
+        "yaw1": 20,
+        "yaw2": 10
+      },
+      "deltaMm": 6.551999020036531
+    },
+    {
+      "muscle": "scalenus_ant",
+      "coordinates": {
+        "roll2": 15,
+        "roll1": 3
+      },
+      "deltaMm": -5.174150653770401
+    },
+    {
+      "muscle": "scalenus_ant_L",
+      "coordinates": {
+        "roll2": 15,
+        "roll1": 3
+      },
+      "deltaMm": 4.901330745753399
+    },
+    {
+      "muscle": "long_cap_sklc4",
+      "coordinates": {
+        "pitch1": -12
+      },
+      "deltaMm": -2.7746942841671145
+    },
+    {
+      "muscle": "scalenus_ant",
+      "coordinates": {
+        "pitch1": -12
+      },
+      "deltaMm": 3.6663727609465013e-10
+    }
+  ],
+  "sourceAttachmentFrames": {
+    "stern_mast": [
+      "ribcage",
+      "skull"
+    ],
+    "cleid_mast": [
+      "rclavicle",
+      "skull"
+    ],
+    "cleid_occ": [
+      "rclavicle",
+      "skull"
+    ],
+    "scalenus_ant": [
+      "ribcage",
+      "cerv4"
+    ],
+    "scalenus_med": [
+      "ribcage",
+      "cerv3"
+    ],
+    "scalenus_post": [
+      "ribcage",
+      "cerv5"
+    ]
+  },
+  "posesWithUnavailablePaths": []
+}

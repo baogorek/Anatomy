@@ -1,0 +1,194 @@
+{
+  "created": "2026-09-13T23:17:47.013618+00:00",
+  "scope": "All 101 integer playback positions in each supplied recording; native numerical checks, not individual anatomical validation. Recorded-track checks only; independent manual controls have a separate audit. No girdle moment-arm claims.",
+  "modelVersion": "9342ecc5534a533e78ac2efcc72ab6377a5220a71bda1c25f5675ba51e9d8e16",
+  "calculationVersion": "f0f8c7da543eae7fcf8edd6d034af3427bad1e4c6da8f3140af316c6113e116a",
+  "calculationBuild": "aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376",
+  "poses": 303,
+  "independentLengthChecks": 9999,
+  "maxNativeLengthErrorMm": 1.0547118733938987e-12,
+  "maxDrawingErrorMm": 0.21817691897696445,
+  "maxConstraintResidual": 7.0519701189653006e-12,
+  "maxRepeatLengthErrorMm": 0,
+  "maxLocalGirdleLengthChangeMm": 0.3271011339825436,
+  "withheld": {},
+  "localNonGirdleJumps": [],
+  "tracks": {
+    "ABD01": {
+      "assembledAngleRangesDegrees": {
+        "scapula_upward_rot": [
+          6.846224082182779,
+          68.2031228613365
+        ],
+        "scapula_winging": [
+          -10.275401287302119,
+          7.745378053418853
+        ],
+        "clav_prot": [
+          -40.67336208375278,
+          -20.5856963518361
+        ],
+        "scapula_abduction": [
+          -32.962140314503955,
+          1.2953447293471476
+        ],
+        "shoulder_elv": [
+          14.872721315669406,
+          100.8797506473674
+        ],
+        "scapula_elevation": [
+          -5.183358731585905,
+          -2.217309026233566
+        ],
+        "clav_elev": [
+          -7.1427096448182645,
+          7.99457845009
+        ]
+      }
+    },
+    "FLX01": {
+      "assembledAngleRangesDegrees": {
+        "scapula_upward_rot": [
+          10.012065636928096,
+          70.59797239007057
+        ],
+        "scapula_winging": [
+          -10.56402339505638,
+          7.727443103116596
+        ],
+        "clav_prot": [
+          -40.71463745986267,
+          -22.417481345461706
+        ],
+        "scapula_abduction": [
+          -18.66162869945748,
+          3.487386709073282
+        ],
+        "shoulder_elv": [
+          12.09429709849894,
+          98.79118345119421
+        ],
+        "scapula_elevation": [
+          -8.52027273507808,
+          -2.606935751974126
+        ],
+        "clav_elev": [
+          -8.62272421360961,
+          8.01425332710293
+        ]
+      }
+    },
+    "SHRUG01": {
+      "assembledAngleRangesDegrees": {
+        "scapula_upward_rot": [
+          11.024221091841,
+          27.978539127999856
+        ],
+        "scapula_winging": [
+          -0.3698786518458609,
+          5.946404744313728
+        ],
+        "clav_prot": [
+          -22.944156421184807,
+          -20.03378159764783
+        ],
+        "scapula_abduction": [
+          -11.90482334217481,
+          -8.097086478464995
+        ],
+        "shoulder_elv": [
+          5.495526070364651,
+          17.963087035679383
+        ],
+        "scapula_elevation": [
+          -3.789745122221788,
+          7.148128382140015
+        ],
+        "clav_elev": [
+          -4.777752344863331,
+          15.387622750967129
+        ]
+      }
+    }
+  },
+  "naiveTenDegreeProbes": {
+    "clav_elev": {
+      "clav_elev": 6.173223953985415,
+      "clav_prot": 0.46414679353892524,
+      "scapula_abduction": -0.4450574032194861,
+      "scapula_elevation": 4.505181244548776,
+      "scapula_upward_rot": 1.0666531405256687,
+      "scapula_winging": -1.6378573178608749
+    },
+    "clav_prot": {
+      "clav_elev": 0.28583663713509866,
+      "clav_prot": 2.88878789475645,
+      "scapula_abduction": 4.048471922234521,
+      "scapula_elevation": 0.8940832641427421,
+      "scapula_upward_rot": -1.7573286879194114,
+      "scapula_winging": 0.100593347554037
+    },
+    "scapula_abduction": {
+      "clav_elev": -0.4071596558364219,
+      "clav_prot": 4.032961019567985,
+      "scapula_abduction": 7.6506822629964475,
+      "scapula_elevation": -0.36959214658652545,
+      "scapula_upward_rot": 1.0197462837251168,
+      "scapula_winging": -0.5524414859275808
+    },
+    "scapula_elevation": {
+      "clav_elev": 4.439305631576966,
+      "clav_prot": 1.0071725499905912,
+      "scapula_abduction": -0.39172612976264926,
+      "scapula_elevation": 4.022664454926382,
+      "scapula_upward_rot": -1.755311218840693,
+      "scapula_winging": -0.6169018477075485
+    },
+    "scapula_upward_rot": {
+      "clav_elev": 0.7827173204339409,
+      "clav_prot": -1.926848454155575,
+      "scapula_abduction": 1.2061428081396317,
+      "scapula_elevation": -1.71184420784689,
+      "scapula_upward_rot": 8.277996089319213,
+      "scapula_winging": -2.287600295510065
+    },
+    "scapula_winging": {
+      "clav_elev": -2.3837705399115032,
+      "clav_prot": 0.14830220738068003,
+      "scapula_abduction": -0.3265308160909042,
+      "scapula_elevation": -1.2399498465198828,
+      "scapula_upward_rot": -2.172315741512057,
+      "scapula_winging": 1.3405706468265992
+    }
+  },
+  "predictions": [
+    {
+      "track": "SHRUG01",
+      "progress": 25,
+      "muscle": "LevatorScapulae",
+      "expected": "Shorter",
+      "deltaMm": -11.974944379770786
+    },
+    {
+      "track": "SHRUG01",
+      "progress": 25,
+      "muscle": "TrapeziusScapula_I",
+      "expected": "Longer",
+      "deltaMm": 17.53900748929499
+    },
+    {
+      "track": "ABD01",
+      "progress": 50,
+      "muscle": "SerratusAnterior_M",
+      "expected": "Shorter",
+      "deltaMm": -40.878021851066705
+    },
+    {
+      "track": "FLX01",
+      "progress": 25,
+      "muscle": "Rhomboideus_I",
+      "expected": "Longer",
+      "deltaMm": 51.28928090491884
+    }
+  ]
+}

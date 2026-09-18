@@ -1,0 +1,32 @@
+{
+  "name": "kinetic-anatomy-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/studio.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "node scripts/studio.mjs preview",
+    "test": "playwright test",
+    "test:solver": ".venv-opensim/bin/python biomechanics/validate_longest_path.py",
+    "setup:biomechanics": "bash scripts/setup-biomechanics.sh",
+    "test:biomechanics": ".venv-opensim/bin/python biomechanics/validate.py && .venv-opensim/bin/python biomechanics/validate_gastrocnemius.py && .venv-opensim/bin/python biomechanics/validate_tibialis_anterior.py && .venv-opensim/bin/python biomechanics/validate_arm.py && .venv-opensim/bin/python biomechanics/validate_neck.py && .venv-opensim/bin/python biomechanics/validate_girdle.py && .venv-opensim/bin/python biomechanics/validate_girdle_controls.py && .venv-opensim/bin/python biomechanics/validate_spine.py && .venv-opensim/bin/python biomechanics/validate_wholebody.py"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.185.0",
+    "typescript": "~5.9.3",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.58.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.183.0",
+    "prettier": "^3.9.6"
+  }
+}

@@ -1,0 +1,14 @@
+--- a/OpenSim/Simulation/Wrap/PathWrapPoint.cpp
++++ b/OpenSim/Simulation/Wrap/PathWrapPoint.cpp
+@@ -81,6 +81,11 @@
+ {
+     updCacheVariableValue(s, _location) = loc;
+     markCacheVariableValid(s, _location);
++    // Local wrap positions can change repeatedly at the same Position stage.
++    // Invalidate the inherited Point caches after each update.
++    markCacheVariableInvalid(s, "location");
++    markCacheVariableInvalid(s, "velocity");
++    markCacheVariableInvalid(s, "acceleration");
+ }
+ 
+ SimTK::Vec3 OpenSim::PathWrapPoint::getdPointdQ(const SimTK::State& s) const

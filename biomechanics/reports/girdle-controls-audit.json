@@ -1,0 +1,61 @@
+{
+  "created": "2026-09-13T23:18:14.549136+00:00",
+  "modelVersion": "9342ecc5534a533e78ac2efcc72ab6377a5220a71bda1c25f5675ba51e9d8e16",
+  "calculationVersion": "f0f8c7da543eae7fcf8edd6d034af3427bad1e4c6da8f3140af316c6113e116a",
+  "scope": "Constrained manual controls; numerical and direction checks, not individual anatomical validation",
+  "poses": 292,
+  "independentLengthChecks": 9636,
+  "maxNativeErrorMm": 1.3183898417423734e-12,
+  "maxRequestedAngleErrorDegrees": 1.4210854715202004e-14,
+  "maxConstraintResidual": 9.805475875701575e-12,
+  "maxFixedCoordinateError": 7.65911778444206e-11,
+  "maxDrawingErrorMm": 0.8340689200428408,
+  "maxRepeatErrorMm": 0,
+  "withheld": {},
+  "withheldGirdleActions": true,
+  "predictions": [
+    {
+      "coordinates": {
+        "scapula_abduction": 0
+      },
+      "muscle": "SerratusAnterior_M",
+      "deltaMm": -15.930941741609638
+    },
+    {
+      "coordinates": {
+        "scapula_abduction": 0
+      },
+      "muscle": "Rhomboideus_I",
+      "deltaMm": 16.019451591315363
+    },
+    {
+      "coordinates": {
+        "scapula_elevation": 6
+      },
+      "muscle": "LevatorScapulae",
+      "deltaMm": -29.762127939396088
+    },
+    {
+      "coordinates": {
+        "scapula_elevation": 6
+      },
+      "muscle": "TrapeziusScapula_I",
+      "deltaMm": 29.600405168440062
+    },
+    {
+      "coordinates": {
+        "scapula_upward_rot": 35
+      },
+      "muscle": "SerratusAnterior_M",
+      "deltaMm": -21.96365292692859
+    },
+    {
+      "coordinates": {
+        "scapula_upward_rot": 35
+      },
+      "muscle": "TrapeziusScapula_I",
+      "deltaMm": -16.94514898893798
+    }
+  ],
+  "inferiorTipLateralMotionRelativeToGlenoidMm": 53.23667887873134
+}

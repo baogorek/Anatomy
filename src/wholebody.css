@@ -1,0 +1,387 @@
+.movement-lab.wholebody-lab {
+  overflow: clip;
+}
+.bio-lab-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 15px;
+}
+.bio-lab-options > span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #345844;
+}
+.bio-lab-options button[aria-pressed="true"] {
+  background: #dfe8d0;
+  color: #284d40;
+}
+.bio-lab-options .segmented {
+  display: flex;
+  padding: 4px;
+  border: 1px solid #d4ddc8;
+  border-radius: 7px;
+  background: #f8faf3;
+}
+.bio-lab-options .segmented button {
+  padding: 9px 20px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.wholebody-lab .bio-toolbar p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+.wholebody-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 1fr);
+  align-items: start;
+}
+.wholebody-body {
+  position: sticky;
+  top: 12px;
+}
+.wholebody-lab .bio-canvas {
+  height: 610px;
+}
+.wholebody-layers {
+  padding: 14px 20px;
+  background: #f8faf3;
+  border-bottom: 1px solid #dae0d0;
+}
+.wholebody-display-modes {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #d4ddc8;
+  border-radius: 6px;
+}
+.wholebody-display-modes button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.wholebody-display-modes button[aria-pressed="true"] {
+  background: #dfe8d0;
+  color: #284d40;
+  font-weight: 600;
+}
+.wholebody-layer-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.wholebody-layer-summary button {
+  white-space: nowrap;
+  font-size: 11px;
+}
+.wholebody-layer-settings {
+  padding-top: 16px;
+  font-size: 12px;
+}
+.wholebody-layer-settings fieldset {
+  border: 0;
+  margin: 0 0 18px;
+  padding: 0;
+}
+.wholebody-layer-settings legend {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.wholebody-layer-groups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.wholebody-layer-groups label,
+.wholebody-layer-appearance > label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.wholebody-layer-appearance {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.wholebody-layer-appearance select {
+  padding: 7px;
+  border: 1px solid #d4ddc8;
+  border-radius: 4px;
+  background: white;
+  color: inherit;
+}
+.wholebody-layer-appearance .wholebody-bone-opacity {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  flex: 1;
+  min-width: 150px;
+}
+.wholebody-bone-opacity input {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+.wholebody-layer-settings input {
+  accent-color: #345844;
+}
+.wholebody-layer-settings > p {
+  margin: 14px 0 0;
+  font-size: 11px;
+  color: #586c51;
+  line-height: 1.6;
+}
+.wholebody-comparison .wholebody-strand-note {
+  font-size: 11px;
+  color: #586c51;
+  margin-top: -4px;
+}
+.wholebody-lab .bio-atlas-comparison {
+  margin: 4px 14px 14px;
+  color: #345844;
+}
+.wholebody-lab .bio-zoom-controls {
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  display: grid;
+  gap: 6px;
+}
+.wholebody-lab .bio-zoom-controls button {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  background: #f9fbf4;
+}
+.wholebody-comparison,
+.wholebody-anatomy {
+  padding: 20px 24px;
+  background: #fcfdf8;
+  border-top: 1px solid #dae0d0;
+}
+.wholebody-comparison h3 {
+  font-size: 17px;
+  margin: 7px 0 12px;
+}
+.wholebody-comparison p,
+.wholebody-anatomy p {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.wholebody-delta {
+  font-size: 23px;
+  font-variant-numeric: tabular-nums;
+}
+.wholebody-reference-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 16px 0 10px;
+}
+.wholebody-comparison .wholebody-reference-label {
+  color: #586c51;
+  font-size: 11px;
+}
+.wholebody-controls {
+  min-width: 0;
+  background: #f8faf3;
+}
+.wholebody-controls-heading {
+  padding: 20px 24px 12px;
+  border-bottom: 1px solid #dae0d0;
+}
+.wholebody-control-result {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #dae0d0;
+  font-size: 12px;
+}
+.wholebody-control-result strong {
+  font-size: 19px;
+  font-variant-numeric: tabular-nums;
+}
+.wholebody-controls h3 {
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+.wholebody-controls-heading label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+}
+.wholebody-controls-heading select {
+  min-width: 0;
+  flex: 1;
+  padding: 7px;
+  background: #fff;
+  border: 1px solid #d4ddc8;
+  border-radius: 5px;
+}
+.wholebody-controls-heading p,
+.wholebody-coverage {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #586c51;
+}
+.wholebody-control-scroll {
+  max-height: 720px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+}
+.wholebody-group {
+  border-bottom: 1px solid #dae0d0;
+  padding: 0 24px;
+}
+.wholebody-group > summary {
+  padding: 17px 0;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.wholebody-group > summary span {
+  float: right;
+  font-weight: 400;
+  font-size: 11px;
+  color: #586c51;
+}
+.wholebody-group > button {
+  margin: 0 0 10px;
+}
+.wholebody-group .bio-slider {
+  margin: 0 0 19px;
+}
+.wholebody-coverage {
+  padding: 0 24px 12px;
+}
+.wholebody-muscles {
+  border-top: 1px solid #dae0d0;
+  padding: 24px;
+}
+.wholebody-muscle-heading {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wholebody-muscle-heading h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.wholebody-muscle-heading h3 span {
+  font-size: 11px;
+  margin-left: 6px;
+  color: #586c51;
+}
+.wholebody-muscle-heading > input {
+  flex: 1;
+  min-width: 170px;
+  border: 1px solid #d4ddc8;
+  border-radius: 5px;
+  padding: 10px;
+  background: white;
+}
+.wholebody-muscle-heading label {
+  font-size: 12px;
+}
+.wholebody-muscles > p {
+  font-size: 11px;
+  color: #586c51;
+}
+.wholebody-muscle-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-height: 300px;
+  overflow-y: auto;
+  gap: 6px 16px;
+}
+.wholebody-muscle-list button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  gap: 12px;
+  border: 1px solid #dae0d0;
+  border-radius: 5px;
+  padding: 11px;
+  background: #f8faf3;
+  font-size: 12px;
+}
+.wholebody-muscle-list button[aria-pressed="true"] {
+  border-color: #447158;
+  background: #e9efdf;
+}
+.wholebody-muscle-list strong {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.wholebody-source {
+  border-top: 1px solid #dae0d0;
+  padding: 20px 24px;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.wholebody-source summary {
+  cursor: pointer;
+}
+.wholebody-error {
+  padding: 18px 24px;
+  color: #8b3f26;
+  background: #fff3eb;
+  font-size: 13px;
+}
+.wholebody-body:fullscreen {
+  overflow-y: auto;
+  position: static;
+  width: 100%;
+}
+.wholebody-body:fullscreen .bio-canvas {
+  height: 65vh;
+}
+@media (max-width: 800px) {
+  .wholebody-workspace {
+    grid-template-columns: 1fr;
+  }
+  .wholebody-body {
+    position: static;
+    border-right: 0;
+  }
+  .wholebody-lab .bio-canvas {
+    height: 490px;
+  }
+  .wholebody-control-scroll {
+    max-height: none;
+    overflow: visible;
+  }
+  .wholebody-controls {
+    border-top: 1px solid #dae0d0;
+  }
+  .wholebody-controls-heading {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #f8faf3;
+  }
+  .wholebody-muscle-list {
+    grid-template-columns: 1fr;
+  }
+  .wholebody-lab .bio-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .wholebody-delta {
+    font-size: 20px;
+  }
+}

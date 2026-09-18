@@ -1,0 +1,17 @@
+{
+  "sourceHash": "57fda207201b5137dd11c0779dd0a5532ec68d5222a9a950e88d60f8c6262f43",
+  "calculationVersion": "45226f65a2906f2aca7ccb53d12185c9a773505832173b36942f03c3b403aafe",
+  "poses": 171,
+  "nativeLengthComparisons": 102258,
+  "maxNativeLengthErrorMm": 0,
+  "maxDrawingErrorMm": 0.019058436580066118,
+  "withheldPaths": 0,
+  "controls": 72,
+  "musclePaths": 598,
+  "meshes": 130,
+  "combinedHipKneeAnkleChecks": "passed",
+  "bilateralSigns": "passed",
+  "headSigns": "passed",
+  "repeatPose": "passed",
+  "note": "Software/source agreement checks, not biological validation of arbitrary combined poses."
+}

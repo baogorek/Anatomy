@@ -1,0 +1,12 @@
+{
+  "poses": 26,
+  "nativeCompartmentComparisons": 78,
+  "maxLengthErrorMm": 0,
+  "maxPathCoordinateErrorMm": 0,
+  "maxTransformComponentError": 0,
+  "maxPolylineVsNativeLengthMm": 2.7755575615628914e-14,
+  "unchangedAtlasRegions": 3,
+  "unchangedAtlasBones": 3,
+  "biologicalValidation": false,
+  "surfaceAnimation": false
+}

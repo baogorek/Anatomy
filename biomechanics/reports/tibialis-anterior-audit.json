@@ -1,0 +1,5162 @@
+{
+  "scope": "Tibialis anterior model audit, not whole-app or patient-specific anatomical validation",
+  "modelVersion": "7499645500d4bca9269f27fd669bd3ed3abbeccd549d87f86cd01119a1a24366",
+  "calculationBuild": "aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376",
+  "points": [
+    {
+      "name": "tibant_r-P1",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0154,
+        -0.1312,
+        0.0162
+      ]
+    },
+    {
+      "name": "tibant_r-P2",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0251,
+        -0.1906,
+        0.0128
+      ]
+    },
+    {
+      "name": "tibant_r-P3",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0233,
+        -0.3659,
+        -0.0132
+      ]
+    },
+    {
+      "name": "tibant_r-P4",
+      "frame": "/bodyset/calcn_r",
+      "location": [
+        0.1166,
+        0.0178,
+        -0.0305
+      ]
+    }
+  ],
+  "upstreamPointDefinitionsMatch": true,
+  "upstream": {
+    "url": "https://raw.githubusercontent.com/opensim-org/opensim-models/d9b05d470b1a481c222372c85b75772faf8f7792/Models/Rajagopal/Rajagopal2016.osim",
+    "sha256": "3f5c5f23e486073f2ad2aa4a4967ffe2fcdd582b1e355512bc54f70c36376bf4",
+    "points": [
+      {
+        "name": "tibant_r-P1",
+        "frame": "/bodyset/tibia_r",
+        "location": [
+          0.0154,
+          -0.1312,
+          0.0162
+        ]
+      },
+      {
+        "name": "tibant_r-P2",
+        "frame": "/bodyset/tibia_r",
+        "location": [
+          0.0251,
+          -0.1906,
+          0.0128
+        ]
+      },
+      {
+        "name": "tibant_r-P3",
+        "frame": "/bodyset/tibia_r",
+        "location": [
+          0.0233,
+          -0.3659,
+          -0.0132
+        ]
+      },
+      {
+        "name": "tibant_r-P4",
+        "frame": "/bodyset/calcn_r",
+        "location": [
+          0.1166,
+          0.0178,
+          -0.0305
+        ]
+      }
+    ]
+  },
+  "poses": 314,
+  "maxEndpointTransportErrorMm": 0,
+  "maxPolylineErrorMm": 5.551115123125783e-14,
+  "dorsiflexionActionAllSampledPoses": true,
+  "hipAndKneeMomentArmsZero": true,
+  "finiteDifferenceChecks": 98,
+  "maxFiniteDifferenceErrorMm": 7.647459680626412e-06,
+  "originShiftDiagnostic": {
+    "shiftMm": 100,
+    "lengthOffsetsMm": [
+      99.44830477976558,
+      99.44830477976552,
+      99.44830477976558,
+      99.44830477976558,
+      99.44830477976552
+    ],
+    "maxMomentArmChangeMm": 0.0,
+    "shipped": false
+  },
+  "sagittalSweep": [
+    {
+      "coordinates": {
+        "ankle_angle_r": -40
+      },
+      "lengthMm": 332.2050398304477,
+      "ankleMomentArmMm": 31.530797116925324,
+      "subtalarMomentArmMm": 12.845602271002399,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -39
+      },
+      "lengthMm": 331.6515688418109,
+      "ankleMomentArmMm": 31.891754460005547,
+      "subtalarMomentArmMm": 12.740247942583476,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -38
+      },
+      "lengthMm": 331.0918270356848,
+      "ankleMomentArmMm": 32.24936996737846,
+      "subtalarMomentArmMm": 12.634839665186275,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -37
+      },
+      "lengthMm": 330.5258732579743,
+      "ankleMomentArmMm": 32.60358387276651,
+      "subtalarMomentArmMm": 12.52940287666134,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -36
+      },
+      "lengthMm": 329.9537674074757,
+      "ankleMomentArmMm": 32.954335330421245,
+      "subtalarMomentArmMm": 12.423963626291588,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35
+      },
+      "lengthMm": 329.3755704546494,
+      "ankleMomentArmMm": 33.301562351238786,
+      "subtalarMomentArmMm": 12.318548597445716,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -34
+      },
+      "lengthMm": 328.7913444622409,
+      "ankleMomentArmMm": 33.64520173447553,
+      "subtalarMomentArmMm": 12.213185131530041,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -33
+      },
+      "lengthMm": 328.2011526068784,
+      "ankleMomentArmMm": 33.98518899539911,
+      "subtalarMomentArmMm": 12.107901253125778,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -32
+      },
+      "lengthMm": 327.6050592033097,
+      "ankleMomentArmMm": 34.32145828768317,
+      "subtalarMomentArmMm": 12.002725696662258,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -31
+      },
+      "lengthMm": 327.00312972697503,
+      "ankleMomentArmMm": 34.65394232275258,
+      "subtalarMomentArmMm": 11.897687933918245,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30
+      },
+      "lengthMm": 326.395430844259,
+      "ankleMomentArmMm": 34.98257228054773,
+      "subtalarMomentArmMm": 11.79281820405782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -29
+      },
+      "lengthMm": 325.78203042767404,
+      "ankleMomentArmMm": 35.30727772382158,
+      "subtalarMomentArmMm": 11.688147542321909,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -28
+      },
+      "lengthMm": 325.16299760329946,
+      "ankleMomentArmMm": 35.62798649007075,
+      "subtalarMomentArmMm": 11.583707815607406,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -27
+      },
+      "lengthMm": 324.53840276924757,
+      "ankleMomentArmMm": 35.944624593859864,
+      "subtalarMomentArmMm": 11.479531754440618,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -26
+      },
+      "lengthMm": 323.9083176324833,
+      "ankleMomentArmMm": 36.25711611353903,
+      "subtalarMomentArmMm": 11.375652989593462,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25
+      },
+      "lengthMm": 323.2728152402272,
+      "ankleMomentArmMm": 36.56538307463021,
+      "subtalarMomentArmMm": 11.272106089351707,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -24
+      },
+      "lengthMm": 322.6319700226212,
+      "ankleMomentArmMm": 36.86934532104971,
+      "subtalarMomentArmMm": 11.168926600290902,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -23
+      },
+      "lengthMm": 321.98585782609155,
+      "ankleMomentArmMm": 37.168920383801996,
+      "subtalarMomentArmMm": 11.066151088276008,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -22
+      },
+      "lengthMm": 321.33455596156426,
+      "ankleMomentArmMm": 37.4640233349465,
+      "subtalarMomentArmMm": 10.963817183710121,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -21
+      },
+      "lengthMm": 320.6781432381541,
+      "ankleMomentArmMm": 37.754566640048736,
+      "subtalarMomentArmMm": 10.861963626434084,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20
+      },
+      "lengthMm": 320.0167000224917,
+      "ankleMomentArmMm": 38.040459990107436,
+      "subtalarMomentArmMm": 10.760630316732966,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -19
+      },
+      "lengthMm": 319.3503082838535,
+      "ankleMomentArmMm": 38.321610130573184,
+      "subtalarMomentArmMm": 10.659858366262455,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -18
+      },
+      "lengthMm": 318.6790516374955,
+      "ankleMomentArmMm": 38.59792068046572,
+      "subtalarMomentArmMm": 10.559690151088704,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -17
+      },
+      "lengthMm": 318.0030154183385,
+      "ankleMomentArmMm": 38.86929192774094,
+      "subtalarMomentArmMm": 10.46016937173865,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -16
+      },
+      "lengthMm": 317.32228673009445,
+      "ankleMomentArmMm": 39.1356206232148,
+      "subtalarMomentArmMm": 10.361341112094182,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15
+      },
+      "lengthMm": 316.6369545082411,
+      "ankleMomentArmMm": 39.39679975570125,
+      "subtalarMomentArmMm": 10.26325190312494,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -14
+      },
+      "lengthMm": 315.94710959393,
+      "ankleMomentArmMm": 39.65271830918018,
+      "subtalarMomentArmMm": 10.16594979105558,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -13
+      },
+      "lengthMm": 315.2528447999271,
+      "ankleMomentArmMm": 39.903261008162154,
+      "subtalarMomentArmMm": 10.069484407410624,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -12
+      },
+      "lengthMm": 314.5542549918499,
+      "ankleMomentArmMm": 40.14830804120163,
+      "subtalarMomentArmMm": 9.973907044436405,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -11
+      },
+      "lengthMm": 313.8514371690262,
+      "ankleMomentArmMm": 40.38773476734947,
+      "subtalarMomentArmMm": 9.879270733811902,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10
+      },
+      "lengthMm": 313.1444905466733,
+      "ankleMomentArmMm": 40.6214114032881,
+      "subtalarMomentArmMm": 9.785630329124318,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -9
+      },
+      "lengthMm": 312.4335166561632,
+      "ankleMomentArmMm": 40.849202684146086,
+      "subtalarMomentArmMm": 9.693042594514743,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -8
+      },
+      "lengthMm": 311.71861943892776,
+      "ankleMomentArmMm": 41.070967504782786,
+      "subtalarMomentArmMm": 9.601566296383488,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -7
+      },
+      "lengthMm": 310.999905351729,
+      "ankleMomentArmMm": 41.28655853375282,
+      "subtalarMomentArmMm": 9.511262300747084,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -6
+      },
+      "lengthMm": 310.2774834836387,
+      "ankleMomentArmMm": 41.49582179838693,
+      "subtalarMomentArmMm": 9.422193676406843,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5
+      },
+      "lengthMm": 309.5514656680035,
+      "ankleMomentArmMm": 41.698596243957574,
+      "subtalarMomentArmMm": 9.334425802043766,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -4
+      },
+      "lengthMm": 308.8219666174491,
+      "ankleMomentArmMm": 41.8947132565122,
+      "subtalarMomentArmMm": 9.248026480938966,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -3
+      },
+      "lengthMm": 308.08910405470965,
+      "ankleMomentArmMm": 42.08399615507294,
+      "subtalarMomentArmMm": 9.163066060140201,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -2
+      },
+      "lengthMm": 307.35299886240483,
+      "ankleMomentArmMm": 42.266259644198456,
+      "subtalarMomentArmMm": 9.079617557087133,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -1
+      },
+      "lengthMm": 306.6137752364579,
+      "ankleMomentArmMm": 42.44130922851909,
+      "subtalarMomentArmMm": 8.99775679203898,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0
+      },
+      "lengthMm": 305.87156084974555,
+      "ankleMomentArmMm": 42.60894058446565,
+      "subtalarMomentArmMm": 8.917562527306687,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 1
+      },
+      "lengthMm": 305.1264870345054,
+      "ankleMomentArmMm": 42.768938884298116,
+      "subtalarMomentArmMm": 8.839116614358396,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 2
+      },
+      "lengthMm": 304.37868896932576,
+      "ankleMomentArmMm": 42.92107807251047,
+      "subtalarMomentArmMm": 8.76250414737834,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 3
+      },
+      "lengthMm": 303.62830587917296,
+      "ankleMomentArmMm": 43.06512008889623,
+      "subtalarMomentArmMm": 8.68781362439219,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 4
+      },
+      "lengthMm": 302.87548125721906,
+      "ankleMomentArmMm": 43.20081403293246,
+      "subtalarMomentArmMm": 8.615137116900796,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5
+      },
+      "lengthMm": 302.1203630943272,
+      "ankleMomentArmMm": 43.32789526836181,
+      "subtalarMomentArmMm": 8.544570446624821,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 6
+      },
+      "lengthMm": 301.3631041250122,
+      "ankleMomentArmMm": 43.44608446170797,
+      "subtalarMomentArmMm": 8.476213370317785,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 7
+      },
+      "lengthMm": 300.60386209728273,
+      "ankleMomentArmMm": 43.555086549121704,
+      "subtalarMomentArmMm": 8.410169773234024,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 8
+      },
+      "lengthMm": 299.84280005100675,
+      "ankleMomentArmMm": 43.654589629169614,
+      "subtalarMomentArmMm": 8.346547869724796,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 9
+      },
+      "lengthMm": 299.08008662971656,
+      "ankleMomentArmMm": 43.74426377274106,
+      "subtalarMomentArmMm": 8.285460412944738,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10
+      },
+      "lengthMm": 298.3158963980492,
+      "ankleMomentArmMm": 43.82375974862151,
+      "subtalarMomentArmMm": 8.227024910939083,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 11
+      },
+      "lengthMm": 297.55041019544376,
+      "ankleMomentArmMm": 43.8927076550394,
+      "subtalarMomentArmMm": 8.17136385122188,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 12
+      },
+      "lengthMm": 296.78381550960256,
+      "ankleMomentArmMm": 43.950715453741225,
+      "subtalarMomentArmMm": 8.118604931773847,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 13
+      },
+      "lengthMm": 296.01630687108707,
+      "ankleMomentArmMm": 43.99736740002582,
+      "subtalarMomentArmMm": 8.0688812978481,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 14
+      },
+      "lengthMm": 295.2480862898609,
+      "ankleMomentArmMm": 44.03222236124814,
+      "subtalarMomentArmMm": 8.022331784896041,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15
+      },
+      "lengthMm": 294.4793637086656,
+      "ankleMomentArmMm": 44.054812019659536,
+      "subtalarMomentArmMm": 7.979101164504976,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 16
+      },
+      "lengthMm": 293.71035749309203,
+      "ankleMomentArmMm": 44.06463895193811,
+      "subtalarMomentArmMm": 7.939340393049268,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 17
+      },
+      "lengthMm": 292.9412949623021,
+      "ankleMomentArmMm": 44.061174580075786,
+      "subtalarMomentArmMm": 7.903206861019982,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 18
+      },
+      "lengthMm": 292.1724129447139,
+      "ankleMomentArmMm": 44.04385698844467,
+      "subtalarMomentArmMm": 7.870864639644686,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 19
+      },
+      "lengthMm": 291.40395838685356,
+      "ankleMomentArmMm": 44.01208860215224,
+      "subtalarMomentArmMm": 7.842484723061503,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20
+      },
+      "lengthMm": 290.63618899629137,
+      "ankleMomentArmMm": 43.96523372327607,
+      "subtalarMomentArmMm": 7.818245261223431,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 21
+      },
+      "lengthMm": 289.8693739171247,
+      "ankleMomentArmMm": 43.90261592123776,
+      "subtalarMomentArmMm": 7.79833177922681,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 22
+      },
+      "lengthMm": 289.10379448470064,
+      "ankleMomentArmMm": 43.82351527996763,
+      "subtalarMomentArmMm": 7.782937378914835,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 23
+      },
+      "lengthMm": 288.3397449986013,
+      "ankleMomentArmMm": 43.72716549987662,
+      "subtalarMomentArmMm": 7.77226291425925,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 24
+      },
+      "lengthMm": 287.57753355283796,
+      "ankleMomentArmMm": 43.61275086047609,
+      "subtalarMomentArmMm": 7.766517134298873,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25
+      },
+      "lengthMm": 286.81748294038414,
+      "ankleMomentArmMm": 43.47940305572845,
+      "subtalarMomentArmMm": 7.765916784301231,
+      "pathErrorMm": 0.0
+    }
+  ],
+  "subtalarSweep": [
+    {
+      "coordinates": {
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 307.92272591081337,
+      "ankleMomentArmMm": 42.68989788923339,
+      "subtalarMomentArmMm": 6.695427162355032,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -14
+      },
+      "lengthMm": 307.8044862936054,
+      "ankleMomentArmMm": 42.75197238586909,
+      "subtalarMomentArmMm": 6.853623915251223,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -13
+      },
+      "lengthMm": 307.68349677152287,
+      "ankleMomentArmMm": 42.80461900768749,
+      "subtalarMomentArmMm": 7.010537267610639,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -12
+      },
+      "lengthMm": 307.5597800473118,
+      "ankleMomentArmMm": 42.84778764470456,
+      "subtalarMomentArmMm": 7.166132450446574,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -11
+      },
+      "lengthMm": 307.43335943199077,
+      "ankleMomentArmMm": 42.88142863997268,
+      "subtalarMomentArmMm": 7.3203745291718425,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 307.3042588477666,
+      "ankleMomentArmMm": 42.90549279931614,
+      "subtalarMomentArmMm": 7.473228399259608,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -9
+      },
+      "lengthMm": 307.1725028310626,
+      "ankleMomentArmMm": 42.91993140190971,
+      "subtalarMomentArmMm": 7.624658781879002,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -8
+      },
+      "lengthMm": 307.0381165351467,
+      "ankleMomentArmMm": 42.92469621175656,
+      "subtalarMomentArmMm": 7.774630220082629,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -7
+      },
+      "lengthMm": 306.9011257350376,
+      "ankleMomentArmMm": 42.91973949006333,
+      "subtalarMomentArmMm": 7.923107072585891,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -6
+      },
+      "lengthMm": 306.7615568281389,
+      "ankleMomentArmMm": 42.90501400871246,
+      "subtalarMomentArmMm": 8.070053512422346,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 306.6194368392984,
+      "ankleMomentArmMm": 42.88047306457525,
+      "subtalarMomentArmMm": 8.215433520774782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -4
+      },
+      "lengthMm": 306.4747934236353,
+      "ankleMomentArmMm": 42.846070494982825,
+      "subtalarMomentArmMm": 8.359210883439887,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -3
+      },
+      "lengthMm": 306.3276548768432,
+      "ankleMomentArmMm": 42.80176069654974,
+      "subtalarMomentArmMm": 8.501349180203416,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -2
+      },
+      "lengthMm": 306.1780501002682,
+      "ankleMomentArmMm": 42.74749862986564,
+      "subtalarMomentArmMm": 8.641811817314167,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -1
+      },
+      "lengthMm": 306.0260086942636,
+      "ankleMomentArmMm": 42.683239869549375,
+      "subtalarMomentArmMm": 8.780561938628534,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 305.87156084974555,
+      "ankleMomentArmMm": 42.60894058446565,
+      "subtalarMomentArmMm": 8.917562527306687,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 1
+      },
+      "lengthMm": 305.7147374321972,
+      "ankleMomentArmMm": 42.52455758903679,
+      "subtalarMomentArmMm": 9.052776326980824,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 2
+      },
+      "lengthMm": 305.55556995950946,
+      "ankleMomentArmMm": 42.43004835757939,
+      "subtalarMomentArmMm": 9.18616586284062,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 3
+      },
+      "lengthMm": 305.394090577396,
+      "ankleMomentArmMm": 42.32537102951713,
+      "subtalarMomentArmMm": 9.31769346097359,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 4
+      },
+      "lengthMm": 305.2303321496045,
+      "ankleMomentArmMm": 42.210484490611435,
+      "subtalarMomentArmMm": 9.447321174450419,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 305.0643281405256,
+      "ankleMomentArmMm": 42.08534832112944,
+      "subtalarMomentArmMm": 9.575010878701304,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 6
+      },
+      "lengthMm": 304.89611271689705,
+      "ankleMomentArmMm": 41.94992288968697,
+      "subtalarMomentArmMm": 9.700724189528787,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 7
+      },
+      "lengthMm": 304.72572070989196,
+      "ankleMomentArmMm": 41.80416935601,
+      "subtalarMomentArmMm": 9.824422494097885,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 8
+      },
+      "lengthMm": 304.55318762676484,
+      "ankleMomentArmMm": 41.64804970867385,
+      "subtalarMomentArmMm": 9.946066942278083,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 9
+      },
+      "lengthMm": 304.3785496543031,
+      "ankleMomentArmMm": 41.48152679893451,
+      "subtalarMomentArmMm": 10.065618444736879,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 304.2018436653236,
+      "ankleMomentArmMm": 41.30456437938421,
+      "subtalarMomentArmMm": 10.183037669229565,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 11
+      },
+      "lengthMm": 304.02310721953506,
+      "ankleMomentArmMm": 41.11712713920998,
+      "subtalarMomentArmMm": 10.298285041033425,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 12
+      },
+      "lengthMm": 303.84237857006224,
+      "ankleMomentArmMm": 40.91918074690951,
+      "subtalarMomentArmMm": 10.411320739809204,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 13
+      },
+      "lengthMm": 303.6596966671583,
+      "ankleMomentArmMm": 40.710691892537206,
+      "subtalarMomentArmMm": 10.522104698740089,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 14
+      },
+      "lengthMm": 303.4751011625487,
+      "ankleMomentArmMm": 40.49162833281616,
+      "subtalarMomentArmMm": 10.630596603592917,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 303.28863241373847,
+      "ankleMomentArmMm": 40.26195893857257,
+      "subtalarMomentArmMm": 10.736755892184018,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 16
+      },
+      "lengthMm": 303.10033148834134,
+      "ankleMomentArmMm": 40.021653744657456,
+      "subtalarMomentArmMm": 10.840541754235355,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 17
+      },
+      "lengthMm": 302.9102401686883,
+      "ankleMomentArmMm": 39.77068400280875,
+      "subtalarMomentArmMm": 10.941913131515703,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 18
+      },
+      "lengthMm": 302.71840095497726,
+      "ankleMomentArmMm": 39.50902223524092,
+      "subtalarMomentArmMm": 11.04082871921027,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 19
+      },
+      "lengthMm": 302.52485707153926,
+      "ankleMomentArmMm": 39.236642295167805,
+      "subtalarMomentArmMm": 11.13724696613268,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 302.32965246927716,
+      "ankleMomentArmMm": 38.95351942510359,
+      "subtalarMomentArmMm": 11.231126077470709,
+      "pathErrorMm": 0.0
+    }
+  ],
+  "samples": [
+    {
+      "coordinates": {
+        "ankle_angle_r": -40
+      },
+      "lengthMm": 332.2050398304477,
+      "ankleMomentArmMm": 31.530797116925324,
+      "subtalarMomentArmMm": 12.845602271002399,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -39
+      },
+      "lengthMm": 331.6515688418109,
+      "ankleMomentArmMm": 31.891754460005547,
+      "subtalarMomentArmMm": 12.740247942583476,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -38
+      },
+      "lengthMm": 331.0918270356848,
+      "ankleMomentArmMm": 32.24936996737846,
+      "subtalarMomentArmMm": 12.634839665186275,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -37
+      },
+      "lengthMm": 330.5258732579743,
+      "ankleMomentArmMm": 32.60358387276651,
+      "subtalarMomentArmMm": 12.52940287666134,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -36
+      },
+      "lengthMm": 329.9537674074757,
+      "ankleMomentArmMm": 32.954335330421245,
+      "subtalarMomentArmMm": 12.423963626291588,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35
+      },
+      "lengthMm": 329.3755704546494,
+      "ankleMomentArmMm": 33.301562351238786,
+      "subtalarMomentArmMm": 12.318548597445716,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -34
+      },
+      "lengthMm": 328.7913444622409,
+      "ankleMomentArmMm": 33.64520173447553,
+      "subtalarMomentArmMm": 12.213185131530041,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -33
+      },
+      "lengthMm": 328.2011526068784,
+      "ankleMomentArmMm": 33.98518899539911,
+      "subtalarMomentArmMm": 12.107901253125778,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -32
+      },
+      "lengthMm": 327.6050592033097,
+      "ankleMomentArmMm": 34.32145828768317,
+      "subtalarMomentArmMm": 12.002725696662258,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -31
+      },
+      "lengthMm": 327.00312972697503,
+      "ankleMomentArmMm": 34.65394232275258,
+      "subtalarMomentArmMm": 11.897687933918245,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30
+      },
+      "lengthMm": 326.395430844259,
+      "ankleMomentArmMm": 34.98257228054773,
+      "subtalarMomentArmMm": 11.79281820405782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -29
+      },
+      "lengthMm": 325.78203042767404,
+      "ankleMomentArmMm": 35.30727772382158,
+      "subtalarMomentArmMm": 11.688147542321909,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -28
+      },
+      "lengthMm": 325.16299760329946,
+      "ankleMomentArmMm": 35.62798649007075,
+      "subtalarMomentArmMm": 11.583707815607406,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -27
+      },
+      "lengthMm": 324.53840276924757,
+      "ankleMomentArmMm": 35.944624593859864,
+      "subtalarMomentArmMm": 11.479531754440618,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -26
+      },
+      "lengthMm": 323.9083176324833,
+      "ankleMomentArmMm": 36.25711611353903,
+      "subtalarMomentArmMm": 11.375652989593462,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25
+      },
+      "lengthMm": 323.2728152402272,
+      "ankleMomentArmMm": 36.56538307463021,
+      "subtalarMomentArmMm": 11.272106089351707,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -24
+      },
+      "lengthMm": 322.6319700226212,
+      "ankleMomentArmMm": 36.86934532104971,
+      "subtalarMomentArmMm": 11.168926600290902,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -23
+      },
+      "lengthMm": 321.98585782609155,
+      "ankleMomentArmMm": 37.168920383801996,
+      "subtalarMomentArmMm": 11.066151088276008,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -22
+      },
+      "lengthMm": 321.33455596156426,
+      "ankleMomentArmMm": 37.4640233349465,
+      "subtalarMomentArmMm": 10.963817183710121,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -21
+      },
+      "lengthMm": 320.6781432381541,
+      "ankleMomentArmMm": 37.754566640048736,
+      "subtalarMomentArmMm": 10.861963626434084,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20
+      },
+      "lengthMm": 320.0167000224917,
+      "ankleMomentArmMm": 38.040459990107436,
+      "subtalarMomentArmMm": 10.760630316732966,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -19
+      },
+      "lengthMm": 319.3503082838535,
+      "ankleMomentArmMm": 38.321610130573184,
+      "subtalarMomentArmMm": 10.659858366262455,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -18
+      },
+      "lengthMm": 318.6790516374955,
+      "ankleMomentArmMm": 38.59792068046572,
+      "subtalarMomentArmMm": 10.559690151088704,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -17
+      },
+      "lengthMm": 318.0030154183385,
+      "ankleMomentArmMm": 38.86929192774094,
+      "subtalarMomentArmMm": 10.46016937173865,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -16
+      },
+      "lengthMm": 317.32228673009445,
+      "ankleMomentArmMm": 39.1356206232148,
+      "subtalarMomentArmMm": 10.361341112094182,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15
+      },
+      "lengthMm": 316.6369545082411,
+      "ankleMomentArmMm": 39.39679975570125,
+      "subtalarMomentArmMm": 10.26325190312494,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -14
+      },
+      "lengthMm": 315.94710959393,
+      "ankleMomentArmMm": 39.65271830918018,
+      "subtalarMomentArmMm": 10.16594979105558,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -13
+      },
+      "lengthMm": 315.2528447999271,
+      "ankleMomentArmMm": 39.903261008162154,
+      "subtalarMomentArmMm": 10.069484407410624,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -12
+      },
+      "lengthMm": 314.5542549918499,
+      "ankleMomentArmMm": 40.14830804120163,
+      "subtalarMomentArmMm": 9.973907044436405,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -11
+      },
+      "lengthMm": 313.8514371690262,
+      "ankleMomentArmMm": 40.38773476734947,
+      "subtalarMomentArmMm": 9.879270733811902,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10
+      },
+      "lengthMm": 313.1444905466733,
+      "ankleMomentArmMm": 40.6214114032881,
+      "subtalarMomentArmMm": 9.785630329124318,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -9
+      },
+      "lengthMm": 312.4335166561632,
+      "ankleMomentArmMm": 40.849202684146086,
+      "subtalarMomentArmMm": 9.693042594514743,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -8
+      },
+      "lengthMm": 311.71861943892776,
+      "ankleMomentArmMm": 41.070967504782786,
+      "subtalarMomentArmMm": 9.601566296383488,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -7
+      },
+      "lengthMm": 310.999905351729,
+      "ankleMomentArmMm": 41.28655853375282,
+      "subtalarMomentArmMm": 9.511262300747084,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -6
+      },
+      "lengthMm": 310.2774834836387,
+      "ankleMomentArmMm": 41.49582179838693,
+      "subtalarMomentArmMm": 9.422193676406843,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5
+      },
+      "lengthMm": 309.5514656680035,
+      "ankleMomentArmMm": 41.698596243957574,
+      "subtalarMomentArmMm": 9.334425802043766,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -4
+      },
+      "lengthMm": 308.8219666174491,
+      "ankleMomentArmMm": 41.8947132565122,
+      "subtalarMomentArmMm": 9.248026480938966,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -3
+      },
+      "lengthMm": 308.08910405470965,
+      "ankleMomentArmMm": 42.08399615507294,
+      "subtalarMomentArmMm": 9.163066060140201,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -2
+      },
+      "lengthMm": 307.35299886240483,
+      "ankleMomentArmMm": 42.266259644198456,
+      "subtalarMomentArmMm": 9.079617557087133,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -1
+      },
+      "lengthMm": 306.6137752364579,
+      "ankleMomentArmMm": 42.44130922851909,
+      "subtalarMomentArmMm": 8.99775679203898,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0
+      },
+      "lengthMm": 305.87156084974555,
+      "ankleMomentArmMm": 42.60894058446565,
+      "subtalarMomentArmMm": 8.917562527306687,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 1
+      },
+      "lengthMm": 305.1264870345054,
+      "ankleMomentArmMm": 42.768938884298116,
+      "subtalarMomentArmMm": 8.839116614358396,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 2
+      },
+      "lengthMm": 304.37868896932576,
+      "ankleMomentArmMm": 42.92107807251047,
+      "subtalarMomentArmMm": 8.76250414737834,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 3
+      },
+      "lengthMm": 303.62830587917296,
+      "ankleMomentArmMm": 43.06512008889623,
+      "subtalarMomentArmMm": 8.68781362439219,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 4
+      },
+      "lengthMm": 302.87548125721906,
+      "ankleMomentArmMm": 43.20081403293246,
+      "subtalarMomentArmMm": 8.615137116900796,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5
+      },
+      "lengthMm": 302.1203630943272,
+      "ankleMomentArmMm": 43.32789526836181,
+      "subtalarMomentArmMm": 8.544570446624821,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 6
+      },
+      "lengthMm": 301.3631041250122,
+      "ankleMomentArmMm": 43.44608446170797,
+      "subtalarMomentArmMm": 8.476213370317785,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 7
+      },
+      "lengthMm": 300.60386209728273,
+      "ankleMomentArmMm": 43.555086549121704,
+      "subtalarMomentArmMm": 8.410169773234024,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 8
+      },
+      "lengthMm": 299.84280005100675,
+      "ankleMomentArmMm": 43.654589629169614,
+      "subtalarMomentArmMm": 8.346547869724796,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 9
+      },
+      "lengthMm": 299.08008662971656,
+      "ankleMomentArmMm": 43.74426377274106,
+      "subtalarMomentArmMm": 8.285460412944738,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10
+      },
+      "lengthMm": 298.3158963980492,
+      "ankleMomentArmMm": 43.82375974862151,
+      "subtalarMomentArmMm": 8.227024910939083,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 11
+      },
+      "lengthMm": 297.55041019544376,
+      "ankleMomentArmMm": 43.8927076550394,
+      "subtalarMomentArmMm": 8.17136385122188,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 12
+      },
+      "lengthMm": 296.78381550960256,
+      "ankleMomentArmMm": 43.950715453741225,
+      "subtalarMomentArmMm": 8.118604931773847,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 13
+      },
+      "lengthMm": 296.01630687108707,
+      "ankleMomentArmMm": 43.99736740002582,
+      "subtalarMomentArmMm": 8.0688812978481,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 14
+      },
+      "lengthMm": 295.2480862898609,
+      "ankleMomentArmMm": 44.03222236124814,
+      "subtalarMomentArmMm": 8.022331784896041,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15
+      },
+      "lengthMm": 294.4793637086656,
+      "ankleMomentArmMm": 44.054812019659536,
+      "subtalarMomentArmMm": 7.979101164504976,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 16
+      },
+      "lengthMm": 293.71035749309203,
+      "ankleMomentArmMm": 44.06463895193811,
+      "subtalarMomentArmMm": 7.939340393049268,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 17
+      },
+      "lengthMm": 292.9412949623021,
+      "ankleMomentArmMm": 44.061174580075786,
+      "subtalarMomentArmMm": 7.903206861019982,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 18
+      },
+      "lengthMm": 292.1724129447139,
+      "ankleMomentArmMm": 44.04385698844467,
+      "subtalarMomentArmMm": 7.870864639644686,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 19
+      },
+      "lengthMm": 291.40395838685356,
+      "ankleMomentArmMm": 44.01208860215224,
+      "subtalarMomentArmMm": 7.842484723061503,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20
+      },
+      "lengthMm": 290.63618899629137,
+      "ankleMomentArmMm": 43.96523372327607,
+      "subtalarMomentArmMm": 7.818245261223431,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 21
+      },
+      "lengthMm": 289.8693739171247,
+      "ankleMomentArmMm": 43.90261592123776,
+      "subtalarMomentArmMm": 7.79833177922681,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 22
+      },
+      "lengthMm": 289.10379448470064,
+      "ankleMomentArmMm": 43.82351527996763,
+      "subtalarMomentArmMm": 7.782937378914835,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 23
+      },
+      "lengthMm": 288.3397449986013,
+      "ankleMomentArmMm": 43.72716549987662,
+      "subtalarMomentArmMm": 7.77226291425925,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 24
+      },
+      "lengthMm": 287.57753355283796,
+      "ankleMomentArmMm": 43.61275086047609,
+      "subtalarMomentArmMm": 7.766517134298873,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25
+      },
+      "lengthMm": 286.81748294038414,
+      "ankleMomentArmMm": 43.47940305572845,
+      "subtalarMomentArmMm": 7.765916784301231,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 307.92272591081337,
+      "ankleMomentArmMm": 42.68989788923339,
+      "subtalarMomentArmMm": 6.695427162355032,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -14
+      },
+      "lengthMm": 307.8044862936054,
+      "ankleMomentArmMm": 42.75197238586909,
+      "subtalarMomentArmMm": 6.853623915251223,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -13
+      },
+      "lengthMm": 307.68349677152287,
+      "ankleMomentArmMm": 42.80461900768749,
+      "subtalarMomentArmMm": 7.010537267610639,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -12
+      },
+      "lengthMm": 307.5597800473118,
+      "ankleMomentArmMm": 42.84778764470456,
+      "subtalarMomentArmMm": 7.166132450446574,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -11
+      },
+      "lengthMm": 307.43335943199077,
+      "ankleMomentArmMm": 42.88142863997268,
+      "subtalarMomentArmMm": 7.3203745291718425,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 307.3042588477666,
+      "ankleMomentArmMm": 42.90549279931614,
+      "subtalarMomentArmMm": 7.473228399259608,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -9
+      },
+      "lengthMm": 307.1725028310626,
+      "ankleMomentArmMm": 42.91993140190971,
+      "subtalarMomentArmMm": 7.624658781879002,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -8
+      },
+      "lengthMm": 307.0381165351467,
+      "ankleMomentArmMm": 42.92469621175656,
+      "subtalarMomentArmMm": 7.774630220082629,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -7
+      },
+      "lengthMm": 306.9011257350376,
+      "ankleMomentArmMm": 42.91973949006333,
+      "subtalarMomentArmMm": 7.923107072585891,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -6
+      },
+      "lengthMm": 306.7615568281389,
+      "ankleMomentArmMm": 42.90501400871246,
+      "subtalarMomentArmMm": 8.070053512422346,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 306.6194368392984,
+      "ankleMomentArmMm": 42.88047306457525,
+      "subtalarMomentArmMm": 8.215433520774782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -4
+      },
+      "lengthMm": 306.4747934236353,
+      "ankleMomentArmMm": 42.846070494982825,
+      "subtalarMomentArmMm": 8.359210883439887,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -3
+      },
+      "lengthMm": 306.3276548768432,
+      "ankleMomentArmMm": 42.80176069654974,
+      "subtalarMomentArmMm": 8.501349180203416,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -2
+      },
+      "lengthMm": 306.1780501002682,
+      "ankleMomentArmMm": 42.74749862986564,
+      "subtalarMomentArmMm": 8.641811817314167,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": -1
+      },
+      "lengthMm": 306.0260086942636,
+      "ankleMomentArmMm": 42.683239869549375,
+      "subtalarMomentArmMm": 8.780561938628534,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 305.87156084974555,
+      "ankleMomentArmMm": 42.60894058446565,
+      "subtalarMomentArmMm": 8.917562527306687,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 1
+      },
+      "lengthMm": 305.7147374321972,
+      "ankleMomentArmMm": 42.52455758903679,
+      "subtalarMomentArmMm": 9.052776326980824,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 2
+      },
+      "lengthMm": 305.55556995950946,
+      "ankleMomentArmMm": 42.43004835757939,
+      "subtalarMomentArmMm": 9.18616586284062,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 3
+      },
+      "lengthMm": 305.394090577396,
+      "ankleMomentArmMm": 42.32537102951713,
+      "subtalarMomentArmMm": 9.31769346097359,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 4
+      },
+      "lengthMm": 305.2303321496045,
+      "ankleMomentArmMm": 42.210484490611435,
+      "subtalarMomentArmMm": 9.447321174450419,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 305.0643281405256,
+      "ankleMomentArmMm": 42.08534832112944,
+      "subtalarMomentArmMm": 9.575010878701304,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 6
+      },
+      "lengthMm": 304.89611271689705,
+      "ankleMomentArmMm": 41.94992288968697,
+      "subtalarMomentArmMm": 9.700724189528787,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 7
+      },
+      "lengthMm": 304.72572070989196,
+      "ankleMomentArmMm": 41.80416935601,
+      "subtalarMomentArmMm": 9.824422494097885,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 8
+      },
+      "lengthMm": 304.55318762676484,
+      "ankleMomentArmMm": 41.64804970867385,
+      "subtalarMomentArmMm": 9.946066942278083,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 9
+      },
+      "lengthMm": 304.3785496543031,
+      "ankleMomentArmMm": 41.48152679893451,
+      "subtalarMomentArmMm": 10.065618444736879,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 304.2018436653236,
+      "ankleMomentArmMm": 41.30456437938421,
+      "subtalarMomentArmMm": 10.183037669229565,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 11
+      },
+      "lengthMm": 304.02310721953506,
+      "ankleMomentArmMm": 41.11712713920998,
+      "subtalarMomentArmMm": 10.298285041033425,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 12
+      },
+      "lengthMm": 303.84237857006224,
+      "ankleMomentArmMm": 40.91918074690951,
+      "subtalarMomentArmMm": 10.411320739809204,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 13
+      },
+      "lengthMm": 303.6596966671583,
+      "ankleMomentArmMm": 40.710691892537206,
+      "subtalarMomentArmMm": 10.522104698740089,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 14
+      },
+      "lengthMm": 303.4751011625487,
+      "ankleMomentArmMm": 40.49162833281616,
+      "subtalarMomentArmMm": 10.630596603592917,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 303.28863241373847,
+      "ankleMomentArmMm": 40.26195893857257,
+      "subtalarMomentArmMm": 10.736755892184018,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 16
+      },
+      "lengthMm": 303.10033148834134,
+      "ankleMomentArmMm": 40.021653744657456,
+      "subtalarMomentArmMm": 10.840541754235355,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 17
+      },
+      "lengthMm": 302.9102401686883,
+      "ankleMomentArmMm": 39.77068400280875,
+      "subtalarMomentArmMm": 10.941913131515703,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 18
+      },
+      "lengthMm": 302.71840095497726,
+      "ankleMomentArmMm": 39.50902223524092,
+      "subtalarMomentArmMm": 11.04082871921027,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 19
+      },
+      "lengthMm": 302.52485707153926,
+      "ankleMomentArmMm": 39.236642295167805,
+      "subtalarMomentArmMm": 11.13724696613268,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 302.32965246927716,
+      "ankleMomentArmMm": 38.95351942510359,
+      "subtalarMomentArmMm": 11.231126077470709,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 334.79469321084065,
+      "ankleMomentArmMm": 32.73534239043,
+      "subtalarMomentArmMm": 6.904902947878287,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 334.1046688752261,
+      "ankleMomentArmMm": 32.417352892463875,
+      "subtalarMomentArmMm": 8.906375922924765,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 333.2408114067166,
+      "ankleMomentArmMm": 32.01577043013978,
+      "subtalarMomentArmMm": 10.888114257499609,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 332.2050398304477,
+      "ankleMomentArmMm": 31.530797116925324,
+      "subtalarMomentArmMm": 12.845602271002399,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 330.9996684469992,
+      "ankleMomentArmMm": 30.96265748547639,
+      "subtalarMomentArmMm": 14.774294997849651,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 329.6274098860931,
+      "ankleMomentArmMm": 30.31158450188921,
+      "subtalarMomentArmMm": 16.66960596222766,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 328.0913794227529,
+      "ankleMomentArmMm": 29.577802132938242,
+      "subtalarMomentArmMm": 18.52689075613245,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -40,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 326.395100911063,
+      "ankleMomentArmMm": 28.76150389211115,
+      "subtalarMomentArmMm": 20.341425087963156,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 331.8629834265685,
+      "ankleMomentArmMm": 34.437897234116164,
+      "subtalarMomentArmMm": 6.650933433068686,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 331.19909501261196,
+      "ankleMomentArmMm": 34.157805803949394,
+      "subtalarMomentArmMm": 8.561355825778755,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 330.3693184187169,
+      "ankleMomentArmMm": 33.77908005696026,
+      "subtalarMomentArmMm": 10.452062685742765,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 329.3755704546494,
+      "ankleMomentArmMm": 33.301562351238786,
+      "subtalarMomentArmMm": 12.318548597445716,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 328.2201629448443,
+      "ankleMomentArmMm": 32.72507912023462,
+      "subtalarMomentArmMm": 14.156263808254646,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 326.9058072531018,
+      "ankleMomentArmMm": 32.04942116194433,
+      "subtalarMomentArmMm": 15.960598177069796,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 325.43562043648683,
+      "ankleMomentArmMm": 31.274319154312323,
+      "subtalarMomentArmMm": 17.7268603028295,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -35,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 323.81313344019776,
+      "ankleMomentArmMm": 30.399413643729716,
+      "subtalarMomentArmMm": 19.45025031079031,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 328.78718512259144,
+      "ankleMomentArmMm": 36.03594478450458,
+      "subtalarMomentArmMm": 6.445349291830552,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 328.14587578755294,
+      "ankleMomentArmMm": 35.79960687163141,
+      "subtalarMomentArmMm": 8.249409297853637,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 327.347975080375,
+      "ankleMomentArmMm": 35.44867014009535,
+      "subtalarMomentArmMm": 10.033408699189849,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 326.395430844259,
+      "ankleMomentArmMm": 34.98257228054773,
+      "subtalarMomentArmMm": 11.79281820405782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 325.29058884453707,
+      "ankleMomentArmMm": 34.40070113812052,
+      "subtalarMomentArmMm": 13.52304434353567,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 324.0361992568372,
+      "ankleMomentArmMm": 33.70237027852989,
+      "subtalarMomentArmMm": 15.21940859911867,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 322.63542514988086,
+      "ankleMomentArmMm": 32.88678901004035,
+      "subtalarMomentArmMm": 16.877120957579514,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -30,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 321.0918536883,
+      "ankleMomentArmMm": 31.95302604663127,
+      "subtalarMomentArmMm": 18.49124615016302,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 325.5768724985489,
+      "ankleMomentArmMm": 37.518847196067256,
+      "subtalarMomentArmMm": 6.294916984741647,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 324.95403675256887,
+      "ankleMomentArmMm": 37.333010103706826,
+      "subtalarMomentArmMm": 7.976333730150255,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 324.18534539606895,
+      "ankleMomentArmMm": 37.015532339547214,
+      "subtalarMomentArmMm": 9.636923852965461,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 323.2728152402272,
+      "ankleMomentArmMm": 36.56538307463021,
+      "subtalarMomentArmMm": 11.272106089351707,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 322.2188665317227,
+      "ankleMomentArmMm": 35.981456799940524,
+      "subtalarMomentArmMm": 12.877211537454656,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 321.0263317283957,
+      "ankleMomentArmMm": 35.262545971846436,
+      "subtalarMomentArmMm": 14.447457479070128,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 319.698466745509,
+      "ankleMomentArmMm": 34.40730815899648,
+      "subtalarMomentArmMm": 15.97791495685872,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -25,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 318.2389654754254,
+      "ankleMomentArmMm": 33.414227085842796,
+      "subtalarMomentArmMm": 17.463468292966514,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 322.2426137154526,
+      "ankleMomentArmMm": 38.87439006119795,
+      "subtalarMomentArmMm": 6.207463929976464,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 321.6335114338571,
+      "ankleMomentArmMm": 38.74688740500014,
+      "subtalarMomentArmMm": 7.748831950616282,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 320.89083006946976,
+      "ankleMomentArmMm": 38.46944093142142,
+      "subtalarMomentArmMm": 9.268104003733642,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 320.0167000224917,
+      "ankleMomentArmMm": 38.040459990107436,
+      "subtalarMomentArmMm": 10.760630316732966,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 319.0136621822605,
+      "ankleMomentArmMm": 37.45827059223813,
+      "subtalarMomentArmMm": 12.22164823153872,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 317.8846791022963,
+      "ankleMomentArmMm": 36.721088096864676,
+      "subtalarMomentArmMm": 13.646251198328843,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 316.6331491044625,
+      "ankleMomentArmMm": 35.82698565896144,
+      "subtalarMomentArmMm": 15.029351178834292,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -20,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 315.2629241007902,
+      "ankleMomentArmMm": 34.773858441300135,
+      "subtalarMomentArmMm": 16.365632695373638,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 318.7961294214891,
+      "ankleMomentArmMm": 40.08827809510101,
+      "subtalarMomentArmMm": 6.192107429552444,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 318.19528087460725,
+      "ankleMomentArmMm": 40.02827138047648,
+      "subtalarMomentArmMm": 7.574715640615613,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 317.4747898251251,
+      "ankleMomentArmMm": 39.798539235986,
+      "subtalarMomentArmMm": 8.933335530529021,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 316.6369545082411,
+      "ankleMomentArmMm": 39.39679975570125,
+      "subtalarMomentArmMm": 10.26325190312494,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 315.68449037269374,
+      "ankleMomentArmMm": 38.820705823884474,
+      "subtalarMomentArmMm": 11.55961284883822,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 314.6205434597594,
+      "ankleMomentArmMm": 38.06782266766107,
+      "subtalarMomentArmMm": 12.817395679496988,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 313.4487070098086,
+      "ankleMomentArmMm": 37.135604172374656,
+      "subtalarMomentArmMm": 14.031366581940214,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -15,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 312.17304191593047,
+      "ankleMomentArmMm": 36.02136893982917,
+      "subtalarMomentArmMm": 15.19603258329503,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 315.2505023911081,
+      "ankleMomentArmMm": 41.143458116432186,
+      "subtalarMomentArmMm": 6.259534725509143,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 314.6515598109325,
+      "ankleMomentArmMm": 41.1617348387335,
+      "subtalarMomentArmMm": 7.463160153216795,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 313.9487111316884,
+      "ankleMomentArmMm": 40.98877389843714,
+      "subtalarMomentArmMm": 8.640107307327256,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 313.1444905466733,
+      "ankleMomentArmMm": 40.6214114032881,
+      "subtalarMomentArmMm": 9.785630329124318,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 312.2418528823537,
+      "ankleMomentArmMm": 40.056479044155964,
+      "subtalarMomentArmMm": 10.894829555861945,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 311.24418845448884,
+      "ankleMomentArmMm": 39.290794403131954,
+      "subtalarMomentArmMm": 11.962618017288829,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 310.1553410460064,
+      "ankleMomentArmMm": 38.32115530227659,
+      "subtalarMomentArmMm": 12.983682992764946,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -10,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 308.97962948881,
+      "ankleMomentArmMm": 37.14434057779951,
+      "subtalarMomentArmMm": 13.952441882534169,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 311.62045606976363,
+      "ankleMomentArmMm": 42.01920663133906,
+      "subtalarMomentArmMm": 6.4223409828670555,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 311.01604639882714,
+      "ankleMomentArmMm": 42.12854345431785,
+      "subtalarMomentArmMm": 7.425021844528886,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 310.3254300923254,
+      "ankleMomentArmMm": 42.02311499462631,
+      "subtalarMomentArmMm": 8.397280936068334,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 309.5514656680035,
+      "ankleMomentArmMm": 41.698596243957574,
+      "subtalarMomentArmMm": 9.334425802043766,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 308.69742771568565,
+      "ankleMomentArmMm": 41.150784864431294,
+      "subtalarMomentArmMm": 10.231608973305379,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 307.76702156890514,
+      "ankleMomentArmMm": 40.37561734581209,
+      "subtalarMomentArmMm": 11.08380095700465,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 306.7644004681962,
+      "ankleMomentArmMm": 39.36919720164001,
+      "subtalarMomentArmMm": 11.885761043370415,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": -5,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 305.6941853390057,
+      "ankleMomentArmMm": 38.127839272015514,
+      "subtalarMomentArmMm": 12.63200615413725,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 307.92272591081337,
+      "ankleMomentArmMm": 42.68989788923339,
+      "subtalarMomentArmMm": 6.695427162355032,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 307.3042588477666,
+      "ankleMomentArmMm": 42.90549279931614,
+      "subtalarMomentArmMm": 7.473228399259608,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 306.6194368392984,
+      "ankleMomentArmMm": 42.88047306457525,
+      "subtalarMomentArmMm": 8.215433520774782,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 305.87156084974555,
+      "ankleMomentArmMm": 42.60894058446565,
+      "subtalarMomentArmMm": 8.917562527306687,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 305.0643281405256,
+      "ankleMomentArmMm": 42.08534832112944,
+      "subtalarMomentArmMm": 9.575010878701304,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 304.2018436653236,
+      "ankleMomentArmMm": 41.30456437938421,
+      "subtalarMomentArmMm": 10.183037669229565,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 303.28863241373847,
+      "ankleMomentArmMm": 40.26195893857257,
+      "subtalarMomentArmMm": 10.736755892184018,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 0,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 302.32965246927716,
+      "ankleMomentArmMm": 38.95351942510359,
+      "subtalarMomentArmMm": 11.231126077470709,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 304.1765560851155,
+      "ankleMomentArmMm": 43.12334268646423,
+      "subtalarMomentArmMm": 7.096447795007061,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 303.53399166876795,
+      "ankleMomentArmMm": 43.46330720047689,
+      "subtalarMomentArmMm": 7.623247995253967,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 302.84729212257497,
+      "ankleMomentArmMm": 43.534186044753305,
+      "subtalarMomentArmMm": 8.107287839044496,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 302.1203630943272,
+      "ankleMomentArmMm": 43.32789526836181,
+      "subtalarMomentArmMm": 8.544570446624821,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 301.3574606088136,
+      "ankleMomentArmMm": 42.8370829332649,
+      "subtalarMomentArmMm": 8.93106448759712,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 300.5631934980496,
+      "ankleMomentArmMm": 42.05527921455962,
+      "subtalarMomentArmMm": 9.26271891847602,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 299.7425242041969,
+      "ankleMomentArmMm": 40.97708187245087,
+      "subtalarMomentArmMm": 9.535484911242252,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 5,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 298.90076730867327,
+      "ankleMomentArmMm": 39.59838187435736,
+      "subtalarMomentArmMm": 9.745346746072387,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 300.4043646895619,
+      "ankleMomentArmMm": 43.278563816316485,
+      "subtalarMomentArmMm": 7.646271743282048,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 299.7259365379828,
+      "ankleMomentArmMm": 43.764436612268256,
+      "subtalarMomentArmMm": 7.893628982671588,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 299.0282009745811,
+      "ankleMomentArmMm": 43.94989749653758,
+      "subtalarMomentArmMm": 8.08824030694293,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 298.3158963980492,
+      "ankleMomentArmMm": 43.82375974862151,
+      "subtalarMomentArmMm": 8.227024910939083,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 297.59402319991193,
+      "ankleMomentArmMm": 43.37617571974967,
+      "subtalarMomentArmMm": 8.307067514737806,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 296.86782702189674,
+      "ankleMomentArmMm": 42.598940212380406,
+      "subtalarMomentArmMm": 8.325672517769545,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 296.14277685899543,
+      "ankleMomentArmMm": 41.485839595654554,
+      "subtalarMomentArmMm": 8.28042835131073,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 10,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 295.4245370829482,
+      "ankleMomentArmMm": 40.033045051666655,
+      "subtalarMomentArmMm": 8.169282353109956,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 296.6326328961995,
+      "ankleMomentArmMm": 43.10286585091794,
+      "subtalarMomentArmMm": 8.369363711877346,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 295.90452902627266,
+      "ankleMomentArmMm": 43.76004603945809,
+      "subtalarMomentArmMm": 8.306567675499773,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 295.1848066606745,
+      "ankleMomentArmMm": 44.082583274538464,
+      "subtalarMomentArmMm": 8.17698125294319,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 294.4793637086656,
+      "ankleMomentArmMm": 44.054812019659536,
+      "subtalarMomentArmMm": 7.979101164504976,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 293.7942052513892,
+      "ankleMomentArmMm": 43.66334058386128,
+      "subtalarMomentArmMm": 7.711991542369538,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 293.1353895098904,
+      "ankleMomentArmMm": 42.897629119578355,
+      "subtalarMomentArmMm": 7.375388076975677,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 292.5089645893192,
+      "ankleMomentArmMm": 41.75061175347114,
+      "subtalarMomentArmMm": 6.969804718049161,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 15,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 291.9208959927688,
+      "ankleMomentArmMm": 40.21933991994498,
+      "subtalarMomentArmMm": 6.496637551588751,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 292.8930844924139,
+      "ankleMomentArmMm": 42.52810382796051,
+      "subtalarMomentArmMm": 9.29388627929808,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 292.0991014712385,
+      "ankleMomentArmMm": 43.3859756714547,
+      "subtalarMomentArmMm": 8.888387099921045,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 291.3442922517402,
+      "ankleMomentArmMm": 43.872420333738994,
+      "subtalarMomentArmMm": 8.396159731024419,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 290.63618899629137,
+      "ankleMomentArmMm": 43.96523372327607,
+      "subtalarMomentArmMm": 7.818245261223431,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 289.9821757104466,
+      "ankleMomentArmMm": 43.64587833762362,
+      "subtalarMomentArmMm": 7.157026532162602,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 289.38936418825955,
+      "ankleMomentArmMm": 42.90055884744936,
+      "subtalarMomentArmMm": 6.416382062894025,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 288.86445810950823,
+      "ankleMomentArmMm": 41.72130620694882,
+      "subtalarMomentArmMm": 5.601801889376323,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 20,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 288.4136093317742,
+      "ankleMomentArmMm": 40.106989939186796,
+      "subtalarMomentArmMm": 4.720447022450687,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": -15
+      },
+      "lengthMm": 289.22422374287817,
+      "ankleMomentArmMm": 41.466246642477316,
+      "subtalarMomentArmMm": 10.451122872025826,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": -10
+      },
+      "lengthMm": 288.34543917001366,
+      "ankleMomentArmMm": 42.55752890030536,
+      "subtalarMomentArmMm": 9.669656377051458,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": -5
+      },
+      "lengthMm": 287.5399050686042,
+      "ankleMomentArmMm": 43.239177325643915,
+      "subtalarMomentArmMm": 8.772946741733847,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": 0
+      },
+      "lengthMm": 286.81748294038414,
+      "ankleMomentArmMm": 43.47940305572845,
+      "subtalarMomentArmMm": 7.765916784301231,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": 5
+      },
+      "lengthMm": 286.187484069622,
+      "ankleMomentArmMm": 43.25207581120601,
+      "subtalarMomentArmMm": 6.656295351414411,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": 10
+      },
+      "lengthMm": 285.65841583138575,
+      "ankleMomentArmMm": 42.53871114470555,
+      "subtalarMomentArmMm": 5.454794367524525,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": 15
+      },
+      "lengthMm": 285.23771960639743,
+      "ankleMomentArmMm": 41.3303521165723,
+      "subtalarMomentArmMm": 4.17511827955931,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "ankle_angle_r": 25,
+        "subtalar_angle_r": 20
+      },
+      "lengthMm": 284.9315166265362,
+      "ankleMomentArmMm": 39.62912194378099,
+      "subtalarMomentArmMm": 2.833766377771562,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 77.07089984734986,
+        "hip_rotation_r": -8.270761363829632,
+        "hip_adduction_r": -10.328245690561058,
+        "knee_angle_r": 10.954331751928216,
+        "ankle_angle_r": 19.911430934794502,
+        "subtalar_angle_r": 2.6669451120688628
+      },
+      "lengthMm": 290.347937061546,
+      "ankleMomentArmMm": 43.85107477805919,
+      "subtalarMomentArmMm": 7.481622687868541,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 29.16502385391715,
+        "hip_rotation_r": -0.6610289576019106,
+        "hip_adduction_r": -27.525136796594083,
+        "knee_angle_r": 91.45323896670067,
+        "ankle_angle_r": 8.90032509580444,
+        "subtalar_angle_r": -11.940923591668051
+      },
+      "lengthMm": 300.82859780799254,
+      "ankleMomentArmMm": 43.5813660604101,
+      "subtalarMomentArmMm": 7.7076802151687485,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 25.256987918691877,
+        "hip_rotation_r": 5.5837782629931,
+        "hip_adduction_r": 0.9208944743557694,
+        "knee_angle_r": 113.7788687698741,
+        "ankle_angle_r": -8.423115540013999,
+        "subtalar_angle_r": 6.700113484343451
+      },
+      "lengthMm": 310.81221774415945,
+      "ankleMomentArmMm": 40.1797625480054,
+      "subtalarMomentArmMm": 11.03123460222042,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 67.86304091676335,
+        "hip_rotation_r": 6.377311490932627,
+        "hip_adduction_r": -9.909431687174571,
+        "knee_angle_r": 115.91249801089714,
+        "ankle_angle_r": 8.94400306764156,
+        "subtalar_angle_r": 13.117146988382682
+      },
+      "lengthMm": 297.1875518926976,
+      "ankleMomentArmMm": 41.852391461041925,
+      "subtalarMomentArmMm": 8.548091197806432,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -0.9589236194454926,
+        "hip_rotation_r": 25.556061989452715,
+        "hip_adduction_r": -27.393615117592905,
+        "knee_angle_r": 69.93141118798601,
+        "ankle_angle_r": -38.38087001300238,
+        "subtalar_angle_r": 8.292577691187912
+      },
+      "lengthMm": 329.24332454079155,
+      "ankleMomentArmMm": 31.118201788876107,
+      "subtalarMomentArmMm": 15.809880240591133,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 85.97290037412586,
+        "hip_rotation_r": -26.669207560185985,
+        "hip_adduction_r": -22.0326368789877,
+        "knee_angle_r": 67.78484449750634,
+        "ankle_angle_r": -27.9910699570814,
+        "subtalar_angle_r": 11.861752729347174
+      },
+      "lengthMm": 322.34887314239245,
+      "ankleMomentArmMm": 34.04583335334536,
+      "subtalarMomentArmMm": 15.516765539476406,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 21.562544462612763,
+        "hip_rotation_r": 3.358754759638657,
+        "hip_adduction_r": 1.2029052140847938,
+        "knee_angle_r": 57.51233087756562,
+        "ankle_angle_r": -3.7461096200341046,
+        "subtalar_angle_r": 3.9618478203429
+      },
+      "lengthMm": 307.97495215892934,
+      "ankleMomentArmMm": 41.532750606938535,
+      "subtalarMomentArmMm": 9.895360007232783,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 62.36772996642124,
+        "hip_rotation_r": 9.578548668654136,
+        "hip_adduction_r": -24.906676440506523,
+        "knee_angle_r": 91.49546662806958,
+        "ankle_angle_r": 4.260360109919368,
+        "subtalar_angle_r": -2.3774901232983723
+      },
+      "lengthMm": 303.0312489809917,
+      "ankleMomentArmMm": 43.372267384684804,
+      "subtalarMomentArmMm": 8.374992505738359,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 48.61371573225772,
+        "hip_rotation_r": 11.542853529215165,
+        "hip_adduction_r": -22.697907023135677,
+        "knee_angle_r": 103.5074843243944,
+        "ankle_angle_r": 11.797813803263075,
+        "subtalar_angle_r": 9.244715780838757
+      },
+      "lengthMm": 295.63431458369627,
+      "ankleMomentArmMm": 42.876192444826714,
+      "subtalarMomentArmMm": 8.005181166609148,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 88.85493748335338,
+        "hip_rotation_r": -10.263759183502312,
+        "hip_adduction_r": -21.446832313958424,
+        "knee_angle_r": 59.73550050731307,
+        "ankle_angle_r": -4.738181574822924,
+        "subtalar_angle_r": -0.4884135120127535
+      },
+      "lengthMm": 309.4397998113059,
+      "ankleMomentArmMm": 41.79188442869702,
+      "subtalarMomentArmMm": 9.22295342634597,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 18.621977192258527,
+        "hip_rotation_r": 16.07921205482093,
+        "hip_adduction_r": -25.53509237283337,
+        "knee_angle_r": 2.663799841608885,
+        "ankle_angle_r": 11.255086486542368,
+        "subtalar_angle_r": 5.473366241511279
+      },
+      "lengthMm": 296.57539571232417,
+      "ankleMomentArmMm": 43.4150631477539,
+      "subtalarMomentArmMm": 8.151041371946533,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 58.14300937327879,
+        "hip_rotation_r": 28.785939547745677,
+        "hip_adduction_r": -4.1601716453455495,
+        "knee_angle_r": 54.91718562901189,
+        "ankle_angle_r": -4.575090304196451,
+        "subtalar_angle_r": -9.74353902304104
+      },
+      "lengthMm": 310.6699948797435,
+      "ankleMomentArmMm": 42.20254776114734,
+      "subtalarMomentArmMm": 7.475270134868116,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 81.89007077873094,
+        "hip_rotation_r": 17.885128927907722,
+        "hip_adduction_r": 4.543593256553926,
+        "knee_angle_r": 114.68457103680578,
+        "ankle_angle_r": -22.82659126029048,
+        "subtalar_angle_r": 2.8148713000881784
+      },
+      "lengthMm": 321.3089871087058,
+      "ankleMomentArmMm": 36.90938941216433,
+      "subtalarMomentArmMm": 11.922181120264469,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 40.512388334219274,
+        "hip_rotation_r": 23.081559779253297,
+        "hip_adduction_r": 9.516461891173542,
+        "knee_angle_r": 105.0457580006621,
+        "ankle_angle_r": -18.57840183824518,
+        "subtalar_angle_r": -14.20723157219876
+      },
+      "lengthMm": 321.18621199940463,
+      "ankleMomentArmMm": 39.22758359961172,
+      "subtalarMomentArmMm": 6.4341902768342285,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 71.11243392992652,
+        "hip_rotation_r": 19.787535041597998,
+        "hip_adduction_r": -31.87464247950259,
+        "knee_angle_r": 24.05549026911069,
+        "ankle_angle_r": 4.696692215065468,
+        "subtalar_angle_r": 3.57460778063648
+      },
+      "lengthMm": 301.80591134471985,
+      "ankleMomentArmMm": 42.96693579522513,
+      "subtalarMomentArmMm": 8.859869987480145,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -11.115464014180745,
+        "hip_rotation_r": -26.105708981101543,
+        "hip_adduction_r": -27.69365868212216,
+        "knee_angle_r": 102.6414964163796,
+        "ankle_angle_r": -39.55399369364672,
+        "subtalar_angle_r": -3.273105150388883
+      },
+      "lengthMm": 332.6537859002548,
+      "ankleMomentArmMm": 32.01889987882192,
+      "subtalarMomentArmMm": 11.525080595911431,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 17.71065454337578,
+        "hip_rotation_r": 14.940586951330587,
+        "hip_adduction_r": -18.843767751912434,
+        "knee_angle_r": 4.13477329068928,
+        "ankle_angle_r": -28.82126528707927,
+        "subtalar_angle_r": 9.576952036205771
+      },
+      "lengthMm": 323.44950001733827,
+      "ankleMomentArmMm": 34.143053926158515,
+      "subtalarMomentArmMm": 14.900421648693527,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -6.002267202799722,
+        "hip_rotation_r": 29.12278016330705,
+        "hip_adduction_r": -9.268166022709398,
+        "knee_angle_r": 80.87278440115493,
+        "ankle_angle_r": -22.91322009691229,
+        "subtalar_angle_r": 12.005335039361064
+      },
+      "lengthMm": 319.226141265142,
+      "ankleMomentArmMm": 35.55210990539389,
+      "subtalarMomentArmMm": 14.71184531765716,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 12.685282077253547,
+        "hip_rotation_r": 7.081146171544951,
+        "hip_adduction_r": 13.189795540541994,
+        "knee_angle_r": 44.91093001071918,
+        "ankle_angle_r": -33.05727359401251,
+        "subtalar_angle_r": 3.7022517964657062
+      },
+      "lengthMm": 327.4091550811148,
+      "ankleMomentArmMm": 33.54728046415942,
+      "subtalarMomentArmMm": 13.448267436646768,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 76.81168599905085,
+        "hip_rotation_r": -10.283105280741992,
+        "hip_adduction_r": -7.722538287582779,
+        "knee_angle_r": 12.383449089986414,
+        "ankle_angle_r": 19.814520203237358,
+        "subtalar_angle_r": -3.8758917719048167
+      },
+      "lengthMm": 291.32298774825136,
+      "ankleMomentArmMm": 43.94183190790264,
+      "subtalarMomentArmMm": 8.266170182708896,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 97.43738793988979,
+        "hip_rotation_r": -8.248718730660286,
+        "hip_adduction_r": -31.80033633079305,
+        "knee_angle_r": 53.00668809156598,
+        "ankle_angle_r": 2.3048477542748316,
+        "subtalar_angle_r": -1.2804083211234278
+      },
+      "lengthMm": 304.34389206803854,
+      "ankleMomentArmMm": 43.05326325983344,
+      "subtalarMomentArmMm": 8.594313104649963,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 55.507579761551,
+        "hip_rotation_r": 25.055552663580343,
+        "hip_adduction_r": -32.41764734585672,
+        "knee_angle_r": 9.419236843921496,
+        "ankle_angle_r": -31.842026233488887,
+        "subtalar_angle_r": 2.7798839684068675
+      },
+      "lengthMm": 326.9047833249625,
+      "ankleMomentArmMm": 34.06516949878774,
+      "subtalarMomentArmMm": 12.975082094474649,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 15.45294934550202,
+        "hip_rotation_r": -21.43998087234585,
+        "hip_adduction_r": 19.685378268227026,
+        "knee_angle_r": 72.67095509788521,
+        "ankle_angle_r": -39.23250123846833,
+        "subtalar_angle_r": 14.694737479316618
+      },
+      "lengthMm": 327.791167171151,
+      "ankleMomentArmMm": 29.89101381560285,
+      "subtalarMomentArmMm": 18.295899029841724,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 92.20488812955142,
+        "hip_rotation_r": 27.853824357331916,
+        "hip_adduction_r": 2.0166212244229627,
+        "knee_angle_r": 22.105254334440744,
+        "ankle_angle_r": -3.5419623973062997,
+        "subtalar_angle_r": -11.233073801721204
+      },
+      "lengthMm": 310.098227822886,
+      "ankleMomentArmMm": 42.36214036748851,
+      "subtalarMomentArmMm": 7.200563398791972,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 69.0068786483594,
+        "hip_rotation_r": 11.402983639674133,
+        "hip_adduction_r": 16.431498786795565,
+        "knee_angle_r": 13.84951525112494,
+        "ankle_angle_r": 0.7564539289757377,
+        "subtalar_angle_r": 14.74187384248561
+      },
+      "lengthMm": 302.80378205095997,
+      "ankleMomentArmMm": 40.44288292688373,
+      "subtalarMomentArmMm": 10.533322509805172,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 15.518192435642945,
+        "hip_rotation_r": 22.192583271670173,
+        "hip_adduction_r": -14.227721757006321,
+        "knee_angle_r": 114.31141429501673,
+        "ankle_angle_r": 16.560556996272574,
+        "subtalar_angle_r": -4.883864934704025
+      },
+      "lengthMm": 293.9677292052183,
+      "ankleMomentArmMm": 44.061449651976524,
+      "subtalarMomentArmMm": 8.223798852884048,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 26.58984588221945,
+        "hip_rotation_r": 13.431813160938901,
+        "hip_adduction_r": -22.741169596477427,
+        "knee_angle_r": 89.7985882788105,
+        "ankle_angle_r": -26.61979289687491,
+        "subtalar_angle_r": 11.209783049059048
+      },
+      "lengthMm": 321.7017928031166,
+      "ankleMomentArmMm": 34.57591705270143,
+      "subtalarMomentArmMm": 15.085408070641845,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 3.8452418122811522,
+        "hip_rotation_r": -26.497223983015555,
+        "hip_adduction_r": 12.082356409196109,
+        "knee_angle_r": 93.73902019467009,
+        "ankle_angle_r": 5.042619149778062,
+        "subtalar_angle_r": -2.558155727954153
+      },
+      "lengthMm": 302.4647173597791,
+      "ankleMomentArmMm": 43.47348313316409,
+      "subtalarMomentArmMm": 8.325208466928116,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 43.198512131910036,
+        "hip_rotation_r": 11.06306569912956,
+        "hip_adduction_r": 17.219630765485228,
+        "knee_angle_r": 10.59882213635484,
+        "ankle_angle_r": -7.5316345608718365,
+        "subtalar_angle_r": -4.035150713082707
+      },
+      "lengthMm": 312.02619799813135,
+      "ankleMomentArmMm": 41.46923044802216,
+      "subtalarMomentArmMm": 8.717853484157983,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 48.039476288120014,
+        "hip_rotation_r": 23.106592797600243,
+        "hip_adduction_r": -4.777915938764242,
+        "knee_angle_r": 81.85855119330489,
+        "ankle_angle_r": -30.91107227973429,
+        "subtalar_angle_r": -7.426679876314125
+      },
+      "lengthMm": 328.3189443227404,
+      "ankleMomentArmMm": 35.33876470775523,
+      "subtalarMomentArmMm": 9.235104516668342,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 33.14509412354474,
+        "hip_rotation_r": -2.042387107034422,
+        "hip_adduction_r": 13.11353056468991,
+        "knee_angle_r": 55.501526027505605,
+        "ankle_angle_r": 5.089968834595858,
+        "subtalar_angle_r": -13.380196943008517
+      },
+      "lengthMm": 303.9055104239979,
+      "ankleMomentArmMm": 43.268654071938414,
+      "subtalarMomentArmMm": 7.278532888786965,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 54.825295789683494,
+        "hip_rotation_r": 5.429395516206824,
+        "hip_adduction_r": 12.869349861040305,
+        "knee_angle_r": 63.21968164969657,
+        "ankle_angle_r": -34.86028959905499,
+        "subtalar_angle_r": -10.659496085820908
+      },
+      "lengthMm": 331.21274358201345,
+      "ankleMomentArmMm": 34.24752526553784,
+      "subtalarMomentArmMm": 8.30157800284776,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -15.71339845080491,
+        "hip_rotation_r": -15.27618034705274,
+        "hip_adduction_r": 15.868121981122535,
+        "knee_angle_r": 7.2178860820380475,
+        "ankle_angle_r": 12.90021573017853,
+        "subtalar_angle_r": 6.21224861141026
+      },
+      "lengthMm": 295.2249782449168,
+      "ankleMomentArmMm": 43.42227476185325,
+      "subtalarMomentArmMm": 7.919711771457231,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 15.244510193411983,
+        "hip_rotation_r": 0.4520141610261952,
+        "hip_adduction_r": -19.162329059367877,
+        "knee_angle_r": 94.65536840927501,
+        "ankle_angle_r": -3.681031395540913,
+        "subtalar_angle_r": -5.278390519627141
+      },
+      "lengthMm": 309.3956226432877,
+      "ankleMomentArmMm": 42.27810729457189,
+      "subtalarMomentArmMm": 8.292923574521033,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 76.62456201532558,
+        "hip_rotation_r": -13.175343311503418,
+        "hip_adduction_r": -25.64904641709961,
+        "knee_angle_r": 15.936753084696619,
+        "ankle_angle_r": 5.6823670516777725,
+        "subtalar_angle_r": 11.419019423280226
+      },
+      "lengthMm": 299.83464893861066,
+      "ankleMomentArmMm": 41.8658968293039,
+      "subtalarMomentArmMm": 9.207717255946122,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 29.23072249863965,
+        "hip_rotation_r": -21.23545143285988,
+        "hip_adduction_r": 17.431784544353675,
+        "knee_angle_r": 5.946800246010735,
+        "ankle_angle_r": -37.066724276477366,
+        "subtalar_angle_r": -0.5950588261768086
+      },
+      "lengthMm": 330.69285824854967,
+      "ankleMomentArmMm": 32.64214683446102,
+      "subtalarMomentArmMm": 12.311019549986211,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 4.716201903326414,
+        "hip_rotation_r": 12.951363757811471,
+        "hip_adduction_r": 2.573313753996949,
+        "knee_angle_r": 71.60023713131437,
+        "ankle_angle_r": 4.118671461700764,
+        "subtalar_angle_r": -10.593393581517137
+      },
+      "lengthMm": 304.28018804623264,
+      "ankleMomentArmMm": 43.35849532577675,
+      "subtalarMomentArmMm": 7.522712510349236,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -16.708139603500815,
+        "hip_rotation_r": -20.26592426633849,
+        "hip_adduction_r": 4.073852035730511,
+        "knee_angle_r": 62.31863067636737,
+        "ankle_angle_r": -4.586485103693434,
+        "subtalar_angle_r": -7.506976462746597
+      },
+      "lengthMm": 310.3781705226675,
+      "ankleMomentArmMm": 42.17822723606546,
+      "subtalarMomentArmMm": 7.9054610228823545,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 78.89792780031094,
+        "hip_rotation_r": 12.24224028328279,
+        "hip_adduction_r": -29.300628560580527,
+        "knee_angle_r": 47.08089607201316,
+        "ankle_angle_r": -22.93806641037787,
+        "subtalar_angle_r": -1.6008892055428525
+      },
+      "lengthMm": 322.24767890866616,
+      "ankleMomentArmMm": 37.344222826160845,
+      "subtalarMomentArmMm": 10.557448322074718,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 12.96991328392987,
+        "hip_rotation_r": 6.502680323003112,
+        "hip_adduction_r": 7.35040330320227,
+        "knee_angle_r": 93.29551786234066,
+        "ankle_angle_r": 10.1745595253469,
+        "subtalar_angle_r": 4.338796092818438
+      },
+      "lengthMm": 297.55743728538914,
+      "ankleMomentArmMm": 43.468505671768916,
+      "subtalarMomentArmMm": 8.280155252366972,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 8.057607952986213,
+        "hip_rotation_r": -12.81235170240009,
+        "hip_adduction_r": -18.62124897608571,
+        "knee_angle_r": 88.84301920252892,
+        "ankle_angle_r": 10.021230059428447,
+        "subtalar_angle_r": 17.318075688126534
+      },
+      "lengthMm": 295.793454842697,
+      "ankleMomentArmMm": 40.85621321160652,
+      "subtalarMomentArmMm": 8.231086045712352,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -0.1587361238677829,
+        "hip_rotation_r": 16.00379573172482,
+        "hip_adduction_r": -25.05935099926586,
+        "knee_angle_r": 90.96037646749565,
+        "ankle_angle_r": -25.833090794612975,
+        "subtalar_angle_r": -6.643640771066014
+      },
+      "lengthMm": 324.9921274283646,
+      "ankleMomentArmMm": 36.88260976846158,
+      "subtalarMomentArmMm": 9.15074347774489,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 16.114635184317137,
+        "hip_rotation_r": 11.006553086826258,
+        "hip_adduction_r": -17.44805980273928,
+        "knee_angle_r": 0.07063019822806105,
+        "ankle_angle_r": -20.382328637248932,
+        "subtalar_angle_r": 9.52784468340413
+      },
+      "lengthMm": 318.2417715403208,
+      "ankleMomentArmMm": 36.689467266894454,
+      "subtalarMomentArmMm": 13.574553794560927,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 34.00920841323861,
+        "hip_rotation_r": -18.631513923077193,
+        "hip_adduction_r": -21.346238438315105,
+        "knee_angle_r": 106.66216798307481,
+        "ankle_angle_r": 22.531597299166492,
+        "subtalar_angle_r": 2.074544239105272
+      },
+      "lengthMm": 288.4222170584991,
+      "ankleMomentArmMm": 43.714567335438375,
+      "subtalarMomentArmMm": 7.421995688778417,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 34.03086364008076,
+        "hip_rotation_r": 26.900574717380437,
+        "hip_adduction_r": -12.246446166938302,
+        "knee_angle_r": 70.43912919965118,
+        "ankle_angle_r": 4.20976445384855,
+        "subtalar_angle_r": 0.4088691237345774
+      },
+      "lengthMm": 302.6557646910071,
+      "ankleMomentArmMm": 43.19815135420917,
+      "subtalarMomentArmMm": 8.637369849519654,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 82.4350379163801,
+        "hip_rotation_r": 15.148492937533803,
+        "hip_adduction_r": 11.163518773088512,
+        "knee_angle_r": 82.6860346824502,
+        "ankle_angle_r": 0.06844032806600353,
+        "subtalar_angle_r": -7.917895823015863
+      },
+      "lengthMm": 306.97568709508016,
+      "ankleMomentArmMm": 42.934392945675654,
+      "subtalarMomentArmMm": 7.786825375938215,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 89.31833091649493,
+        "hip_rotation_r": -4.991329795860157,
+        "hip_adduction_r": 16.213408449952496,
+        "knee_angle_r": 32.68268848387559,
+        "ankle_angle_r": -16.95723638039964,
+        "subtalar_angle_r": 10.706466557831646
+      },
+      "lengthMm": 315.74902127359076,
+      "ankleMomentArmMm": 37.435448861010606,
+      "subtalarMomentArmMm": 13.329019582797315,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 94.24894827283255,
+        "hip_rotation_r": -29.323312895125138,
+        "hip_adduction_r": 16.90994740701838,
+        "knee_angle_r": 67.80497929930229,
+        "ankle_angle_r": 7.0544349395323,
+        "subtalar_angle_r": -14.174881137234525
+      },
+      "lengthMm": 302.52266843738835,
+      "ankleMomentArmMm": 43.3080104261115,
+      "subtalarMomentArmMm": 7.374667669651171,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 73.38296325201172,
+        "hip_rotation_r": -25.504853268205242,
+        "hip_adduction_r": 16.65916348722095,
+        "knee_angle_r": 73.13019246597062,
+        "ankle_angle_r": 16.103507216145296,
+        "subtalar_angle_r": 9.671258222985099
+      },
+      "lengthMm": 292.3500854337042,
+      "ankleMomentArmMm": 42.98789179904844,
+      "subtalarMomentArmMm": 7.1941743452424225,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 46.39197564096361,
+        "hip_rotation_r": 27.59276101619964,
+        "hip_adduction_r": -19.89456493273064,
+        "knee_angle_r": 109.17373612319469,
+        "ankle_angle_r": -39.77137546663706,
+        "subtalar_angle_r": -8.687413423613696
+      },
+      "lengthMm": 333.7655188753813,
+      "ankleMomentArmMm": 32.40193599764256,
+      "subtalarMomentArmMm": 9.41127995492637,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 17.365088491214138,
+        "hip_rotation_r": -11.677811474855957,
+        "hip_adduction_r": -16.909657092412175,
+        "knee_angle_r": 12.63986114396728,
+        "ankle_angle_r": -28.204997809514605,
+        "subtalar_angle_r": 19.230636115421184
+      },
+      "lengthMm": 320.3242360657008,
+      "ankleMomentArmMm": 32.6438235825517,
+      "subtalarMomentArmMm": 17.891694933823135,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 8.988205391468746,
+        "hip_rotation_r": -3.3906242657953705,
+        "hip_adduction_r": 9.83587687711129,
+        "knee_angle_r": 63.81678554936054,
+        "ankle_angle_r": 20.27373866712574,
+        "subtalar_angle_r": -12.57958118066871
+      },
+      "lengthMm": 292.29902572145124,
+      "ankleMomentArmMm": 42.94961894445451,
+      "subtalarMomentArmMm": 9.156101416158515,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 25.099100260278306,
+        "hip_rotation_r": 13.86611064535488,
+        "hip_adduction_r": 12.335809482536177,
+        "knee_angle_r": 62.10282363660693,
+        "ankle_angle_r": 18.417820207886933,
+        "subtalar_angle_r": -7.730312223229272
+      },
+      "lengthMm": 292.9586151645371,
+      "ankleMomentArmMm": 43.79064217557583,
+      "subtalarMomentArmMm": 8.524763148421725,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 60.246899660451874,
+        "hip_rotation_r": -17.724883005305365,
+        "hip_adduction_r": -29.054461810324362,
+        "knee_angle_r": 6.740528306903895,
+        "ankle_angle_r": -26.99480514107219,
+        "subtalar_angle_r": -11.284384036653876
+      },
+      "lengthMm": 326.4196286991028,
+      "ankleMomentArmMm": 36.79992196702772,
+      "subtalarMomentArmMm": 7.636981046581929,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 57.96156948385968,
+        "hip_rotation_r": 3.16025686093203,
+        "hip_adduction_r": -25.467633587005146,
+        "knee_angle_r": 6.460759004067245,
+        "ankle_angle_r": 7.80143485159978,
+        "subtalar_angle_r": 18.96353970040493
+      },
+      "lengthMm": 297.1182250281013,
+      "ankleMomentArmMm": 40.19088087359575,
+      "subtalarMomentArmMm": 8.872052212395378,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 84.65678112031898,
+        "hip_rotation_r": 26.38170760846984,
+        "hip_adduction_r": 12.72597864644105,
+        "knee_angle_r": 27.0556076182493,
+        "ankle_angle_r": 15.72444551862705,
+        "subtalar_angle_r": 3.9165839429207843
+      },
+      "lengthMm": 293.3869829221803,
+      "ankleMomentArmMm": 43.795963726784386,
+      "subtalarMomentArmMm": 7.704415116639211,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 48.77498238223744,
+        "hip_rotation_r": -20.701387551870734,
+        "hip_adduction_r": -0.6368603214303477,
+        "knee_angle_r": 77.66272824865347,
+        "ankle_angle_r": -13.501296231512264,
+        "subtalar_angle_r": -4.0848876608816305
+      },
+      "lengthMm": 316.2857855743917,
+      "ankleMomentArmMm": 40.11221501415119,
+      "subtalarMomentArmMm": 9.07677593055693,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 43.088213990539906,
+        "hip_rotation_r": 20.39552245781654,
+        "hip_adduction_r": -19.83445937477073,
+        "knee_angle_r": 30.08367084065316,
+        "ankle_angle_r": -9.872799747487036,
+        "subtalar_angle_r": 0.47629655340173294
+      },
+      "lengthMm": 312.9725826546294,
+      "ankleMomentArmMm": 40.60552590770575,
+      "subtalarMomentArmMm": 9.880618948069964,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 90.55370667009952,
+        "hip_rotation_r": 5.015608119139252,
+        "hip_adduction_r": -4.179705459712327,
+        "knee_angle_r": 12.495179963294124,
+        "ankle_angle_r": -27.538813714247695,
+        "subtalar_angle_r": -5.7078491408384515
+      },
+      "lengthMm": 325.92831068586435,
+      "ankleMomentArmMm": 36.28833025332386,
+      "subtalarMomentArmMm": 9.592293690470862,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 64.96085670952522,
+        "hip_rotation_r": -24.7432467933115,
+        "hip_adduction_r": -18.80861301701324,
+        "knee_angle_r": 56.51599009413098,
+        "ankle_angle_r": -39.83147091040191,
+        "subtalar_angle_r": -14.469888215747986
+      },
+      "lengthMm": 334.63353538626023,
+      "ankleMomentArmMm": 32.76472889271688,
+      "subtalarMomentArmMm": 7.108321099876383,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -1.1416143556058067,
+        "hip_rotation_r": 29.874985763622455,
+        "hip_adduction_r": -12.71486298861118,
+        "knee_angle_r": 27.776318490997088,
+        "ankle_angle_r": -26.043106009975805,
+        "subtalar_angle_r": 6.297956342566096
+      },
+      "lengthMm": 322.5714804265611,
+      "ankleMomentArmMm": 35.4870194428768,
+      "subtalarMomentArmMm": 13.431228611750939,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -14.927285338928478,
+        "hip_rotation_r": -17.975584717923464,
+        "hip_adduction_r": 12.411520826938357,
+        "knee_angle_r": 6.8133701576229955,
+        "ankle_angle_r": -32.11507614571619,
+        "subtalar_angle_r": 8.846086209443264
+      },
+      "lengthMm": 325.5765550451876,
+      "ankleMomentArmMm": 33.1827031665027,
+      "subtalarMomentArmMm": 15.137482940880473,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 17.760546768034885,
+        "hip_rotation_r": -3.8969374286383704,
+        "hip_adduction_r": -20.06460060105063,
+        "knee_angle_r": 99.49770613824302,
+        "ankle_angle_r": 2.516945756762489,
+        "subtalar_angle_r": 15.819825337705844
+      },
+      "lengthMm": 301.3658440365023,
+      "ankleMomentArmMm": 40.44498228699157,
+      "subtalarMomentArmMm": 10.201268888694289,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 33.38236571609463,
+        "hip_rotation_r": -9.843192479047428,
+        "hip_adduction_r": -23.472319892584977,
+        "knee_angle_r": 75.67867204682364,
+        "ankle_angle_r": -22.903037508867943,
+        "subtalar_angle_r": -7.894826575632305
+      },
+      "lengthMm": 323.2746830070044,
+      "ankleMomentArmMm": 37.831300006095745,
+      "subtalarMomentArmMm": 8.552972155758269,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -16.995750112410736,
+        "hip_rotation_r": 27.729430760182524,
+        "hip_adduction_r": -14.181342886092587,
+        "knee_angle_r": 77.13249886467666,
+        "ankle_angle_r": -27.8476920630699,
+        "subtalar_angle_r": 18.676036848964273
+      },
+      "lengthMm": 320.2919948495968,
+      "ankleMomentArmMm": 32.86023382523634,
+      "subtalarMomentArmMm": 17.648504010675286,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 47.817139342242,
+        "hip_rotation_r": -15.09913992508259,
+        "hip_adduction_r": -7.795582343440326,
+        "knee_angle_r": 57.073354326363045,
+        "ankle_angle_r": -7.274100839965193,
+        "subtalar_angle_r": -10.987185961686011
+      },
+      "lengthMm": 312.8062009243505,
+      "ankleMomentArmMm": 41.71380023049115,
+      "subtalarMomentArmMm": 7.218037221158861,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 4.574479886749202,
+        "hip_rotation_r": 4.419007856270262,
+        "hip_adduction_r": -17.341905884471885,
+        "knee_angle_r": 43.721562335643746,
+        "ankle_angle_r": 24.342157135954267,
+        "subtalar_angle_r": 5.017046737354551
+      },
+      "lengthMm": 286.682532288022,
+      "ankleMomentArmMm": 43.3269386908705,
+      "subtalarMomentArmMm": 6.714752443324937,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 92.06268789857631,
+        "hip_rotation_r": -26.088989621532587,
+        "hip_adduction_r": -5.30128603299088,
+        "knee_angle_r": 65.48037388671955,
+        "ankle_angle_r": -10.256026875601613,
+        "subtalar_angle_r": -7.4338170699822435
+      },
+      "lengthMm": 314.4871791965456,
+      "ankleMomentArmMm": 41.04112088799178,
+      "subtalarMomentArmMm": 8.079901690724814,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 20.077309855187004,
+        "hip_rotation_r": -2.1499043930594937,
+        "hip_adduction_r": -23.06017559491714,
+        "knee_angle_r": 10.162444921925982,
+        "ankle_angle_r": -5.357896718408128,
+        "subtalar_angle_r": -4.974910600757317
+      },
+      "lengthMm": 310.58402824157173,
+      "ankleMomentArmMm": 41.953580732665756,
+      "subtalarMomentArmMm": 8.41764526030839,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -2.0724074533757495,
+        "hip_rotation_r": -3.477523206982724,
+        "hip_adduction_r": 0.6597504373015823,
+        "knee_angle_r": 12.652487123813172,
+        "ankle_angle_r": -12.991959191329745,
+        "subtalar_angle_r": 14.662470464878279
+      },
+      "lengthMm": 312.2185370119924,
+      "ankleMomentArmMm": 37.69722186628134,
+      "subtalarMomentArmMm": 13.541206605157786,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -13.2068915850293,
+        "hip_rotation_r": -13.730225435085451,
+        "hip_adduction_r": -24.967139687440813,
+        "knee_angle_r": 44.812102571258734,
+        "ankle_angle_r": -39.387267413412324,
+        "subtalar_angle_r": -3.001330993078879
+      },
+      "lengthMm": 332.50568143011236,
+      "ankleMomentArmMm": 32.05325916958147,
+      "subtalarMomentArmMm": 11.615396850243297,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 40.20108753645599,
+        "hip_rotation_r": -5.717570097713253,
+        "hip_adduction_r": 11.736670686970406,
+        "knee_angle_r": 1.1894247048457407,
+        "ankle_angle_r": 7.2530548962165895,
+        "subtalar_angle_r": 0.6649035877534715
+      },
+      "lengthMm": 300.31381387789247,
+      "ankleMomentArmMm": 43.53580529602447,
+      "subtalarMomentArmMm": 8.430689543898517,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 67.13916903526331,
+        "hip_rotation_r": 10.17807403969573,
+        "hip_adduction_r": -12.246994929429196,
+        "knee_angle_r": 68.25574640185641,
+        "ankle_angle_r": 17.421295860245692,
+        "subtalar_angle_r": 14.342364051429662
+      },
+      "lengthMm": 290.81674622818025,
+      "ankleMomentArmMm": 41.953106878628375,
+      "subtalarMomentArmMm": 6.397099216352807,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 98.43695484049032,
+        "hip_rotation_r": 14.199182352868704,
+        "hip_adduction_r": 8.42922665717753,
+        "knee_angle_r": 85.22447144813815,
+        "ankle_angle_r": -4.9479995780156045,
+        "subtalar_angle_r": 7.45436647780231
+      },
+      "lengthMm": 308.21297878487906,
+      "ankleMomentArmMm": 40.80950717893915,
+      "subtalarMomentArmMm": 10.647830677426695,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 36.5733550001723,
+        "hip_rotation_r": 18.688179919092377,
+        "hip_adduction_r": 5.314285141757615,
+        "knee_angle_r": 78.99201400919436,
+        "ankle_angle_r": -30.909382390672643,
+        "subtalar_angle_r": -11.458349226525668
+      },
+      "lengthMm": 328.91637536277824,
+      "ankleMomentArmMm": 35.59166598106101,
+      "subtalarMomentArmMm": 7.773120219965714,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 40.010213763424666,
+        "hip_rotation_r": 27.15002433023062,
+        "hip_adduction_r": -12.652310366641654,
+        "knee_angle_r": 43.34131026733892,
+        "ankle_angle_r": -6.202314543301895,
+        "subtalar_angle_r": -13.672607514770196
+      },
+      "lengthMm": 312.3492632057774,
+      "ankleMomentArmMm": 41.86929527222159,
+      "subtalarMomentArmMm": 6.655910416184879,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 69.93894538986493,
+        "hip_rotation_r": -20.191556646814124,
+        "hip_adduction_r": -14.8116924036953,
+        "knee_angle_r": 111.82672184107092,
+        "ankle_angle_r": 7.750163961988015,
+        "subtalar_angle_r": 6.028867802086115
+      },
+      "lengthMm": 299.13872521174187,
+      "ankleMomentArmMm": 43.0273305216283,
+      "subtalarMomentArmMm": 8.623537170100334,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 63.62082432810139,
+        "hip_rotation_r": -0.6558405025867309,
+        "hip_adduction_r": -29.413990604969808,
+        "knee_angle_r": 51.9328757763471,
+        "ankle_angle_r": 1.2565994912236036,
+        "subtalar_angle_r": -2.718844463034431
+      },
+      "lengthMm": 305.3452994150287,
+      "ankleMomentArmMm": 42.980012107630884,
+      "subtalarMomentArmMm": 8.477501043256908,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 46.01913767731679,
+        "hip_rotation_r": -13.154174078216197,
+        "hip_adduction_r": -6.813958662938294,
+        "knee_angle_r": 23.188798084381453,
+        "ankle_angle_r": -12.784453174082653,
+        "subtalar_angle_r": 18.624189420635922
+      },
+      "lengthMm": 311.1185184921411,
+      "ankleMomentArmMm": 36.86872749712722,
+      "subtalarMomentArmMm": 14.362196804662679,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 65.90640781346882,
+        "hip_rotation_r": 9.66510742818268,
+        "hip_adduction_r": 2.653416356690542,
+        "knee_angle_r": 54.86395999376913,
+        "ankle_angle_r": 12.697394248509625,
+        "subtalar_angle_r": 9.892199518227915
+      },
+      "lengthMm": 294.87217355906023,
+      "ankleMomentArmMm": 42.81380870413068,
+      "subtalarMomentArmMm": 7.818709097503006,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 90.06093652333894,
+        "hip_rotation_r": 5.8877360671053935,
+        "hip_adduction_r": -5.288518962963817,
+        "knee_angle_r": 73.26562738703086,
+        "ankle_angle_r": 21.56050721062281,
+        "subtalar_angle_r": 9.682836320332463
+      },
+      "lengthMm": 288.25581144252095,
+      "ankleMomentArmMm": 42.89075264277098,
+      "subtalarMomentArmMm": 6.174220270905497,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 1.6842092215340152,
+        "hip_rotation_r": 12.461301468172017,
+        "hip_adduction_r": 8.230780577737086,
+        "knee_angle_r": 119.05572705130723,
+        "ankle_angle_r": -30.124131503127998,
+        "subtalar_angle_r": -10.61768824111737
+      },
+      "lengthMm": 328.31120844256554,
+      "ankleMomentArmMm": 35.79562802193618,
+      "subtalarMomentArmMm": 8.034483631890236,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 75.12379085758128,
+        "hip_rotation_r": 25.654484215464684,
+        "hip_adduction_r": 3.9322189755251316,
+        "knee_angle_r": 89.49186692691235,
+        "ankle_angle_r": -31.972935867976247,
+        "subtalar_angle_r": 10.5326244772412
+      },
+      "lengthMm": 325.04062203530316,
+      "ankleMomentArmMm": 32.980823571777414,
+      "subtalarMomentArmMm": 15.698918142611706,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 90.44795585995568,
+        "hip_rotation_r": 23.9156254178222,
+        "hip_adduction_r": -18.76091655054354,
+        "knee_angle_r": 6.336392900155232,
+        "ankle_angle_r": -22.653119111995313,
+        "subtalar_angle_r": -0.8025463123294934
+      },
+      "lengthMm": 321.91327296893814,
+      "ankleMomentArmMm": 37.3521450181115,
+      "subtalarMomentArmMm": 10.780447534523965,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 13.758107734786464,
+        "hip_rotation_r": -11.2030900067871,
+        "hip_adduction_r": -24.78575946591316,
+        "knee_angle_r": 111.27013264302357,
+        "ankle_angle_r": 6.4196882236046235,
+        "subtalar_angle_r": 18.929724751572635
+      },
+      "lengthMm": 298.09141143913837,
+      "ankleMomentArmMm": 40.070485696750175,
+      "subtalarMomentArmMm": 9.286577216710876,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 4.948958284990596,
+        "hip_rotation_r": 26.06822602394773,
+        "hip_adduction_r": -13.741784782673662,
+        "knee_angle_r": 16.766009922619133,
+        "ankle_angle_r": -39.38512026809742,
+        "subtalar_angle_r": 17.10537636709413
+      },
+      "lengthMm": 327.0814653611547,
+      "ankleMomentArmMm": 29.454267785715196,
+      "subtalarMomentArmMm": 19.19641524628571,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 51.035417001357814,
+        "hip_rotation_r": 2.7522038850042634,
+        "hip_adduction_r": -1.9955573472336354,
+        "knee_angle_r": 104.44301957000658,
+        "ankle_angle_r": -23.024914907917935,
+        "subtalar_angle_r": 1.4844545172464052
+      },
+      "lengthMm": 321.7092306549004,
+      "ankleMomentArmMm": 37.00301534385836,
+      "subtalarMomentArmMm": 11.532453311980689,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 93.07353046799328,
+        "hip_rotation_r": 4.831842928414446,
+        "hip_adduction_r": -1.642099596640307,
+        "knee_angle_r": 1.4056933690892226,
+        "ankle_angle_r": 1.675773770716546,
+        "subtalar_angle_r": 5.895491946483524
+      },
+      "lengthMm": 303.6823634379725,
+      "ankleMomentArmMm": 42.23883894144807,
+      "subtalarMomentArmMm": 9.454324929478851,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 99.66895158571896,
+        "hip_rotation_r": 0.09582143103366292,
+        "hip_adduction_r": -20.69411866577023,
+        "knee_angle_r": 105.34921895115576,
+        "ankle_angle_r": -23.826438072625773,
+        "subtalar_angle_r": 11.787493712835829
+      },
+      "lengthMm": 319.8470712904331,
+      "ankleMomentArmMm": 35.32160771614063,
+      "subtalarMomentArmMm": 14.802285321263472,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": -2.307429655911367,
+        "hip_rotation_r": -12.823523068317378,
+        "hip_adduction_r": -21.368930519778814,
+        "knee_angle_r": 86.19479696416815,
+        "ankle_angle_r": 3.5395545331885216,
+        "subtalar_angle_r": 15.418351075518615
+      },
+      "lengthMm": 300.71231487441526,
+      "ankleMomentArmMm": 40.68566995818273,
+      "subtalarMomentArmMm": 9.91909648796518,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 89.38764263430572,
+        "hip_rotation_r": -5.623738887453097,
+        "hip_adduction_r": 16.778116366904406,
+        "knee_angle_r": 35.986658496348575,
+        "ankle_angle_r": -14.507196746788576,
+        "subtalar_angle_r": -9.04143171335309
+      },
+      "lengthMm": 317.72182227391573,
+      "ankleMomentArmMm": 40.11716155839622,
+      "subtalarMomentArmMm": 7.820016739343006,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 52.853957726003415,
+        "hip_rotation_r": 6.71206955822403,
+        "hip_adduction_r": 14.69978907936013,
+        "knee_angle_r": 26.079942931683092,
+        "ankle_angle_r": -6.562837351029209,
+        "subtalar_angle_r": 10.260079316901663
+      },
+      "lengthMm": 308.81228269248993,
+      "ankleMomentArmMm": 40.00613139498191,
+      "subtalarMomentArmMm": 11.407640351796386,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 0.288725885505535,
+        "hip_rotation_r": 23.797209152909325,
+        "hip_adduction_r": -2.972694807423075,
+        "knee_angle_r": 79.3750114220978,
+        "ankle_angle_r": -29.67944237126016,
+        "subtalar_angle_r": -14.316160212755747
+      },
+      "lengthMm": 328.50703160341135,
+      "ankleMomentArmMm": 36.10948822516867,
+      "subtalarMomentArmMm": 6.680724925200818,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 81.15826956888726,
+        "hip_rotation_r": 24.94064475578559,
+        "hip_adduction_r": 14.120211141709788,
+        "knee_angle_r": 11.389440493349682,
+        "ankle_angle_r": -31.146769814365488,
+        "subtalar_angle_r": 10.005936617026084
+      },
+      "lengthMm": 324.70544736132524,
+      "ankleMomentArmMm": 33.330269323225096,
+      "subtalarMomentArmMm": 15.394198146458045,
+      "pathErrorMm": 5.551115123125783e-14
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 6.896709539080831,
+        "hip_rotation_r": 9.258152468133375,
+        "hip_adduction_r": -12.329716176594165,
+        "knee_angle_r": 108.13113984927786,
+        "ankle_angle_r": 22.215271566325256,
+        "subtalar_angle_r": 9.31487246915033
+      },
+      "lengthMm": 287.80498614150576,
+      "ankleMomentArmMm": 42.91766950727257,
+      "subtalarMomentArmMm": 6.123360607084757,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 32.63551007597649,
+        "hip_rotation_r": 18.911067439453696,
+        "hip_adduction_r": -26.22523677639181,
+        "knee_angle_r": 43.809523784767805,
+        "ankle_angle_r": -13.931770005793137,
+        "subtalar_angle_r": 3.0606871546030163
+      },
+      "lengthMm": 315.3364272101555,
+      "ankleMomentArmMm": 39.33994657693002,
+      "subtalarMomentArmMm": 10.9339798861555,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 85.28100569313612,
+        "hip_rotation_r": -25.235823782849394,
+        "hip_adduction_r": -17.064288279216054,
+        "knee_angle_r": 2.9341906909284576,
+        "ankle_angle_r": -3.352454495456101,
+        "subtalar_angle_r": 14.43437727307277
+      },
+      "lengthMm": 305.74106880440905,
+      "ankleMomentArmMm": 39.80892642722117,
+      "subtalarMomentArmMm": 11.433748850442216,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 88.8111967730938,
+        "hip_rotation_r": -19.221554835234205,
+        "hip_adduction_r": 4.976950961695181,
+        "knee_angle_r": 89.56014053983274,
+        "ankle_angle_r": 2.715092425290635,
+        "subtalar_angle_r": 9.301468184647657
+      },
+      "lengthMm": 302.35180520377924,
+      "ankleMomentArmMm": 41.861961444647434,
+      "subtalarMomentArmMm": 9.624277861733978,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 16.7854404263243,
+        "hip_rotation_r": 8.439563482745555,
+        "hip_adduction_r": -2.155962775178047,
+        "knee_angle_r": 114.13190566212803,
+        "ankle_angle_r": 9.077259297653278,
+        "subtalar_angle_r": 0.7143999754903341
+      },
+      "lengthMm": 298.91769761688704,
+      "ankleMomentArmMm": 43.704998537296916,
+      "subtalarMomentArmMm": 8.304349411168939,
+      "pathErrorMm": 0.0
+    },
+    {
+      "coordinates": {
+        "hip_flexion_r": 51.89326036585243,
+        "hip_rotation_r": -10.596479042583713,
+        "hip_adduction_r": 15.72342273557694,
+        "knee_angle_r": 24.99711638872111,
+        "ankle_angle_r": -33.56924875666515,
+        "subtalar_angle_r": 13.676601109528459
+      },
+      "lengthMm": 325.04746452362485,
+      "ankleMomentArmMm": 31.963073131103275,
+      "subtalarMomentArmMm": 17.032997647804393,
+      "pathErrorMm": 0.0
+    }
+  ],
+  "finiteDifferences": [
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -39,
+      "nativeMm": 31.891754460005547,
+      "finiteDifferenceMm": 31.891754330748846,
+      "errorMm": 1.2925670134222855e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -38,
+      "nativeMm": 32.24936996737846,
+      "finiteDifferenceMm": 32.24936984955857,
+      "errorMm": 1.1781989428527595e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -37,
+      "nativeMm": 32.60358387276651,
+      "finiteDifferenceMm": 32.60358376465939,
+      "errorMm": 1.0810711614794855e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -36,
+      "nativeMm": 32.954335330421245,
+      "finiteDifferenceMm": 32.954335265436065,
+      "errorMm": 6.498517990394248e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -35,
+      "nativeMm": 33.301562351238786,
+      "finiteDifferenceMm": 33.30156225632928,
+      "errorMm": 9.490950958479516e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -34,
+      "nativeMm": 33.64520173447553,
+      "finiteDifferenceMm": 33.64520164340359,
+      "errorMm": 9.107193932322843e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -33,
+      "nativeMm": 33.98518899539911,
+      "finiteDifferenceMm": 33.98518893948158,
+      "errorMm": 5.59175319381211e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -32,
+      "nativeMm": 34.32145828768317,
+      "finiteDifferenceMm": 34.32145820275915,
+      "errorMm": 8.492401804005567e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -31,
+      "nativeMm": 34.65394232275258,
+      "finiteDifferenceMm": 34.65394223940685,
+      "errorMm": 8.334572498824855e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -30,
+      "nativeMm": 34.98257228054773,
+      "finiteDifferenceMm": 34.98257220934014,
+      "errorMm": 7.120758738210498e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -29,
+      "nativeMm": 35.30727772382158,
+      "finiteDifferenceMm": 35.30727765420823,
+      "errorMm": 6.96133497513074e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -28,
+      "nativeMm": 35.62798649007075,
+      "finiteDifferenceMm": 35.62798642121983,
+      "errorMm": 6.885091607955474e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -27,
+      "nativeMm": 35.944624593859864,
+      "finiteDifferenceMm": 35.944624525107095,
+      "errorMm": 6.875276881146419e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -26,
+      "nativeMm": 36.25711611353903,
+      "finiteDifferenceMm": 36.257116043326306,
+      "errorMm": 7.021272097063047e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -25,
+      "nativeMm": 36.56538307463021,
+      "finiteDifferenceMm": 36.56538300394333,
+      "errorMm": 7.06868803490579e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -24,
+      "nativeMm": 36.86934532104971,
+      "finiteDifferenceMm": 36.86934524791561,
+      "errorMm": 7.313409611242605e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -23,
+      "nativeMm": 37.168920383801996,
+      "finiteDifferenceMm": 37.168920387585935,
+      "errorMm": 3.783938495871553e-09
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -22,
+      "nativeMm": 37.4640233349465,
+      "finiteDifferenceMm": 37.46402325199368,
+      "errorMm": 8.295282327708264e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -21,
+      "nativeMm": 37.754566640048736,
+      "finiteDifferenceMm": 37.75456655495033,
+      "errorMm": 8.509840654369327e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -20,
+      "nativeMm": 38.040459990107436,
+      "finiteDifferenceMm": 38.04045992990017,
+      "errorMm": 6.020726317501612e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -19,
+      "nativeMm": 38.321610130573184,
+      "finiteDifferenceMm": 38.32161008751677,
+      "errorMm": 4.3056417098341626e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -18,
+      "nativeMm": 38.59792068046572,
+      "finiteDifferenceMm": 38.597920594336316,
+      "errorMm": 8.612940405328118e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -17,
+      "nativeMm": 38.86929192774094,
+      "finiteDifferenceMm": 38.86929184111121,
+      "errorMm": 8.66297256152393e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -16,
+      "nativeMm": 39.1356206232148,
+      "finiteDifferenceMm": 39.13562053105873,
+      "errorMm": 9.215607121859648e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -15,
+      "nativeMm": 39.39679975570125,
+      "finiteDifferenceMm": 39.39679966252702,
+      "errorMm": 9.31742292209492e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -14,
+      "nativeMm": 39.65271830918018,
+      "finiteDifferenceMm": 39.652718212847994,
+      "errorMm": 9.633218667204346e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -13,
+      "nativeMm": 39.903261008162154,
+      "finiteDifferenceMm": 39.90326091029152,
+      "errorMm": 9.787063248722916e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -12,
+      "nativeMm": 40.14830804120163,
+      "finiteDifferenceMm": 40.14830794908773,
+      "errorMm": 9.211390050722912e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -11,
+      "nativeMm": 40.38773476734947,
+      "finiteDifferenceMm": 40.38773466421536,
+      "errorMm": 1.031341128054919e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -10,
+      "nativeMm": 40.6214114032881,
+      "finiteDifferenceMm": 40.621411298426025,
+      "errorMm": 1.0486207457915953e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -9,
+      "nativeMm": 40.849202684146086,
+      "finiteDifferenceMm": 40.849202576845094,
+      "errorMm": 1.07300991203374e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -8,
+      "nativeMm": 41.070967504782786,
+      "finiteDifferenceMm": 41.07096739495927,
+      "errorMm": 1.0982351739130536e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -7,
+      "nativeMm": 41.28655853375282,
+      "finiteDifferenceMm": 41.286558415322226,
+      "errorMm": 1.1843059155580704e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -6,
+      "nativeMm": 41.49582179838693,
+      "finiteDifferenceMm": 41.49582168207143,
+      "errorMm": 1.1631549767798788e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -5,
+      "nativeMm": 41.698596243957574,
+      "finiteDifferenceMm": 41.69859611712822,
+      "errorMm": 1.2682935590646593e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -4,
+      "nativeMm": 41.8947132565122,
+      "finiteDifferenceMm": 41.894713129466716,
+      "errorMm": 1.2704548169040208e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -3,
+      "nativeMm": 42.08399615507294,
+      "finiteDifferenceMm": 42.08399600953617,
+      "errorMm": 1.45536766638088e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -2,
+      "nativeMm": 42.266259644198456,
+      "finiteDifferenceMm": 42.26625958401178,
+      "errorMm": 6.018667875196115e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": -1,
+      "nativeMm": 42.44130922851909,
+      "finiteDifferenceMm": 42.441308461559736,
+      "errorMm": 7.669593529158192e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 0,
+      "nativeMm": 42.60894058446565,
+      "finiteDifferenceMm": 42.608942517544776,
+      "errorMm": 1.933079126104076e-06
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 1,
+      "nativeMm": 42.768938884298116,
+      "finiteDifferenceMm": 42.76893810490335,
+      "errorMm": 7.793947673917501e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 2,
+      "nativeMm": 42.92107807251047,
+      "finiteDifferenceMm": 42.92107799811183,
+      "errorMm": 7.439863480840359e-08
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 3,
+      "nativeMm": 43.06512008889623,
+      "finiteDifferenceMm": 43.06511992032569,
+      "errorMm": 1.6857053708463354e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 4,
+      "nativeMm": 43.20081403293246,
+      "finiteDifferenceMm": 43.20081387597126,
+      "errorMm": 1.569612066987247e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 5,
+      "nativeMm": 43.32789526836181,
+      "finiteDifferenceMm": 43.32789510374979,
+      "errorMm": 1.6461201823858573e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 6,
+      "nativeMm": 43.44608446170797,
+      "finiteDifferenceMm": 43.44608429959428,
+      "errorMm": 1.62113686030807e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 7,
+      "nativeMm": 43.555086549121704,
+      "finiteDifferenceMm": 43.55508637673029,
+      "errorMm": 1.7239141669733726e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 8,
+      "nativeMm": 43.654589629169614,
+      "finiteDifferenceMm": 43.65458945807614,
+      "errorMm": 1.7109347538735165e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 9,
+      "nativeMm": 43.74426377274106,
+      "finiteDifferenceMm": 43.74426359575169,
+      "errorMm": 1.769893671621503e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 10,
+      "nativeMm": 43.82375974862151,
+      "finiteDifferenceMm": 43.82375956501195,
+      "errorMm": 1.8360956488550073e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 11,
+      "nativeMm": 43.8927076550394,
+      "finiteDifferenceMm": 43.89270746448496,
+      "errorMm": 1.9055444511195674e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 12,
+      "nativeMm": 43.950715453741225,
+      "finiteDifferenceMm": 43.95071526599789,
+      "errorMm": 1.877433319918964e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 13,
+      "nativeMm": 43.99736740002582,
+      "finiteDifferenceMm": 43.997367196946975,
+      "errorMm": 2.0307884796011422e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 14,
+      "nativeMm": 44.03222236124814,
+      "finiteDifferenceMm": 44.032222149383976,
+      "errorMm": 2.1186416176988132e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 15,
+      "nativeMm": 44.054812019659536,
+      "finiteDifferenceMm": 44.054811801103575,
+      "errorMm": 2.185559608847143e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 16,
+      "nativeMm": 44.06463895193811,
+      "finiteDifferenceMm": 44.06463872369041,
+      "errorMm": 2.2824769985163584e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 17,
+      "nativeMm": 44.061174580075786,
+      "finiteDifferenceMm": 44.061174346009864,
+      "errorMm": 2.3406592219998856e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 18,
+      "nativeMm": 44.04385698844467,
+      "finiteDifferenceMm": 44.04385674340457,
+      "errorMm": 2.4504009843440144e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 19,
+      "nativeMm": 44.01208860215224,
+      "finiteDifferenceMm": 44.01208839397207,
+      "errorMm": 2.0818016821522178e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 20,
+      "nativeMm": 43.96523372327607,
+      "finiteDifferenceMm": 43.965233482408635,
+      "errorMm": 2.4086743621865025e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 21,
+      "nativeMm": 43.90261592123776,
+      "finiteDifferenceMm": 43.90261563736265,
+      "errorMm": 2.8387511008531874e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 22,
+      "nativeMm": 43.82351527996763,
+      "finiteDifferenceMm": 43.82351498512778,
+      "errorMm": 2.948398503122007e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 23,
+      "nativeMm": 43.72716549987662,
+      "finiteDifferenceMm": 43.727165290960436,
+      "errorMm": 2.0891618390805888e-07
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "angle": 24,
+      "nativeMm": 43.61275086047609,
+      "finiteDifferenceMm": 43.61275054507238,
+      "errorMm": 3.1540371026039793e-07
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -14,
+      "nativeMm": 6.853623915251223,
+      "finiteDifferenceMm": 6.853623887159833,
+      "errorMm": 2.8091389658868593e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -13,
+      "nativeMm": 7.010537267610639,
+      "finiteDifferenceMm": 7.010537238733536,
+      "errorMm": 2.8877102487001594e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -12,
+      "nativeMm": 7.166132450446574,
+      "finiteDifferenceMm": 7.166132420551447,
+      "errorMm": 2.989512726259136e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -11,
+      "nativeMm": 7.3203745291718425,
+      "finiteDifferenceMm": 7.320374498832196,
+      "errorMm": 3.0339646350796556e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -10,
+      "nativeMm": 7.473228399259608,
+      "finiteDifferenceMm": 7.473228368044458,
+      "errorMm": 3.121515046444756e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -9,
+      "nativeMm": 7.624658781879002,
+      "finiteDifferenceMm": 7.624658749316678,
+      "errorMm": 3.2562323504237156e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -8,
+      "nativeMm": 7.774630220082629,
+      "finiteDifferenceMm": 7.774630187574573,
+      "errorMm": 3.250805580279348e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -7,
+      "nativeMm": 7.923107072585891,
+      "finiteDifferenceMm": 7.9231070416814084,
+      "errorMm": 3.090448252862643e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -6,
+      "nativeMm": 8.070053512422346,
+      "finiteDifferenceMm": 8.070053477917869,
+      "errorMm": 3.450447749742125e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -5,
+      "nativeMm": 8.215433520774782,
+      "finiteDifferenceMm": 8.215433472208435,
+      "errorMm": 4.8566347388145914e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -4,
+      "nativeMm": 8.359210883439887,
+      "finiteDifferenceMm": 8.359210755415852,
+      "errorMm": 1.2802403581702038e-07
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -3,
+      "nativeMm": 8.501349180203416,
+      "finiteDifferenceMm": 8.501348591656468,
+      "errorMm": 5.885469480659822e-07
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -2,
+      "nativeMm": 8.641811817314167,
+      "finiteDifferenceMm": 8.641819012404635,
+      "errorMm": 7.195090468314902e-06
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": -1,
+      "nativeMm": 8.780561938628534,
+      "finiteDifferenceMm": 8.780561882594935,
+      "errorMm": 5.6033599094007513e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 0,
+      "nativeMm": 8.917562527306687,
+      "finiteDifferenceMm": 8.917562523490428,
+      "errorMm": 3.81625930856444e-09
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 1,
+      "nativeMm": 9.052776326980824,
+      "finiteDifferenceMm": 9.052776268653393,
+      "errorMm": 5.832743177336397e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 2,
+      "nativeMm": 9.18616586284062,
+      "finiteDifferenceMm": 9.1861735103003,
+      "errorMm": 7.647459680626412e-06
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 3,
+      "nativeMm": 9.31769346097359,
+      "finiteDifferenceMm": 9.317692815063307,
+      "errorMm": 6.459102834810437e-07
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 4,
+      "nativeMm": 9.447321174450419,
+      "finiteDifferenceMm": 9.447321028804366,
+      "errorMm": 1.4564605343991843e-07
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 5,
+      "nativeMm": 9.575010878701304,
+      "finiteDifferenceMm": 9.575010819621896,
+      "errorMm": 5.907940803240308e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 6,
+      "nativeMm": 9.700724189528787,
+      "finiteDifferenceMm": 9.700724145855524,
+      "errorMm": 4.367326233989388e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 7,
+      "nativeMm": 9.824422494097885,
+      "finiteDifferenceMm": 9.82442245361654,
+      "errorMm": 4.0481344498743965e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 8,
+      "nativeMm": 9.946066942278083,
+      "finiteDifferenceMm": 9.946066897359366,
+      "errorMm": 4.491871763434574e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 9,
+      "nativeMm": 10.065618444736879,
+      "finiteDifferenceMm": 10.065618398562798,
+      "errorMm": 4.617408144724777e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 10,
+      "nativeMm": 10.183037669229565,
+      "finiteDifferenceMm": 10.183037622670982,
+      "errorMm": 4.6558582766920154e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 11,
+      "nativeMm": 10.298285041033425,
+      "finiteDifferenceMm": 10.298284993723959,
+      "errorMm": 4.7309466566503033e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 12,
+      "nativeMm": 10.411320739809204,
+      "finiteDifferenceMm": 10.411320691972255,
+      "errorMm": 4.783694862453558e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 13,
+      "nativeMm": 10.522104698740089,
+      "finiteDifferenceMm": 10.522104650060218,
+      "errorMm": 4.8679870801038305e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 14,
+      "nativeMm": 10.630596603592917,
+      "finiteDifferenceMm": 10.630596553503091,
+      "errorMm": 5.0089825620602824e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 15,
+      "nativeMm": 10.736755892184018,
+      "finiteDifferenceMm": 10.736755841164108,
+      "errorMm": 5.101991007450124e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 16,
+      "nativeMm": 10.840541754235355,
+      "finiteDifferenceMm": 10.84054170159684,
+      "errorMm": 5.263851576842171e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 17,
+      "nativeMm": 10.941913131515703,
+      "finiteDifferenceMm": 10.941913084813269,
+      "errorMm": 4.6702433920131625e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 18,
+      "nativeMm": 11.04082871921027,
+      "finiteDifferenceMm": 11.040828664276138,
+      "errorMm": 5.4934131910044925e-08
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "angle": 19,
+      "nativeMm": 11.13724696613268,
+      "finiteDifferenceMm": 11.137246909574639,
+      "errorMm": 5.6558041805487846e-08
+    }
+  ],
+  "anatomicalEndpointRegistrationValidated": false,
+  "experimentalMomentArmCurveFitValidated": false,
+  "limitations": [
+    "Endpoint dots do not map anatomical attachment areas.",
+    "Generic subtalar predictions do not establish universal inversion action; see Lee and Piazza (2008).",
+    "Exact lengths and moment arms are model outputs, not measurements of the atlas or learner."
+  ]
+}

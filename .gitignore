@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.playwright/
+test-results/
+playwright-report/
+*.local
+*.tsbuildinfo
+
+.venv-opensim/
+.build-opensim/
+__pycache__/
+
+opensim.log
+# Local upstream display assets; individual redistribution terms remain unresolved.
+biomechanics/models/hip/Geometry/

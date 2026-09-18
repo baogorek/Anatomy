@@ -1,0 +1,42 @@
+{
+  "url": "https://raw.githubusercontent.com/opensim-org/opensim-models/d9b05d470b1a481c222372c85b75772faf8f7792/Models/Rajagopal/Rajagopal2016.osim",
+  "sha256": "3f5c5f23e486073f2ad2aa4a4967ffe2fcdd582b1e355512bc54f70c36376bf4",
+  "points": [
+    {
+      "name": "tibant_r-P1",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0154,
+        -0.1312,
+        0.0162
+      ]
+    },
+    {
+      "name": "tibant_r-P2",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0251,
+        -0.1906,
+        0.0128
+      ]
+    },
+    {
+      "name": "tibant_r-P3",
+      "frame": "/bodyset/tibia_r",
+      "location": [
+        0.0233,
+        -0.3659,
+        -0.0132
+      ]
+    },
+    {
+      "name": "tibant_r-P4",
+      "frame": "/bodyset/calcn_r",
+      "location": [
+        0.1166,
+        0.0178,
+        -0.0305
+      ]
+    }
+  ]
+}

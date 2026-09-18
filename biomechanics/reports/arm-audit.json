@@ -1,0 +1,2357 @@
+{
+  "created": "2026-09-13T15:45:09.582168+00:00",
+  "scope": "Native transport, routing and consistency checks; not individual anatomical or clinical validation",
+  "modelVersion": "ecb69946f60b0d63cb207fd07554546afb6a138c10afdcf6fdb0cf4124369518",
+  "calculationBuild": "aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376",
+  "assets": 153,
+  "poses": 599,
+  "independentLengthComparisons": 10183,
+  "maxNativeLengthErrorMm": 0.0005268584459539039,
+  "maxRepeatErrorMm": 0,
+  "maxCoordinateErrorDegrees": 0.0005460849965288617,
+  "maxPathErrorMm": {
+    "TRIlong": 0.03319700406956283,
+    "TRIlat": 0.03319700406950732,
+    "TRImed": 0.03319700406950732,
+    "ANC": 1.0408340855860843e-13,
+    "SUP": 3.986207161479696,
+    "BIClong": 1.6653345369377348e-13,
+    "BICshort": 1.1102230246251565e-13,
+    "BRA": 2.7755575615628914e-14,
+    "BRD": 1.1102230246251565e-13,
+    "ECRL": 0.12212618345125437,
+    "ECRB": 0.13216852452913042,
+    "ECU": 0.23714689867920802,
+    "FCR": 0.15294858292991265,
+    "FCU": 4.009450071657927,
+    "PL": 2.220446049250313e-13,
+    "PT": 1.1102230246251565e-13,
+    "PQ": 0.16312834157859724
+  },
+  "withheldPaths": {
+    "SUP": 157,
+    "FCU": 1
+  },
+  "withheldActions": {
+    "BIClong:pro_sup": 540,
+    "BICshort:pro_sup": 540,
+    "ECRL:elbow_flexion": 312,
+    "ECRL:pro_sup": 269,
+    "FCU:elbow_flexion": 335,
+    "PL:elbow_flexion": 251,
+    "FCU:pro_sup": 337,
+    "TRIlong:elbow_flexion": 317,
+    "TRIlat:elbow_flexion": 317,
+    "TRImed:elbow_flexion": 317,
+    "ANC:elbow_flexion": 1,
+    "BIClong:elbow_flexion": 317,
+    "BICshort:elbow_flexion": 317,
+    "BRA:elbow_flexion": 317,
+    "BRD:elbow_flexion": 303,
+    "PT:elbow_flexion": 318,
+    "FCR:elbow_flexion": 77,
+    "PT:pro_sup": 236,
+    "SUP:pro_sup": 251,
+    "SUP:elbow_flexion": 157,
+    "SUP:flexion": 157,
+    "SUP:deviation": 157,
+    "ECU:deviation": 54,
+    "ECU:flexion": 66,
+    "ECRL:deviation": 2,
+    "ECRB:deviation": 1,
+    "FCR:deviation": 1,
+    "FCU:deviation": 6,
+    "PL:deviation": 1,
+    "FCU:flexion": 1
+  },
+  "finiteDifferenceChecks": 1411,
+  "maxAcceptedMomentArmErrorMm": 0.4896543195297802,
+  "largestNativeMomentArmDisagreements": [
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 15.301114760177931,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 24
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 15.023802723420538,
+      "actionAvailable": false,
+      "pose": {
+        "elbow_flexion": 40.55444177131037,
+        "pro_sup": 28.37556589606541,
+        "flexion": 54.98074058470752,
+        "deviation": 3.882905453081957
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 14.700128213214766,
+      "actionAvailable": false,
+      "pose": {
+        "elbow_flexion": 26.553695925059735,
+        "pro_sup": 34.59068812630636,
+        "flexion": -31.357685686098478,
+        "deviation": 3.852504637693908
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 14.215138699847905,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 49
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 14.04998966257524,
+      "actionAvailable": false,
+      "pose": {
+        "elbow_flexion": 42.67405365570185,
+        "pro_sup": 58.29647072484582,
+        "flexion": 56.02669248580334,
+        "deviation": -0.23062525473450002
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 13.933940442713633,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 74
+      }
+    },
+    {
+      "muscle": "SUP",
+      "coordinate": "pro_sup",
+      "errorMm": 12.606373281600748,
+      "actionAvailable": false,
+      "pose": {
+        "elbow_flexion": 115.88537035535681,
+        "pro_sup": 18.024371641882055,
+        "flexion": 26.312875353116056,
+        "deviation": 7.66723576885407
+      }
+    },
+    {
+      "muscle": "ECRL",
+      "coordinate": "pro_sup",
+      "errorMm": 3.6852985283522646,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": -76
+      }
+    },
+    {
+      "muscle": "FCU",
+      "coordinate": "elbow_flexion",
+      "errorMm": 3.1177685315767754,
+      "actionAvailable": false,
+      "pose": {
+        "elbow_flexion": 10
+      }
+    },
+    {
+      "muscle": "PT",
+      "coordinate": "pro_sup",
+      "errorMm": 2.0985989693127434,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 74
+      }
+    },
+    {
+      "muscle": "BICshort",
+      "coordinate": "pro_sup",
+      "errorMm": 2.096672010654512,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 74
+      }
+    },
+    {
+      "muscle": "BIClong",
+      "coordinate": "pro_sup",
+      "errorMm": 2.096671978053826,
+      "actionAvailable": false,
+      "pose": {
+        "pro_sup": 74
+      }
+    }
+  ],
+  "medianEvaluationMs": 149.68,
+  "predictions": [
+    {
+      "muscle": "BIClong",
+      "coordinates": {
+        "elbow_flexion": 90
+      },
+      "deltaMm": -46.331099055888444
+    },
+    {
+      "muscle": "TRIlong",
+      "coordinates": {
+        "elbow_flexion": 90
+      },
+      "deltaMm": 34.58477641368462
+    },
+    {
+      "muscle": "BRA",
+      "coordinates": {
+        "elbow_flexion": 90
+      },
+      "deltaMm": -23.56490328642985
+    },
+    {
+      "muscle": "PQ",
+      "coordinates": {
+        "pro_sup": -60
+      },
+      "deltaMm": 5.690033047405011
+    },
+    {
+      "muscle": "FCR",
+      "coordinates": {
+        "flexion": 40
+      },
+      "deltaMm": -10.851155357733678
+    },
+    {
+      "muscle": "ECRB",
+      "coordinates": {
+        "flexion": 40
+      },
+      "deltaMm": 8.70968663004984
+    },
+    {
+      "muscle": "FCU",
+      "coordinates": {
+        "deviation": 20
+      },
+      "deltaMm": -6.259962799227969
+    },
+    {
+      "muscle": "ECU",
+      "coordinates": {
+        "deviation": 20
+      },
+      "deltaMm": -7.808038738730428
+    }
+  ],
+  "ecrlCorrection": [
+    {
+      "wristFlexion": -60,
+      "sourceMm": 889.1601298837229,
+      "activeMm": 322.3563900923553
+    },
+    {
+      "wristFlexion": -59,
+      "sourceMm": 889.44553104427,
+      "activeMm": 322.5995443222652
+    },
+    {
+      "wristFlexion": -58,
+      "sourceMm": 889.7554776747841,
+      "activeMm": 322.8414202971695
+    },
+    {
+      "wristFlexion": -57,
+      "sourceMm": 890.1172652121506,
+      "activeMm": 323.08199381484764
+    },
+    {
+      "wristFlexion": -56,
+      "sourceMm": 890.555358029512,
+      "activeMm": 323.32124098069795
+    },
+    {
+      "wristFlexion": -55,
+      "sourceMm": 891.0884514745852,
+      "activeMm": 323.55913824694187
+    },
+    {
+      "wristFlexion": -54,
+      "sourceMm": 891.7168614721733,
+      "activeMm": 323.7956623147885
+    },
+    {
+      "wristFlexion": -53,
+      "sourceMm": 892.4209467498999,
+      "activeMm": 324.0307901881741
+    },
+    {
+      "wristFlexion": -52,
+      "sourceMm": 893.2342786019258,
+      "activeMm": 324.26449917704326
+    },
+    {
+      "wristFlexion": -51,
+      "sourceMm": 894.226497586163,
+      "activeMm": 324.4967667950456
+    },
+    {
+      "wristFlexion": -50,
+      "sourceMm": 894.9622377022841,
+      "activeMm": 324.7275709043773
+    },
+    {
+      "wristFlexion": -49,
+      "sourceMm": 896.2804850557977,
+      "activeMm": 324.95688960865357
+    },
+    {
+      "wristFlexion": -48,
+      "sourceMm": 897.3373849418069,
+      "activeMm": 325.18470127431635
+    },
+    {
+      "wristFlexion": -47,
+      "sourceMm": 898.243509617752,
+      "activeMm": 325.4109845265653
+    },
+    {
+      "wristFlexion": -46,
+      "sourceMm": 899.3755020941853,
+      "activeMm": 325.6357182455746
+    },
+    {
+      "wristFlexion": -45,
+      "sourceMm": 900.7312968819423,
+      "activeMm": 325.8588815627431
+    },
+    {
+      "wristFlexion": -44,
+      "sourceMm": 901.7663832095927,
+      "activeMm": 326.0804538573256
+    },
+    {
+      "wristFlexion": -43,
+      "sourceMm": 902.8077493088981,
+      "activeMm": 326.30041475325726
+    },
+    {
+      "wristFlexion": -42,
+      "sourceMm": 903.854050329939,
+      "activeMm": 326.51874411577785
+    },
+    {
+      "wristFlexion": -41,
+      "sourceMm": 904.9034066925526,
+      "activeMm": 326.735422049131
+    },
+    {
+      "wristFlexion": -40,
+      "sourceMm": 905.9544261164638,
+      "activeMm": 326.9504288934839
+    },
+    {
+      "wristFlexion": -39,
+      "sourceMm": 907.0053555738468,
+      "activeMm": 327.1637452225843
+    },
+    {
+      "wristFlexion": -38,
+      "sourceMm": 908.0546190367469,
+      "activeMm": 327.3753518413726
+    },
+    {
+      "wristFlexion": -37,
+      "sourceMm": 909.1959792095913,
+      "activeMm": 327.5852297811928
+    },
+    {
+      "wristFlexion": -36,
+      "sourceMm": 910.2405713422635,
+      "activeMm": 327.7933603091086
+    },
+    {
+      "wristFlexion": -35,
+      "sourceMm": 911.2737832050641,
+      "activeMm": 327.9997249100219
+    },
+    {
+      "wristFlexion": -34,
+      "sourceMm": 912.2944525837723,
+      "activeMm": 328.2043052893711
+    },
+    {
+      "wristFlexion": -33,
+      "sourceMm": 913.3019464944575,
+      "activeMm": 328.4070833803971
+    },
+    {
+      "wristFlexion": -32,
+      "sourceMm": 914.2985811105538,
+      "activeMm": 328.60804133468525
+    },
+    {
+      "wristFlexion": -31,
+      "sourceMm": 915.2622047870627,
+      "activeMm": 328.8071615225936
+    },
+    {
+      "wristFlexion": -30,
+      "sourceMm": 916.1864591890943,
+      "activeMm": 329.0044265336256
+    },
+    {
+      "wristFlexion": -29,
+      "sourceMm": 917.0896444635396,
+      "activeMm": 329.19981916861013
+    },
+    {
+      "wristFlexion": -28,
+      "sourceMm": 917.971342295677,
+      "activeMm": 329.39332244833804
+    },
+    {
+      "wristFlexion": -27,
+      "sourceMm": 918.7607747094935,
+      "activeMm": 329.58491960842787
+    },
+    {
+      "wristFlexion": -26,
+      "sourceMm": 919.610004173684,
+      "activeMm": 329.7745940908732
+    },
+    {
+      "wristFlexion": -25,
+      "sourceMm": 920.4353739794279,
+      "activeMm": 329.9623295578701
+    },
+    {
+      "wristFlexion": -24,
+      "sourceMm": 921.2359210178618,
+      "activeMm": 330.14810987758455
+    },
+    {
+      "wristFlexion": -23,
+      "sourceMm": 922.0102946065224,
+      "activeMm": 330.33191913136955
+    },
+    {
+      "wristFlexion": -22,
+      "sourceMm": 330.5138068850657,
+      "activeMm": 330.5138068850657
+    },
+    {
+      "wristFlexion": -21,
+      "sourceMm": 330.6948232205347,
+      "activeMm": 330.6948232205347
+    },
+    {
+      "wristFlexion": -20,
+      "sourceMm": 330.87533770849643,
+      "activeMm": 330.87533770849643
+    },
+    {
+      "wristFlexion": -19,
+      "sourceMm": 331.05534871943,
+      "activeMm": 331.05534871943
+    },
+    {
+      "wristFlexion": -18,
+      "sourceMm": 331.2348546947992,
+      "activeMm": 331.2348546947992
+    },
+    {
+      "wristFlexion": -17,
+      "sourceMm": 331.4138541839226,
+      "activeMm": 331.4138541839226
+    },
+    {
+      "wristFlexion": -16,
+      "sourceMm": 331.5923458068662,
+      "activeMm": 331.5923458068662
+    },
+    {
+      "wristFlexion": -15,
+      "sourceMm": 331.7703282846103,
+      "activeMm": 331.7703282846103
+    },
+    {
+      "wristFlexion": -14,
+      "sourceMm": 331.94780040433295,
+      "activeMm": 331.94780040433295
+    },
+    {
+      "wristFlexion": -13,
+      "sourceMm": 332.1247610258451,
+      "activeMm": 332.1247610258451
+    },
+    {
+      "wristFlexion": -12,
+      "sourceMm": 332.3012090770339,
+      "activeMm": 332.3012090770339
+    },
+    {
+      "wristFlexion": -11,
+      "sourceMm": 332.47714355335825,
+      "activeMm": 332.47714355335825
+    },
+    {
+      "wristFlexion": -10,
+      "sourceMm": 332.6525634948855,
+      "activeMm": 332.6525634948855
+    },
+    {
+      "wristFlexion": -9,
+      "sourceMm": 332.8274680169114,
+      "activeMm": 332.8274680169114
+    },
+    {
+      "wristFlexion": -8,
+      "sourceMm": 333.00185625515263,
+      "activeMm": 333.00185625515263
+    },
+    {
+      "wristFlexion": -7,
+      "sourceMm": 333.1757274770957,
+      "activeMm": 333.1757274770957
+    },
+    {
+      "wristFlexion": -6,
+      "sourceMm": 333.3490809062494,
+      "activeMm": 333.3490809062494
+    },
+    {
+      "wristFlexion": -5,
+      "sourceMm": 333.52191585553777,
+      "activeMm": 333.52191585553777
+    },
+    {
+      "wristFlexion": -4,
+      "sourceMm": 333.694231674329,
+      "activeMm": 333.694231674329
+    },
+    {
+      "wristFlexion": -3,
+      "sourceMm": 333.8660277561967,
+      "activeMm": 333.8660277561967
+    },
+    {
+      "wristFlexion": -2,
+      "sourceMm": 334.037303534894,
+      "activeMm": 334.037303534894
+    },
+    {
+      "wristFlexion": -1,
+      "sourceMm": 334.208058467225,
+      "activeMm": 334.208058467225
+    },
+    {
+      "wristFlexion": 0,
+      "sourceMm": 334.37836942408484,
+      "activeMm": 334.37836942408484
+    },
+    {
+      "wristFlexion": 1,
+      "sourceMm": 334.54800389729155,
+      "activeMm": 334.54800389729155
+    },
+    {
+      "wristFlexion": 2,
+      "sourceMm": 334.71719351553867,
+      "activeMm": 334.71719351553867
+    },
+    {
+      "wristFlexion": 3,
+      "sourceMm": 334.88586051625987,
+      "activeMm": 334.88586051625987
+    },
+    {
+      "wristFlexion": 4,
+      "sourceMm": 335.0540045468037,
+      "activeMm": 335.0540045468037
+    },
+    {
+      "wristFlexion": 5,
+      "sourceMm": 335.221625289915,
+      "activeMm": 335.221625289915
+    },
+    {
+      "wristFlexion": 6,
+      "sourceMm": 335.388722434471,
+      "activeMm": 335.388722434471
+    },
+    {
+      "wristFlexion": 7,
+      "sourceMm": 335.5552957089323,
+      "activeMm": 335.5552957089323
+    },
+    {
+      "wristFlexion": 8,
+      "sourceMm": 335.72134486262115,
+      "activeMm": 335.72134486262115
+    },
+    {
+      "wristFlexion": 9,
+      "sourceMm": 335.8868697109635,
+      "activeMm": 335.8868697109635
+    },
+    {
+      "wristFlexion": 10,
+      "sourceMm": 336.0518700076155,
+      "activeMm": 336.0518700076155
+    },
+    {
+      "wristFlexion": 11,
+      "sourceMm": 336.2163456095985,
+      "activeMm": 336.2163456095985
+    },
+    {
+      "wristFlexion": 12,
+      "sourceMm": 336.3802963696597,
+      "activeMm": 336.3802963696597
+    },
+    {
+      "wristFlexion": 13,
+      "sourceMm": 336.54252148902356,
+      "activeMm": 336.54252148902356
+    },
+    {
+      "wristFlexion": 14,
+      "sourceMm": 336.7053442329661,
+      "activeMm": 336.7053442329661
+    },
+    {
+      "wristFlexion": 15,
+      "sourceMm": 336.86763892544434,
+      "activeMm": 336.86763892544434
+    },
+    {
+      "wristFlexion": 16,
+      "sourceMm": 337.0294054305166,
+      "activeMm": 337.0294054305166
+    },
+    {
+      "wristFlexion": 17,
+      "sourceMm": 337.19064018156587,
+      "activeMm": 337.19064018156587
+    },
+    {
+      "wristFlexion": 18,
+      "sourceMm": 337.35135053652334,
+      "activeMm": 337.35135053652334
+    },
+    {
+      "wristFlexion": 19,
+      "sourceMm": 337.51152895467885,
+      "activeMm": 337.51152895467885
+    },
+    {
+      "wristFlexion": 20,
+      "sourceMm": 337.6711784135065,
+      "activeMm": 337.6711784135065
+    },
+    {
+      "wristFlexion": 21,
+      "sourceMm": 337.8302881707045,
+      "activeMm": 337.8302881707045
+    },
+    {
+      "wristFlexion": 22,
+      "sourceMm": 337.98888015072185,
+      "activeMm": 337.98888015072185
+    },
+    {
+      "wristFlexion": 23,
+      "sourceMm": 338.1469435380919,
+      "activeMm": 338.1469435380919
+    },
+    {
+      "wristFlexion": 24,
+      "sourceMm": 338.3044782699224,
+      "activeMm": 338.3044782699224
+    },
+    {
+      "wristFlexion": 25,
+      "sourceMm": 338.46148439133066,
+      "activeMm": 338.46148439133066
+    },
+    {
+      "wristFlexion": 26,
+      "sourceMm": 338.6179772901943,
+      "activeMm": 338.6179772901943
+    },
+    {
+      "wristFlexion": 27,
+      "sourceMm": 338.7739227357209,
+      "activeMm": 338.7739227357209
+    },
+    {
+      "wristFlexion": 28,
+      "sourceMm": 338.92933875489257,
+      "activeMm": 338.92933875489257
+    },
+    {
+      "wristFlexion": 29,
+      "sourceMm": 339.08419141236936,
+      "activeMm": 339.08419141236936
+    },
+    {
+      "wristFlexion": 30,
+      "sourceMm": 339.2385472957032,
+      "activeMm": 339.2385472957032
+    },
+    {
+      "wristFlexion": 31,
+      "sourceMm": 339.392374074049,
+      "activeMm": 339.392374074049
+    },
+    {
+      "wristFlexion": 32,
+      "sourceMm": 339.54567160475347,
+      "activeMm": 339.54567160475347
+    },
+    {
+      "wristFlexion": 33,
+      "sourceMm": 339.69842790508574,
+      "activeMm": 339.69842790508574
+    },
+    {
+      "wristFlexion": 34,
+      "sourceMm": 339.8506710968201,
+      "activeMm": 339.8506710968201
+    },
+    {
+      "wristFlexion": 35,
+      "sourceMm": 340.00238153164617,
+      "activeMm": 340.00238153164617
+    },
+    {
+      "wristFlexion": 36,
+      "sourceMm": 340.15356301835396,
+      "activeMm": 340.15356301835396
+    },
+    {
+      "wristFlexion": 37,
+      "sourceMm": 340.30421748890035,
+      "activeMm": 340.30421748890035
+    },
+    {
+      "wristFlexion": 38,
+      "sourceMm": 340.45434265417185,
+      "activeMm": 340.45434265417185
+    },
+    {
+      "wristFlexion": 39,
+      "sourceMm": 340.60391399914005,
+      "activeMm": 340.60391399914005
+    },
+    {
+      "wristFlexion": 40,
+      "sourceMm": 340.75297882914293,
+      "activeMm": 340.75297882914293
+    },
+    {
+      "wristFlexion": 41,
+      "sourceMm": 340.9015151704763,
+      "activeMm": 340.9015151704763
+    },
+    {
+      "wristFlexion": 42,
+      "sourceMm": 341.0495137286518,
+      "activeMm": 341.0495137286518
+    },
+    {
+      "wristFlexion": 43,
+      "sourceMm": 341.1969932733381,
+      "activeMm": 341.1969932733381
+    },
+    {
+      "wristFlexion": 44,
+      "sourceMm": 341.34394484978975,
+      "activeMm": 341.34394484978975
+    },
+    {
+      "wristFlexion": 45,
+      "sourceMm": 341.49036861854626,
+      "activeMm": 341.49036861854626
+    },
+    {
+      "wristFlexion": 46,
+      "sourceMm": 341.63624042907475,
+      "activeMm": 341.63624042907475
+    },
+    {
+      "wristFlexion": 47,
+      "sourceMm": 341.7816066152369,
+      "activeMm": 341.7816066152369
+    },
+    {
+      "wristFlexion": 48,
+      "sourceMm": 341.9264461837818,
+      "activeMm": 341.9264461837818
+    },
+    {
+      "wristFlexion": 49,
+      "sourceMm": 342.0707581723252,
+      "activeMm": 342.0707581723252
+    },
+    {
+      "wristFlexion": 50,
+      "sourceMm": 342.2145427518697,
+      "activeMm": 342.2145427518697
+    },
+    {
+      "wristFlexion": 51,
+      "sourceMm": 342.3578005735413,
+      "activeMm": 342.3578005735413
+    },
+    {
+      "wristFlexion": 52,
+      "sourceMm": 342.5005317906641,
+      "activeMm": 342.5005317906641
+    },
+    {
+      "wristFlexion": 53,
+      "sourceMm": 342.64273651483586,
+      "activeMm": 342.64273651483586
+    },
+    {
+      "wristFlexion": 54,
+      "sourceMm": 342.78441495552704,
+      "activeMm": 342.78441495552704
+    },
+    {
+      "wristFlexion": 55,
+      "sourceMm": 342.92556731757355,
+      "activeMm": 342.92556731757355
+    },
+    {
+      "wristFlexion": 56,
+      "sourceMm": 343.06620698959443,
+      "activeMm": 343.06620698959443
+    },
+    {
+      "wristFlexion": 57,
+      "sourceMm": 343.2062946230478,
+      "activeMm": 343.2062946230478
+    },
+    {
+      "wristFlexion": 58,
+      "sourceMm": 343.34587010831103,
+      "activeMm": 343.34587010831103
+    },
+    {
+      "wristFlexion": 59,
+      "sourceMm": 343.4849204140315,
+      "activeMm": 343.4849204140315
+    },
+    {
+      "wristFlexion": 60,
+      "sourceMm": 343.62346037615976,
+      "activeMm": 343.62346037615976
+    }
+  ],
+  "posesWithUnavailablePaths": [
+    {
+      "coordinates": {
+        "pro_sup": 1
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 2
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 3
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 4
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 5
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 6
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 7
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 8
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 9
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 10
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 11
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 12
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 13
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 14
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 15
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 16
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 17
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 18
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 19
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 20
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 21
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 22
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 23
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 24
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 25
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 26
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 27
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 28
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 29
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 30
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 31
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 32
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 33
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 34
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 35
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 36
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 37
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 38
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 39
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 40
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 41
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 42
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 43
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 44
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 45
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 46
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 47
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 48
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 49
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 50
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 51
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 52
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 53
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 54
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 55
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 56
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 57
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 58
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 59
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 60
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 61
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 62
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 63
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 64
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 65
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 66
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 67
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 68
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 69
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 70
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 71
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 72
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 73
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 74
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 75
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 76
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 77
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 78
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 79
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "pro_sup": 80
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 95.74125784132161,
+        "pro_sup": 28.2719179876658,
+        "flexion": 47.06154812458145,
+        "deviation": -6.957140857970435
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 28.65728086529057,
+        "pro_sup": 14.282509420145402,
+        "flexion": 37.131654801339195,
+        "deviation": -9.772543411267865
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 104.75650273826503,
+        "pro_sup": 31.702303198116297,
+        "flexion": -19.169938017840977,
+        "deviation": -4.558217506587646
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 110.17426762516978,
+        "pro_sup": 16.596165018702578,
+        "flexion": 36.85539279292563,
+        "deviation": 15.540612534283625
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 69.7096518891111,
+        "pro_sup": 75.69852223669929,
+        "flexion": -14.575874734997583,
+        "deviation": 9.321422094562944
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 107.82260635288934,
+        "pro_sup": 18.96316037827937,
+        "flexion": 43.40482803729327,
+        "deviation": 10.207325083986671
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 34.70711686638474,
+        "pro_sup": 69.86473403399904,
+        "flexion": 17.764246229591222,
+        "deviation": 11.319585198344587
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 22.24802426575261,
+        "pro_sup": 36.66028767205587,
+        "flexion": -40.391700748568596,
+        "deviation": 3.280940461517673
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 128.63803558275737,
+        "pro_sup": 22.39996157665486,
+        "flexion": 6.833969252957544,
+        "deviation": 13.96149878464561
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 109.57074962467524,
+        "pro_sup": 44.15998584739917,
+        "flexion": -32.51423136430748,
+        "deviation": -8.87649146335868
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 129.49577943121258,
+        "pro_sup": 4.658295215861926,
+        "flexion": 56.52940531363417,
+        "deviation": 20.12728957820743
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 1.4925328525665527,
+        "pro_sup": 35.31549109763114,
+        "flexion": 21.80524428318897,
+        "deviation": 8.793961564307832
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 34.68727469383056,
+        "pro_sup": 22.553887772769286,
+        "flexion": -46.61373916849483,
+        "deviation": 5.216783773418674
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 58.98408182279684,
+        "pro_sup": 72.61054840337283,
+        "flexion": 45.10235284538328,
+        "deviation": -0.7813832237118241
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 38.79782288832228,
+        "pro_sup": 22.23191917856083,
+        "flexion": 13.076425372580673,
+        "deviation": -4.6506256007627815
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 99.12640400976966,
+        "pro_sup": 6.300644819140118,
+        "flexion": 33.435177435666986,
+        "deviation": 8.56237852683121
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 114.23384411701394,
+        "pro_sup": 53.066484697788724,
+        "flexion": -23.098304951680632,
+        "deviation": -7.9726191727034355
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 114.14124789652527,
+        "pro_sup": 71.51191124767905,
+        "flexion": -49.72158575185455,
+        "deviation": 7.009666216081481
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 8.997627400889868,
+        "pro_sup": 41.69634644115705,
+        "flexion": 31.900131516838528,
+        "deviation": -5.506298742508302
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 61.78670915283507,
+        "pro_sup": 7.968574959191017,
+        "flexion": -28.193204527192908,
+        "deviation": 20.53515643798401
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 56.953010908885524,
+        "pro_sup": 2.8121345656944925,
+        "flexion": -45.479496495808114,
+        "deviation": -2.1355932038954926
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 43.95112307916919,
+        "pro_sup": 14.12939495315733,
+        "flexion": -32.386232088410765,
+        "deviation": -2.292391544195419
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 9.22910118117423,
+        "pro_sup": 20.97647316321583,
+        "flexion": -32.526985942661476,
+        "deviation": 21.689700455214478
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 61.44723342053324,
+        "pro_sup": 45.53910788652054,
+        "flexion": 36.89963973199721,
+        "deviation": -3.3356529973342806
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 94.77986042978058,
+        "pro_sup": 27.73832756692825,
+        "flexion": 58.09982536391594,
+        "deviation": -6.555374509681439
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 32.474838224673064,
+        "pro_sup": 67.72249588416204,
+        "flexion": -6.824310593585167,
+        "deviation": 20.14721866666407
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 125.96951344701766,
+        "pro_sup": 68.21871728130043,
+        "flexion": 41.84348812971666,
+        "deviation": -4.17911112886301
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 49.26650546699909,
+        "pro_sup": 77.64941500475615,
+        "flexion": -28.175633019341767,
+        "deviation": 17.44247106819993
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 72.24988204273036,
+        "pro_sup": 34.94532404741216,
+        "flexion": -41.424380967112306,
+        "deviation": 0.384773892309747
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 125.93221744599064,
+        "pro_sup": 12.668846530601002,
+        "flexion": 5.063424164912902,
+        "deviation": 16.179144613267244
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 7.4314854779728,
+        "pro_sup": 13.468415113435398,
+        "flexion": 0.3420459503416282,
+        "deviation": 19.84519622168999
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 20.466254632132824,
+        "pro_sup": 73.72462452391207,
+        "flexion": -50.386624171129576,
+        "deviation": -3.4961263656746873
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 77.3545638385036,
+        "pro_sup": 28.03400857665443,
+        "flexion": -31.77553259988826,
+        "deviation": -5.803968511850654
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 54.49923899366342,
+        "pro_sup": 13.387566286595955,
+        "flexion": 2.7339258638350685,
+        "deviation": 22.71471902077495
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 26.553695925059735,
+        "pro_sup": 34.59068812630636,
+        "flexion": -31.357685686098478,
+        "deviation": 3.852504637693908
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 9.430604884110451,
+        "pro_sup": -6.674316381026216,
+        "flexion": 59.81453290253309,
+        "deviation": 24.863375674928307
+      },
+      "unavailable": [
+        "FCU"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 114.51234257923714,
+        "pro_sup": 60.683238797526855,
+        "flexion": -15.656749351333929,
+        "deviation": -4.478860867496881
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 108.38684410317491,
+        "pro_sup": 32.56638801397935,
+        "flexion": 13.401331887114011,
+        "deviation": 24.553157227102652
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 86.24053294559005,
+        "pro_sup": 70.22880062833661,
+        "flexion": -43.885066272795875,
+        "deviation": -5.959996535331423
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 13.914677102224292,
+        "pro_sup": 8.515782541570545,
+        "flexion": -27.318214522222043,
+        "deviation": 11.169043946057837
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 63.50914077941895,
+        "pro_sup": 64.85383857269173,
+        "flexion": 41.532445595382654,
+        "deviation": -6.769553630054331
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 117.51071430278611,
+        "pro_sup": 7.294446272883576,
+        "flexion": 40.151402386322005,
+        "deviation": 10.38783482714279
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 103.49589963544543,
+        "pro_sup": 57.71241312014445,
+        "flexion": 47.870956383176946,
+        "deviation": -2.6473211581086087
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 52.82906067817518,
+        "pro_sup": 19.305841624114052,
+        "flexion": -41.453599400135445,
+        "deviation": 22.545835549278607
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 112.39874050859531,
+        "pro_sup": 76.19296526895405,
+        "flexion": 37.29260639284763,
+        "deviation": 20.849567163216353
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 3.222227046764534,
+        "pro_sup": 37.85031548081314,
+        "flexion": -20.137743846428563,
+        "deviation": 22.578556011691397
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 104.29056806182807,
+        "pro_sup": 58.25024454004472,
+        "flexion": 37.289917988926675,
+        "deviation": -0.6618001641934796
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 28.916383280936376,
+        "pro_sup": 50.653856895508625,
+        "flexion": -4.763611838526948,
+        "deviation": 0.6816803568510199
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 42.67405365570185,
+        "pro_sup": 58.29647072484582,
+        "flexion": 56.02669248580334,
+        "deviation": -0.23062525473450002
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 50.07540633481453,
+        "pro_sup": 12.254086959455918,
+        "flexion": -29.433299263370166,
+        "deviation": 14.807484934195973
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 0.2198661684218306,
+        "pro_sup": 68.09202647985325,
+        "flexion": 4.614239651135023,
+        "deviation": 15.180049970069593
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 96.45351011913195,
+        "pro_sup": 27.30056070927992,
+        "flexion": -16.2934233862483,
+        "deviation": -7.550916610579144
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 122.2472771949238,
+        "pro_sup": 28.370871243637268,
+        "flexion": 48.33666548790991,
+        "deviation": 11.54302205829832
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 39.12348369352349,
+        "pro_sup": 7.66995410171171,
+        "flexion": -59.9512872363255,
+        "deviation": 0.04198009041245143
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 55.8854594986785,
+        "pro_sup": 12.797564991309116,
+        "flexion": 18.564674844368596,
+        "deviation": 6.274586658645497
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 53.87733142970352,
+        "pro_sup": 20.762460918034193,
+        "flexion": -36.66777159123488,
+        "deviation": 14.372398767167674
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 97.62538196040147,
+        "pro_sup": 43.20739017184401,
+        "flexion": -47.20952441237533,
+        "deviation": 4.880116787995695
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 22.865268621849115,
+        "pro_sup": 73.27456676472636,
+        "flexion": 2.154930053248897,
+        "deviation": -8.242356520077568
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 32.395776355796315,
+        "pro_sup": 55.733815576265556,
+        "flexion": -5.224580943579291,
+        "deviation": 18.049581060279255
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 86.7851052362259,
+        "pro_sup": 78.0627924906317,
+        "flexion": 11.454278216330366,
+        "deviation": 23.251386295510457
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 115.88537035535681,
+        "pro_sup": 18.024371641882055,
+        "flexion": 26.312875353116056,
+        "deviation": 7.66723576885407
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 107.97399206378395,
+        "pro_sup": 7.659512097732545,
+        "flexion": 47.664972387991455,
+        "deviation": 16.02794047558547
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 99.5557789586315,
+        "pro_sup": 3.4079700524771397,
+        "flexion": 15.209812437813753,
+        "deviation": -0.38908935788616006
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 75.93032384654927,
+        "pro_sup": 31.283677839674894,
+        "flexion": 42.807843876472106,
+        "deviation": 16.79581016413243
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 110.9482335739836,
+        "pro_sup": 72.54885415521701,
+        "flexion": -9.717446084421375,
+        "deviation": 16.163048414231778
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 70.99720026539909,
+        "pro_sup": 16.520414230598618,
+        "flexion": -33.535356681141735,
+        "deviation": -2.3202427882497343
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 3.5232660242406166,
+        "pro_sup": 22.839943681493722,
+        "flexion": -43.71606153233229,
+        "deviation": 6.15944554180291
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 84.72810518170563,
+        "pro_sup": 40.6773126495242,
+        "flexion": 53.95340792591867,
+        "deviation": -3.0223761173113486
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 21.812588637814294,
+        "pro_sup": 17.159599022549074,
+        "flexion": 29.751078234634292,
+        "deviation": -5.991349501738582
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 106.50915266044106,
+        "pro_sup": 74.35532368545404,
+        "flexion": -47.028150041087216,
+        "deviation": -9.10125510758869
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 40.55444177131037,
+        "pro_sup": 28.37556589606541,
+        "flexion": 54.98074058470752,
+        "deviation": 3.882905453081957
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 13.24716970797695,
+        "pro_sup": 43.59694159219585,
+        "flexion": 42.03518869065556,
+        "deviation": 11.014406518589546
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 15.737158458750965,
+        "pro_sup": 77.4150962423474,
+        "flexion": 33.91624156332236,
+        "deviation": 2.1521317857957136
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 110.44483150994506,
+        "pro_sup": 51.572946894409284,
+        "flexion": -47.33533552272017,
+        "deviation": 23.627564852510254
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 82.62606379318797,
+        "pro_sup": 52.59316976039332,
+        "flexion": 24.877037244729237,
+        "deviation": 5.242050075268697
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 95.39338952174094,
+        "pro_sup": 74.47579699809242,
+        "flexion": -27.590112433511898,
+        "deviation": 18.286972658236458
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 34.891419946399296,
+        "pro_sup": 56.27410560309309,
+        "flexion": 39.68772226687241,
+        "deviation": -6.966798568051396
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    },
+    {
+      "coordinates": {
+        "elbow_flexion": 27.57558052336607,
+        "pro_sup": 47.65317709249544,
+        "flexion": -19.15933882028596,
+        "deviation": 20.81119929153789
+      },
+      "unavailable": [
+        "SUP"
+      ]
+    }
+  ]
+}

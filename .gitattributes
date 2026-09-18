@@ -1,0 +1,8 @@
+# Pinned third-party assets and source patches must retain their original bytes.
+biomechanics/models/** -text -whitespace
+public/models/** -text -whitespace
+biomechanics/diagnostics/wrap-cache/*.patch -text -whitespace
+*.vtp binary
+*.obj binary
+*.glb binary
+*.whl binary

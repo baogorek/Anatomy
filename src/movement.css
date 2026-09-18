@@ -1,0 +1,1154 @@
+.movement-lab {
+  border: 1px solid var(--border, #d9dfcf);
+  border-radius: 10px;
+  background: #fcfdf8;
+  overflow: hidden;
+}
+.bio-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 25px 28px;
+  border-bottom: 1px solid #dae0d0;
+}
+.bio-toolbar h2 {
+  font-size: 23px;
+  margin: 8px 0 0;
+}
+.bio-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.bio-toolbar .segmented button[aria-pressed="true"] {
+  background: #dfe8d0;
+  color: #284d40;
+}
+.bio-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(300px, 1fr);
+}
+.bio-interaction {
+  min-width: 0;
+  border-right: 1px solid #dae0d0;
+}
+.bio-status {
+  font-size: 11px;
+  padding: 12px 22px;
+  color: #536449;
+  background: #f5f7ef;
+  min-height: 40px;
+}
+.bio-viewer {
+  position: relative;
+  background: #edf0e5;
+}
+.bio-viewport {
+  position: relative;
+}
+.bio-canvas {
+  height: 490px;
+  cursor: grab;
+}
+.bio-canvas:active {
+  cursor: grabbing;
+}
+.bio-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.bio-viewer-top {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  pointer-events: none;
+}
+.bio-viewer-top span {
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: #4d6343;
+}
+.bio-viewer-top button {
+  pointer-events: auto;
+}
+.bio-viewer-bottom {
+  position: absolute;
+  bottom: 14px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.bio-viewer-bottom .segmented {
+  margin-right: auto;
+}
+.bio-legend {
+  min-height: 42px;
+  padding: 12px 20px;
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  background: #f3f5eb;
+  border-top: 1px solid #dfe4d6;
+}
+.bio-legend span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bio-legend span:last-child {
+  margin-left: auto;
+}
+.bio-legend i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bio-viewer:fullscreen .bio-canvas {
+  height: calc(100vh - 42px);
+}
+.bio-canvas-error {
+  position: absolute;
+  top: 45%;
+  padding: 20px;
+  background: #fff;
+}
+.bio-controls {
+  padding: 20px 24px;
+  background: #f8faf3;
+  border-top: 1px solid #dce2d1;
+}
+.bio-presets > summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: #345844;
+}
+.bio-presets[open] > summary {
+  margin-bottom: 14px;
+}
+.bio-inline-result {
+  display: none;
+}
+.bio-control-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bio-control-heading label {
+  font-size: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.bio-control-heading select {
+  max-width: 230px;
+  padding: 9px;
+  background: #fff;
+  border: 1px solid #d4ddc8;
+  border-radius: 5px;
+  color: inherit;
+}
+.bio-sliders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 24px;
+}
+.bio-slider label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  min-height: 34px;
+}
+.bio-slider label b {
+  color: #2e5b4c;
+  font-size: 14px;
+}
+.bio-slider label output {
+  margin-left: auto;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.bio-slider input {
+  width: 100%;
+  height: 25px;
+  accent-color: #2e5b4c;
+  cursor: pointer;
+}
+.bio-slider input:disabled {
+  cursor: default;
+}
+.bio-slider small {
+  font-size: 10px;
+  color: #5e6e53;
+  display: block;
+}
+.bio-assumption {
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 19px 0 0;
+  color: #526646;
+}
+.bio-playback {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.bio-playback label {
+  flex: 1;
+  font-size: 11px;
+}
+.bio-playback input {
+  width: 100%;
+  accent-color: #2e5b4c;
+  display: block;
+}
+.bio-playback output {
+  font-size: 12px;
+}
+.bio-results {
+  min-width: 0;
+  padding: 25px 25px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bio-reference {
+  border-bottom: 1px solid #e1e5d8;
+  padding-bottom: 18px;
+}
+.bio-reference > strong {
+  display: block;
+  margin: 8px 0 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.bio-reference > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.bio-reference .small-button {
+  font-size: 10px;
+  padding: 8px;
+}
+.bio-results .text-button {
+  border: 0;
+  padding: 5px 0;
+  background: transparent;
+  font-size: 11px;
+  color: #47623e;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.bio-selected h3 {
+  font-size: 23px;
+  line-height: 1.3;
+  margin: 10px 0 15px;
+  letter-spacing: -0.5px;
+}
+.bio-delta {
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.bio-delta span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-top: 4px;
+}
+.bio-selected p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 9px 0;
+}
+.bio-selected .bio-attachment {
+  font-size: 11px;
+  color: #617055;
+}
+.bio-muscle-evidence {
+  border-top: 1px solid #dce1d5;
+  margin-top: 12px;
+  padding-top: 4px;
+}
+.bio-muscle-evidence summary {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+.bio-evidence-sources a {
+  color: #294f41;
+  text-decoration: underline;
+}
+.bio-search {
+  font-size: 10px;
+  display: block;
+  letter-spacing: 0.3px;
+}
+.bio-search input {
+  width: 100%;
+  display: block;
+  margin-top: 7px;
+  padding: 10px;
+  border: 1px solid #dce2d1;
+  border-radius: 5px;
+  color: inherit;
+  background: #fff;
+}
+.bio-muscle-list {
+  max-height: 295px;
+  overflow: auto;
+  margin: -10px -10px 0;
+  padding: 0 5px;
+}
+.bio-muscle-list button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #edf0e6;
+  padding: 11px 8px;
+  color: #4a6042;
+  font-size: 11px;
+}
+.bio-muscle-list button span:last-child {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.bio-muscle-list button.active {
+  background: #e9efdf;
+  border-radius: 5px;
+}
+.bio-practice {
+  padding: 18px;
+  background: #eef3e5;
+  border: 1px solid #dce5cd;
+  border-radius: 6px;
+}
+.bio-practice > p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.bio-answers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.bio-answers button {
+  flex: 1;
+  white-space: nowrap;
+  background: #fff;
+  border: 1px solid #ccd9bd;
+  padding: 10px 7px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: #3a5748;
+}
+.bio-practice-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bio-practice .bio-feedback {
+  font-size: 12px;
+  padding-top: 8px;
+  line-height: 1.8;
+}
+.bio-practice .primary {
+  width: 100%;
+  margin: 6px 0 12px;
+  padding: 12px;
+  font-size: 11px;
+}
+.bio-practice-start {
+  padding: 12px;
+  font-size: 12px;
+  justify-content: center;
+}
+.bio-explanation {
+  padding: 20px 28px;
+  border-top: 1px solid #dce2d1;
+  background: #f5f7ee;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.bio-explanation > p {
+  margin: 0 0 12px;
+}
+.bio-explanation summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+.bio-explanation a {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  color: #305e4e;
+}
+.bio-coordinate-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 24px;
+  font-size: 10px;
+}
+.bio-coordinate-table > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e7d8;
+  gap: 8px;
+  padding: 3px;
+}
+.bio-coordinate-table dd {
+  margin: 0;
+  white-space: nowrap;
+}
+.bio-version {
+  font-size: 10px;
+}
+.bio-loading {
+  padding: 80px 30px;
+  text-align: center;
+}
+.bio-error {
+  background: #fbebdf;
+  padding: 16px 25px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 13px;
+}
+.movement-lab button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.movement-lab .small-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.movement-lab .primary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.movement-lab button:hover:not(:disabled) {
+  filter: brightness(0.97);
+}
+@media (min-width: 1500px) {
+  .bio-canvas {
+    height: 570px;
+  }
+}
+@media (max-width: 1000px) {
+  .bio-workspace {
+    grid-template-columns: minmax(0, 1.35fr) minmax(280px, 1fr);
+  }
+  .bio-toolbar {
+    align-items: flex-start;
+  }
+  .bio-toolbar-actions {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .bio-results {
+    padding: 20px 17px;
+  }
+  .bio-sliders {
+    grid-template-columns: 1fr;
+  }
+  .bio-canvas {
+    height: 420px;
+  }
+  .bio-control-heading {
+    align-items: flex-start;
+  }
+  .bio-control-heading label {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .bio-coordinate-table {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .bio-inline-result {
+    display: grid;
+    gap: 6px;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #dce2d1;
+    border-radius: 6px;
+    background: #fcfdf8;
+    font-size: 12px;
+  }
+  .bio-workspace {
+    grid-template-columns: 1fr;
+  }
+  .bio-interaction {
+    border-right: 0;
+  }
+  .bio-toolbar {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .bio-toolbar-actions {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .bio-toolbar-actions .small-button {
+    font-size: 10px;
+  }
+  .bio-sliders {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .bio-controls {
+    padding: 18px;
+  }
+  .bio-slider label {
+    flex-wrap: wrap;
+    font-size: 11px;
+    gap: 5px;
+  }
+  .bio-slider label span {
+    flex: 1;
+  }
+  .bio-canvas {
+    height: 400px;
+  }
+  .bio-results {
+    border-top: 1px solid #dce2d1;
+    padding: 22px;
+  }
+  .bio-muscle-list {
+    max-height: 280px;
+  }
+  .bio-coordinate-table {
+    grid-template-columns: 1fr;
+  }
+  .bio-explanation {
+    padding: 20px;
+  }
+  .bio-legend {
+    font-size: 9px;
+    gap: 10px;
+  }
+  .bio-legend span:last-child {
+    display: none;
+  }
+}
+.movement-lab .segmented {
+  display: inline-flex;
+  padding: 4px;
+  border: 1px solid #d7dfcc;
+  border-radius: 5px;
+  background: #f7f9f1;
+  gap: 3px;
+}
+.movement-lab .segmented button {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #415b37;
+}
+.movement-lab .primary {
+  background: #285447;
+  color: #fff;
+  border: 1px solid #285447;
+  border-radius: 4px;
+  min-height: 40px;
+}
+.movement-lab .primary:hover:not(:disabled) {
+  background: #346457;
+}
+.bio-delta {
+  color: #50603f;
+}
+.bio-legend span {
+  color: #405832;
+}
+.bio-interaction:fullscreen {
+  overflow-y: auto;
+  background: #f8faf3;
+  display: flex;
+  flex-direction: column;
+}
+.bio-interaction:fullscreen .bio-status {
+  display: none;
+}
+.bio-interaction:fullscreen .bio-canvas {
+  height: calc(100vh - 350px);
+  min-height: 280px;
+}
+.bio-interaction:fullscreen .bio-controls {
+  flex: 1;
+}
+.bio-interaction:fullscreen .bio-sliders {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 700px) {
+  .bio-interaction:fullscreen .bio-sliders {
+    grid-template-columns: 1fr 1fr;
+  }
+  .bio-interaction:fullscreen .bio-canvas {
+    height: 42vh;
+  }
+}
+.bio-actions {
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 14px;
+}
+.bio-actions summary {
+  cursor: pointer;
+  color: #355b45;
+}
+.bio-actions > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid #e1e6d8;
+  padding: 5px 0;
+}
+.bio-actions > div b {
+  white-space: nowrap;
+  font-weight: 500;
+}
+.bio-joint-intro {
+  padding: 17px 24px;
+  border-bottom: 1px solid #dce2d1;
+  background: #f5f8ee;
+}
+.bio-joint-intro > p {
+  margin: 0 0 14px;
+  color: #4d6143;
+  font-size: 12px;
+  line-height: 1.8;
+  max-width: 1000px;
+}
+.bio-joint-intro > p strong {
+  font-weight: 500;
+  color: #284d40;
+}
+.bio-joint-intro a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.bio-explorations {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bio-explorations > span {
+  font-size: 8px;
+  letter-spacing: 1px;
+  margin-right: 8px;
+}
+.bio-explorations button {
+  padding: 9px 11px;
+  font-size: 11px;
+  background: #fff;
+}
+.bio-explorations button[aria-pressed="true"] {
+  background: #e3ecd8;
+  border-color: #9faf90;
+}
+.bio-observe {
+  background: #f1f5e9;
+  border: 1px solid #dce4cf;
+  border-radius: 6px;
+  padding: 15px;
+}
+.bio-observe > p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+.bio-observe .bio-path-key {
+  font-size: 10px;
+  color: #53664a;
+}
+.bio-compare-muscles {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.bio-compare-muscles button {
+  font-size: 10px;
+  border: 1px solid #cfdac2;
+  border-radius: 4px;
+  background: #fff;
+  padding: 7px 9px;
+  color: #385441;
+}
+.bio-compare-muscles button[aria-pressed="true"] {
+  background: #dfead2;
+}
+.bio-list-mode {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bio-list-mode select {
+  padding: 9px;
+  border: 1px solid #d4ddc8;
+  border-radius: 4px;
+  color: #3f5a35;
+  background: #fff;
+  max-width: 100%;
+}
+.bio-next-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 14px;
+}
+.bio-next-tools > span {
+  font-size: 11px;
+}
+.bio-bone-controls {
+  position: absolute;
+  left: 20px;
+  top: 52px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bio-bone-controls .small-button {
+  font-size: 10px;
+  padding: 8px 10px;
+  background: #f9fbf4;
+}
+.bio-bone-controls button[aria-pressed="true"] {
+  background: #dcead6;
+}
+.bio-bone-controls label {
+  font-size: 10px;
+  padding: 5px 8px;
+  background: #f8fbf3;
+  border: 1px solid #d3ddc8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.bio-bone-controls select {
+  max-width: 140px;
+  font-size: 11px;
+  color: #37523d;
+  padding: 4px;
+}
+@media (max-width: 700px) {
+  .bio-joint-intro {
+    padding: 15px 18px;
+  }
+  .bio-explorations {
+    gap: 7px;
+  }
+  .bio-explorations > span {
+    width: 100%;
+  }
+  .bio-explorations button {
+    font-size: 10px;
+  }
+  .bio-toolbar-actions {
+    flex-wrap: wrap;
+  }
+}
+.bio-path-tooltip {
+  position: absolute;
+  z-index: 3;
+  background: #284e40;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 5px;
+  max-width: 210px;
+  font-size: 12px;
+  pointer-events: none;
+  box-shadow: 0 3px 12px #203c3022;
+}
+.bio-path-tooltip small {
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  color: #e1edd5;
+}
+.bio-picked-path {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  background: #fbfdf7;
+  border: 0;
+  border-top: 1px solid #dfe4d6;
+  color: #2e5040;
+}
+.bio-picked-path span {
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+.bio-picked-path strong {
+  font-size: 13px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+.bio-picked-path small {
+  font-size: 10px;
+  margin-left: auto;
+}
+.bio-anatomy-reference {
+  border: 1px solid #d4dfc8;
+  background: #f4f7ec;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.bio-anatomy-heading {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 14px 14px 5px;
+}
+.bio-anatomy-heading h3 {
+  font-size: 19px;
+  line-height: 1.3;
+  margin: 8px 0 4px;
+}
+.bio-anatomy-heading .eyebrow {
+  font-size: 8px;
+}
+.bio-anatomy-reference > p {
+  font-size: 11px;
+  line-height: 1.7;
+  padding: 0 14px;
+  margin: 10px 0;
+}
+.bio-anatomy-reference .bio-anatomy-note {
+  font-size: 10px;
+  color: #526447;
+}
+.bio-anatomy-reference a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.bio-anatomy-canvas {
+  height: 265px;
+  cursor: grab;
+}
+.bio-anatomy-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.bio-anatomy-views {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #d8e0cc;
+  background: #f8faf2;
+}
+.bio-anatomy-views button {
+  font-size: 10px;
+  color: #3e5a35;
+  padding: 5px;
+}
+.bio-anatomy-views > span {
+  margin-left: auto;
+  font-size: 8px;
+  color: #546648;
+}
+.bio-observe[hidden] {
+  display: none;
+}
+.bio-model-pair {
+  min-width: 0;
+}
+.bio-model-pair.has-reference {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.85fr);
+}
+.bio-model-pair > * {
+  min-width: 0;
+}
+.bio-model-pair.has-reference .bio-viewer {
+  display: flex;
+  flex-direction: column;
+}
+.bio-model-pair.has-reference .bio-viewport {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.bio-model-pair.has-reference .bio-canvas {
+  flex: 1;
+  min-height: 600px;
+}
+.bio-model-pair.has-reference .bio-legend,
+.bio-model-pair.has-reference .bio-picked-path {
+  flex-shrink: 0;
+}
+.bio-model-pair .bio-anatomy-reference {
+  border-radius: 0;
+  border-width: 0 0 0 1px;
+}
+.bio-model-pair.has-reference .bio-anatomy-canvas {
+  height: 330px;
+}
+.bio-model-pair.has-reference .bio-canvas {
+  height: 600px;
+}
+.bio-model-pair.has-reference .bio-viewer-bottom {
+  left: 12px;
+  right: 12px;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.bio-model-pair.has-reference .bio-viewer-bottom button {
+  padding: 8px;
+}
+.bio-tissue-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding: 10px 14px;
+  background: #f8faf2;
+}
+.bio-tissue-controls label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.bio-tissue-controls input {
+  accent-color: #315a4b;
+}
+.bio-tissue-controls i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #6a7864;
+}
+.tissue-muscle {
+  background: #d4824b;
+}
+.tissue-fascia {
+  background: #b6cbd1;
+}
+@media (max-width: 1200px) {
+  .bio-model-pair.has-reference {
+    grid-template-columns: 1fr;
+  }
+  .bio-model-pair.has-reference .bio-canvas {
+    height: 490px;
+    min-height: 490px;
+  }
+  .bio-model-pair .bio-anatomy-reference {
+    border-width: 1px 0 0;
+  }
+}
+
+.bio-toolbar .segmented {
+  flex-wrap: wrap;
+}
+
+.bio-girdle-angles {
+  margin: 18px 0;
+  font-size: 12px;
+}
+.bio-girdle-angles p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: 600;
+}
+.bio-girdle-angles p span {
+  font-weight: 400;
+}
+.bio-girdle-angles > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 60px 80px;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+}
+.bio-girdle-angles output {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.bio-spine-level {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin: 20px 0;
+  color: #294f41;
+}
+.bio-spine-level span {
+  font-size: 12px;
+  flex-basis: 100%;
+}
+.bio-spine-atlas {
+  padding: 18px 24px;
+  border-top: 1px solid #d5deca;
+}
+.bio-spine-atlas summary {
+  cursor: pointer;
+  color: #294f41;
+  font-weight: 600;
+}
+.bio-spine-atlas p {
+  max-width: 70ch;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.bio-spine-atlas > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.bio-spine-atlas button {
+  border: 1px solid #d5deca;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: #294f41;
+  background: #fafbf7;
+  cursor: pointer;
+}
+.bio-spine-atlas button[aria-pressed="true"] {
+  background: #e0eadb;
+}
+
+.bio-spine-level select {
+  border: 1px solid #d5deca;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #294f41;
+  background: #fafbf7;
+}
+.bio-spine-angles {
+  margin-top: 18px;
+  overflow-x: auto;
+}
+.bio-spine-angles summary {
+  cursor: pointer;
+}
+.bio-spine-angles table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+.bio-spine-angles th,
+.bio-spine-angles td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #d5deca;
+}
+
+.bio-longest-path {
+  margin: 18px 0;
+  padding: 14px;
+  border: 1px solid #d7dfcc;
+  border-radius: 6px;
+  background: #f8faf3;
+  color: #345344;
+}
+.bio-longest-path .bio-search-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.bio-longest-path p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 9px 0;
+}
+.bio-search-settings {
+  font-size: 11px;
+  margin-top: 12px;
+}
+.bio-search-settings summary {
+  cursor: pointer;
+}
+.bio-search-settings fieldset {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  margin: 10px 0 0;
+}
+.bio-search-settings legend {
+  font-size: 10px;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.bio-search-joints {
+  display: grid;
+  gap: 10px;
+  max-height: 240px;
+  overflow-y: auto;
+  margin-top: 12px;
+  padding: 3px;
+}
+.bio-search-joints label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+.bio-search-joints input {
+  accent-color: #315a4b;
+  margin-top: 2px;
+}
+.bio-search-joints small {
+  display: block;
+  margin-top: 3px;
+  color: #526447;
+}
+.bio-search-result {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #d7dfcc;
+  font-size: 12px;
+}
+.bio-longest-path .bio-search-note {
+  color: #526447;
+  font-size: 10px;
+  margin-bottom: 0;
+}

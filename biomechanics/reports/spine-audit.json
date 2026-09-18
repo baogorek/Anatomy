@@ -1,0 +1,215 @@
+{
+  "modelVersion": "57fda207201b5137dd11c0779dd0a5532ec68d5222a9a950e88d60f8c6262f43",
+  "calculationVersion": "5df1671ad1696ca52a0a067483e388a6d2110bba6aa0f1b94bfee8e1806486c3",
+  "poses": 165,
+  "muscles": 552,
+  "lengthChecks": 91080,
+  "independentMomentArmChecks": 16560,
+  "maxIndependentLengthErrorMm": 0.0,
+  "maxDrawingErrorMm": 0.019058436580066118,
+  "maxCoordinateErrorDegrees": 4.440892098500626e-16,
+  "repeatErrorMetres": 0.0,
+  "unavailable": [],
+  "momentArmWithheld": [
+    [
+      "spine__TR2_l",
+      "L2_L3_FE"
+    ],
+    [
+      "spine__TR2_l",
+      "L2_L3_LB"
+    ],
+    [
+      "spine__TR2_l",
+      "L3_L4_AR"
+    ],
+    [
+      "spine__TR2_l",
+      "L3_L4_FE"
+    ],
+    [
+      "spine__TR2_l",
+      "L3_L4_LB"
+    ],
+    [
+      "spine__TR2_l",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR2_l",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR2_l",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR2_l",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR2_r",
+      "L2_L3_FE"
+    ],
+    [
+      "spine__TR2_r",
+      "L2_L3_LB"
+    ],
+    [
+      "spine__TR2_r",
+      "L3_L4_AR"
+    ],
+    [
+      "spine__TR2_r",
+      "L3_L4_FE"
+    ],
+    [
+      "spine__TR2_r",
+      "L3_L4_LB"
+    ],
+    [
+      "spine__TR2_r",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR2_r",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR2_r",
+      "L5_S1_AR"
+    ],
+    [
+      "spine__TR2_r",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR2_r",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR3_l",
+      "L3_L4_AR"
+    ],
+    [
+      "spine__TR3_l",
+      "L3_L4_FE"
+    ],
+    [
+      "spine__TR3_l",
+      "L3_L4_LB"
+    ],
+    [
+      "spine__TR3_l",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR3_l",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR3_l",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR3_l",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR3_r",
+      "L3_L4_FE"
+    ],
+    [
+      "spine__TR3_r",
+      "L3_L4_LB"
+    ],
+    [
+      "spine__TR3_r",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR3_r",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR3_r",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR3_r",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR4_l",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR4_l",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR4_l",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR4_l",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR4_r",
+      "L4_L5_FE"
+    ],
+    [
+      "spine__TR4_r",
+      "L4_L5_LB"
+    ],
+    [
+      "spine__TR4_r",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR4_r",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR5_l",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR5_l",
+      "L5_S1_LB"
+    ],
+    [
+      "spine__TR5_r",
+      "L5_S1_FE"
+    ],
+    [
+      "spine__TR5_r",
+      "L5_S1_LB"
+    ]
+  ],
+  "quizChecks": [
+    {
+      "id": "spine__MF_m1s_r",
+      "angle": -3,
+      "deltaMm": 2.4495216553962336
+    },
+    {
+      "id": "spine__rect_abd_r",
+      "angle": -3,
+      "deltaMm": -6.278055749017075
+    },
+    {
+      "id": "spine__MF_m1s_r",
+      "angle": 3,
+      "deltaMm": -2.4217759844111995
+    },
+    {
+      "id": "spine__multifidus_T8_T6",
+      "angle": -3,
+      "deltaMm": -8.326672684688674e-14
+    }
+  ],
+  "elapsedSeconds": 175.9,
+  "limitations": "Numerical consistency, not anatomical validation of every source attachment. Non-spinal DOFs including abdominal routing are fixed. No physiological range, cartilage, passive stiffness, activation, breathing or force prediction."
+}

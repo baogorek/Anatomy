@@ -1,0 +1,91 @@
+{
+  "shoulder": [
+    {
+      "coordinate": "plane_elv",
+      "poses": 121,
+      "largestOneDegreeLengthChangeMm": 6.1284284089243855,
+      "muscle": "Infraspinatus_I",
+      "endAngle": 46,
+      "stepsOver5mm": [
+        {
+          "muscle": "Infraspinatus_I",
+          "endAngle": 44,
+          "changeMm": 5.791494188224111,
+          "bothDrawingsAccepted": true
+        },
+        {
+          "muscle": "Infraspinatus_I",
+          "endAngle": 46,
+          "changeMm": 6.1284284089243855,
+          "bothDrawingsAccepted": true
+        }
+      ]
+    },
+    {
+      "coordinate": "axial_rot",
+      "poses": 146,
+      "largestOneDegreeLengthChangeMm": 0.5949416670251173,
+      "muscle": "Infraspinatus_I",
+      "endAngle": 30,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "shoulder_elv",
+      "poses": 96,
+      "largestOneDegreeLengthChangeMm": 3.9175040072088327,
+      "muscle": "Subscapularis_M",
+      "endAngle": 13,
+      "stepsOver5mm": []
+    }
+  ],
+  "hip": [
+    {
+      "coordinate": "hip_flexion_r",
+      "poses": 121,
+      "largestOneDegreeLengthChangeMm": 1.613112442081066,
+      "muscle": "tfl_r",
+      "endAngle": 100,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "hip_rotation_r",
+      "poses": 61,
+      "largestOneDegreeLengthChangeMm": 0.5818266620141732,
+      "muscle": "glmax2_r",
+      "endAngle": 30,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "hip_adduction_r",
+      "poses": 56,
+      "largestOneDegreeLengthChangeMm": 1.4081758813290768,
+      "muscle": "tfl_r",
+      "endAngle": -34,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "knee_angle_r",
+      "poses": 121,
+      "largestOneDegreeLengthChangeMm": 0.8477690368994262,
+      "muscle": "semiten_r",
+      "endAngle": 59,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "ankle_angle_r",
+      "poses": 66,
+      "largestOneDegreeLengthChangeMm": 0.7780774537672341,
+      "muscle": "gaslat_r",
+      "endAngle": -12,
+      "stepsOver5mm": []
+    },
+    {
+      "coordinate": "subtalar_angle_r",
+      "poses": 36,
+      "largestOneDegreeLengthChangeMm": 0.4659508400152168,
+      "muscle": "perbrev_r",
+      "endAngle": -13,
+      "stepsOver5mm": []
+    }
+  ]
+}

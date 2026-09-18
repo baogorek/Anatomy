@@ -1,0 +1,5032 @@
+{
+  "spine__Ps_L1_VB_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L1_TP_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L1_L2_IVD_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L2_TP_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L2_L3_IVD_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L3_TP_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L3_L4_IVD_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L4_TP_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L4_L5_IVD_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L5_TP_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L5_VB_r": {
+    "label": "Right Psoas major",
+    "names": [
+      "Right Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L1_VB_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L1_TP_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L1_L2_IVD_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L2_TP_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L2_L3_IVD_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L3_TP_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L3_L4_IVD_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L4_TP_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L4_L5_IVD_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L5_TP_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__Ps_L5_VB_l": {
+    "label": "Left Psoas major",
+    "names": [
+      "Left Psoas Major"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__rect_abd_l": {
+    "label": "Left Rectus abdominis",
+    "names": [
+      "Left Rectus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__rect_abd_r": {
+    "label": "Right Rectus abdominis",
+    "names": [
+      "Right Rectus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L1_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L2_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L3_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L4_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L1_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L2_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L3_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_L4_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R5_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R6_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R7_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R8_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R9_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R10_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R11_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R12_r": {
+    "label": "Right Iliocostalis lumborum",
+    "names": [
+      "Right Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R5_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R6_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R7_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R8_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R9_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R10_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R11_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IL_R12_l": {
+    "label": "Left Iliocostalis lumborum",
+    "names": [
+      "Left Iliocostalis Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T1_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T2_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T3_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T4_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T5_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T6_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T7_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T8_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T9_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T10_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T11_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T12_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R4_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R5_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R6_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R7_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R8_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R9_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R10_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R11_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R12_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T1_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T2_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T3_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T4_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T5_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T6_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T7_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T8_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T9_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T10_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T11_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_T12_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R4_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R5_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R6_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R7_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R8_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R9_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R10_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R11_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpT_R12_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L5_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L4_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L3_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L2_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L1_r": {
+    "label": "Right Longissimus thoracis",
+    "names": [
+      "Right Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L5_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L4_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L3_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L2_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LTpL_L1_l": {
+    "label": "Left Longissimus thoracis",
+    "names": [
+      "Left Longissimus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_1-L3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L4_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L2_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L1_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L2_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_1-L3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L4_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_2-L2_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L1_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L2_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_post_I_3-L3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_2_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_1_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L2-12_1_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L4-12_3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_2_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L3-12_1_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L2-12_1_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_mid_L4-12_3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_2-T12_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-T12_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_2-12_1_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_1_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_2_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_3_r": {
+    "label": "Right Quadratus lumborum",
+    "names": [
+      "Right Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_2-T12_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-T12_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_2-12_1_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_1_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_2_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__QL_ant_I_3-12_3_l": {
+    "label": "Left Quadratus lumborum",
+    "names": [
+      "Left Quadratus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1s_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_1_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_2_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_3_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2s_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_1_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_2_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_3_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3s_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_1_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_2_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_3_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4s_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_1_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_2_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_3_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5s_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_1_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_2_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_3_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1_laminar_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2_laminar_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3_laminar_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4_laminar_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5_laminar_r": {
+    "label": "Right Multifidus lumborum",
+    "names": [
+      "Right Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1s_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_1_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_2_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1t_3_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2s_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_1_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_2_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2t_3_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3s_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_1_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_2_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3t_3_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4s_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_1_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_2_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4t_3_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5s_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_1_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_2_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5t_3_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m1_laminar_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m2_laminar_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m3_laminar_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m4_laminar_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__MF_m5_laminar_l": {
+    "label": "Left Multifidus lumborum",
+    "names": [
+      "Left Multifidus Lumborum Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R5_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R6_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R7_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R8_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R9_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R10_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R11_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R12_r": {
+    "label": "Right External abdominal oblique",
+    "names": [
+      "Right External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R5_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R6_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R7_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R8_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R9_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R10_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R11_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__E0_R12_l": {
+    "label": "Left External abdominal oblique",
+    "names": [
+      "Left External Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO1_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO2_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO3_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO4_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO5_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO6_r": {
+    "label": "Right Internal abdominal oblique",
+    "names": [
+      "Right Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO1_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO2_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO3_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO4_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO5_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IO6_l": {
+    "label": "Left Internal abdominal oblique",
+    "names": [
+      "Left Internal Abdominal Oblique Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L1_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L2_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L3_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L4_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L5_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T12_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T11_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T10_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T9_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T8_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T7_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_R12_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_R11_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_Il_r": {
+    "label": "Right Latissimus dorsi",
+    "names": [
+      "Right Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L1_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L2_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L3_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L4_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_L5_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T12_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T11_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T10_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T9_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T8_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_T7_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_R12_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_R11_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__LD_Il_l": {
+    "label": "Left Latissimus dorsi",
+    "names": [
+      "Left Latissimus Dorsi Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__stern_mast": {
+    "label": "Right Sternocleidomastoid",
+    "names": [
+      "Right Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__cleid_mast": {
+    "label": "Right Sternocleidomastoid",
+    "names": [
+      "Right Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__cleid_occ": {
+    "label": "Right Sternocleidomastoid",
+    "names": [
+      "Right Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_ant": {
+    "label": "Right Anterior scalene",
+    "names": [
+      "Right Scalenus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_med": {
+    "label": "Right Middle scalene",
+    "names": [
+      "Right Scalenus Medius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_post": {
+    "label": "Right Posterior scalene",
+    "names": [
+      "Right Scalenus Posterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__long_col_c1thx": {
+    "label": "Right Longus colli",
+    "names": [
+      "Right Longus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__long_col_c5thx": {
+    "label": "Right Longus colli",
+    "names": [
+      "Right Longus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_cl": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Descending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_scap": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Descending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T1": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T2": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T3": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T4": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T5": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T6": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T7": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T8": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T9": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T10": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T11": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T12": {
+    "label": "Right Trapezius",
+    "names": [
+      "Right Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cap_skl_T1": {
+    "label": "Right Splenius capitis",
+    "names": [
+      "Right Splenius Capitis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cap_skl_T2": {
+    "label": "Right Splenius capitis",
+    "names": [
+      "Right Splenius Capitis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T3": {
+    "label": "Right Splenius cervicis",
+    "names": [
+      "Right Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T4": {
+    "label": "Right Splenius cervicis",
+    "names": [
+      "Right Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T5": {
+    "label": "Right Splenius cervicis",
+    "names": [
+      "Right Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T6": {
+    "label": "Right Splenius cervicis",
+    "names": [
+      "Right Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__semi_cerv_c3thx": {
+    "label": "Right Semispinalis cervicis",
+    "names": [
+      "Right Semispinalis Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__levator_scap": {
+    "label": "Right Levator scapulae",
+    "names": [
+      "Right Levator Scapulae"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__longissi_cerv_c4thx": {
+    "label": "Right Longissimus cervicis",
+    "names": [
+      "Right Longissimus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__iliocost_cerv_c5rib": {
+    "label": "Right Iliocostalis cervicis",
+    "names": [
+      "Right Iliocostalis Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T1-C4": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T1-C5": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T2-C6": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T1-C5": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T1-C6": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T2-C7": {
+    "label": "Right Multifidus",
+    "names": [
+      "Right Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T2-T1": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_L2_T12": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_L1_T11": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T12_T10": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T11_T9": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T10_T8": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T9_T7": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T8_T6": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T7_T5": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T6_T4": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T5_T3": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T4_T2": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T3_T1": {
+    "label": "Right Multifidus thoracis",
+    "names": [
+      "Right Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__stern_mast_L": {
+    "label": "Left Sternocleidomastoid",
+    "names": [
+      "Left Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__cleid_mast_L": {
+    "label": "Left Sternocleidomastoid",
+    "names": [
+      "Left Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__cleid_occ_L": {
+    "label": "Left Sternocleidomastoid",
+    "names": [
+      "Left Sternocleidomastoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_ant_L": {
+    "label": "Left Anterior scalene",
+    "names": [
+      "Left Scalenus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_med_L": {
+    "label": "Left Middle scalene",
+    "names": [
+      "Left Scalenus Medius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__scalenus_post_L": {
+    "label": "Left Posterior scalene",
+    "names": [
+      "Left Scalenus Posterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__long_col_c1thx_L": {
+    "label": "Left Longus colli",
+    "names": [
+      "Left Longus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__long_col_c5thx_L": {
+    "label": "Left Longus colli",
+    "names": [
+      "Left Longus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_cl_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Descending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_scap_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Descending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T1_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T2_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_acr_T3_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Transverse Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T4_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T5_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T6_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T7_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T8_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T9_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T10_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T11_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__trap_inf_T12_L": {
+    "label": "Left Trapezius",
+    "names": [
+      "Left Ascending Part Of Trapezius Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cap_skl_T1_L": {
+    "label": "Left Splenius capitis",
+    "names": [
+      "Left Splenius Capitis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cap_skl_T2_L": {
+    "label": "Left Splenius capitis",
+    "names": [
+      "Left Splenius Capitis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T3_L": {
+    "label": "Left Splenius cervicis",
+    "names": [
+      "Left Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T4_L": {
+    "label": "Left Splenius cervicis",
+    "names": [
+      "Left Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T5_L": {
+    "label": "Left Splenius cervicis",
+    "names": [
+      "Left Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__splen_cerv_c3_T6_L": {
+    "label": "Left Splenius cervicis",
+    "names": [
+      "Left Splenius Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__semi_cerv_c3thx_L": {
+    "label": "Left Semispinalis cervicis",
+    "names": [
+      "Left Semispinalis Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__levator_scap_L": {
+    "label": "Left Levator scapulae",
+    "names": [
+      "Left Levator Scapulae"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__longissi_cerv_c4thx_L": {
+    "label": "Left Longissimus cervicis",
+    "names": [
+      "Left Longissimus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__iliocost_cerv_c5rib_L": {
+    "label": "Left Iliocostalis cervicis",
+    "names": [
+      "Left Iliocostalis Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T1-C4_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T1-C5_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__supmult-T2-C6_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T1-C5_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T1-C6_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T2-C7_L": {
+    "label": "Left Multifidus",
+    "names": [
+      "Left Multifidus Colli Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__deepmult-T2-T1_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_L2_T12_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_L1_T11_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T12_T10_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T11_T9_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T10_T8_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T9_T7_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T8_T6_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T7_T5_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T6_T4_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T5_T3_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T4_T2_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__multifidus_T3_T1_L": {
+    "label": "Left Multifidus thoracis",
+    "names": [
+      "Left Multifidus Thoracis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt1_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt2_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt2_2_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt3_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt4_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt5_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt6_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt7_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt8_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt9_1_R": {
+    "label": "Right Serratus anterior",
+    "names": [
+      "Right Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt1_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt2_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt2_2_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt3_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt4_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt5_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt6_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt7_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt8_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SerrAnt9_1_L": {
+    "label": "Left Serratus anterior",
+    "names": [
+      "Left Serratus Anterior Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT1": {
+    "label": "Right Deltoid",
+    "names": [
+      "Right Clavicular Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT2": {
+    "label": "Right Deltoid",
+    "names": [
+      "Right Acromial Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT3": {
+    "label": "Right Deltoid",
+    "names": [
+      "Right Scapular Spinal Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SUPSP": {
+    "label": "Right Supraspinatus",
+    "names": [
+      "Right Supraspinatus Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__INFSP": {
+    "label": "Right Infraspinatus",
+    "names": [
+      "Right Infraspinatus Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SUBSC": {
+    "label": "Right Subscapularis",
+    "names": [
+      "Right Subscapularis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TMIN": {
+    "label": "Right Teres minor",
+    "names": [
+      "Right Teres Minor Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TMAJ": {
+    "label": "Right Teres major",
+    "names": [
+      "Right Teres Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM1": {
+    "label": "Right Pectoralis major",
+    "names": [
+      "Right Clavicular Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM2": {
+    "label": "Right Pectoralis major",
+    "names": [
+      "Right Sternocostal Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM3": {
+    "label": "Right Pectoralis major",
+    "names": [
+      "Right Sternocostal Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__CORB": {
+    "label": "Right Coracobrachialis",
+    "names": [
+      "Right Coracobrachialis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT1_l": {
+    "label": "Left Deltoid",
+    "names": [
+      "Left Clavicular Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT2_l": {
+    "label": "Left Deltoid",
+    "names": [
+      "Left Acromial Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__DELT3_l": {
+    "label": "Left Deltoid",
+    "names": [
+      "Left Scapular Spinal Part Of Deltoid Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SUPSP_l": {
+    "label": "Left Supraspinatus",
+    "names": [
+      "Left Supraspinatus Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__INFSP_l": {
+    "label": "Left Infraspinatus",
+    "names": [
+      "Left Infraspinatus Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__SUBSC_l": {
+    "label": "Left Subscapularis",
+    "names": [
+      "Left Subscapularis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TMIN_l": {
+    "label": "Left Teres minor",
+    "names": [
+      "Left Teres Minor Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TMAJ_l": {
+    "label": "Left Teres major",
+    "names": [
+      "Left Teres Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM1_l": {
+    "label": "Left Pectoralis major",
+    "names": [
+      "Left Clavicular Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM2_l": {
+    "label": "Left Pectoralis major",
+    "names": [
+      "Left Sternocostal Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__PECM3_l": {
+    "label": "Left Pectoralis major",
+    "names": [
+      "Left Sternocostal Head Of Pectoralis Major Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__CORB_l": {
+    "label": "Left Coracobrachialis",
+    "names": [
+      "Left Coracobrachialis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR1_l": {
+    "label": "Left Transversus abdominis",
+    "names": [
+      "Left Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR2_l": {
+    "label": "Left Transversus abdominis",
+    "names": [
+      "Left Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR3_l": {
+    "label": "Left Transversus abdominis",
+    "names": [
+      "Left Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR4_l": {
+    "label": "Left Transversus abdominis",
+    "names": [
+      "Left Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR5_l": {
+    "label": "Left Transversus abdominis",
+    "names": [
+      "Left Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR1_r": {
+    "label": "Right Transversus abdominis",
+    "names": [
+      "Right Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR2_r": {
+    "label": "Right Transversus abdominis",
+    "names": [
+      "Right Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR3_r": {
+    "label": "Right Transversus abdominis",
+    "names": [
+      "Right Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR4_r": {
+    "label": "Right Transversus abdominis",
+    "names": [
+      "Right Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__TR5_r": {
+    "label": "Right Transversus abdominis",
+    "names": [
+      "Right Transversus Abdominis Muscle"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS1_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS2_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS3_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS4_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS5_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS6_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS7_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_7_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS8_7_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_5_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS9_5_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS10_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS10_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS10_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS10_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS11_1_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS11_3_R": {
+    "label": "Right External intercostals",
+    "names": [
+      "Right External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS11_1_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__ExtIC_IS11_3_L": {
+    "label": "Left External intercostals",
+    "names": [
+      "Left External Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS1_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS2_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS3_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS4_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS5_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS6_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS7_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_7_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS8_7_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_5_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS9_5_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS10_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS10_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS10_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS10_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS11_1_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS11_3_R": {
+    "label": "Right Internal intercostals",
+    "names": [
+      "Right Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS11_1_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "spine__IntIC_IS11_3_L": {
+    "label": "Left Internal intercostals",
+    "names": [
+      "Left Internal Intercostal Muscles"
+    ],
+    "compartment": true,
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-rotatores": {
+    "label": "Rotatores",
+    "names": [
+      "Right Rotatores",
+      "Left Rotatores"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-interspinales": {
+    "label": "Interspinales",
+    "names": [
+      "Right Interspinales Thoracis Muscles",
+      "Right Interspinales Lumborum Muscles",
+      "Left Interspinales Thoracis Muscles",
+      "Left Interspinales Lumborum Muscles"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-intertransversarii": {
+    "label": "Lumbar intertransversarii",
+    "names": [
+      "Right Dorsal Parts Of Lateral Intertransversarii Lumborum Muscles",
+      "Right Ventral Parts Of Lateral Intertransversarii Lumborum Muscles",
+      "Left Dorsal Parts Of Lateral Intertransversarii Lumborum Muscles",
+      "Left Ventral Parts Of Lateral Intertransversarii Lumborum Muscles"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-semispinalis": {
+    "label": "Semispinalis thoracis",
+    "names": [
+      "Right Semispinalis Thoracis Muscle",
+      "Left Semispinalis Thoracis Muscle"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-spinalis": {
+    "label": "Spinalis thoracis",
+    "names": [
+      "Right Spinalis Thoracis Muscle",
+      "Left Spinalis Thoracis Muscle"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-levatores": {
+    "label": "Levatores costarum",
+    "names": [
+      "Right Levatores Longi Costarum",
+      "Right Levatores Breves Costarum",
+      "Left Levatores Longi Costarum",
+      "Left Levatores Breves Costarum"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-serratus-posterior": {
+    "label": "Serratus posterior",
+    "names": [
+      "Right Serratus Posterior Superior Muscle",
+      "Right Serratus Posterior Inferior Muscle",
+      "Left Serratus Posterior Superior Muscle",
+      "Left Serratus Posterior Inferior Muscle"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  },
+  "atlas-spine-innermost-intercostals": {
+    "label": "Innermost intercostals",
+    "names": [
+      "Right Innermost Intercostal Muscles",
+      "Left Innermost Intercostal Muscles"
+    ],
+    "region": "spine",
+    "dataset": "spine"
+  }
+}
