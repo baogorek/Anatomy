@@ -20,6 +20,17 @@ Setup downloads 81 checksum-pinned hip display meshes directly from their record
 
 Open the URL printed by Vite (normally http://localhost:5173).
 
+### What runs on your computer
+
+`npm run dev` starts both parts of the app automatically:
+
+- **Browser interface (JavaScript/TypeScript):** Vite serves the 3D viewer and controls at http://localhost:5173.
+- **Calculation backend (Python/OpenSim):** runs at http://127.0.0.1:8765 and calculates joint positions, muscle–tendon path lengths and longest-path searches. The browser sends requests to it through Vite.
+
+You do **not** need to start Python separately. The launcher reuses a compatible backend if one is already running. Keep `npm run dev` running while using the lab. All movement calculations run on your computer; no cloud backend or hosting account is required. `npm run preview` also starts the local Python backend.
+
+The static anatomy viewer can display without Python, but live joint calculations and the longest-path solver require the backend.
+
 ```bash
 npm run build       # Type-check and generate dist/
 npm run preview     # Serve the production build
