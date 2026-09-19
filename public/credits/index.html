@@ -185,14 +185,14 @@ footer {
 <section id="atlas">
     <h2>Resting anatomy: Z-Anatomy and BodyParts3D</h2><p class="credit">Z-Anatomy by Gauthier Kervyn, derived from BodyParts3D, © The Database Center for Life Science. Browser model prepared by hpfrei.</p>
     <p><strong>Used here.</strong> The anatomy catalog, selected-muscle reference panels, deep-spine atlas and deltoid reference use this resting atlas.</p><p><strong>Our changes.</strong> Unused descriptive metadata was removed from the supplied browser GLB. Local geometry is unchanged. Muscle/bone subsets are extracted with their existing world transforms; colors, visibility, clipping and transparency are applied for display. The surfaces are not registered to the moving OpenSim body and are not deformed by its joint controls.</p>
-    
+
     <h3>Sources and terms</h3><p>The supplied Z-Anatomy derivative and our atlas-derived subsets retain CC BY-SA 4.0. Earlier BodyParts3D attribution is retained in the detailed notices. The independently retrieved TFL supplement has separate current archive terms below.</p>
     <ul><li><a href="https://www.z-anatomy.com/">Z-Anatomy</a></li><li><a href="https://lifesciencedb.jp/bp3d/">BodyParts3D</a></li><li><a href="https://github.com/hpfrei/body-anatomy-3d-viewer">hpfrei’s browser model and preparation</a></li><li><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li><li><a href="../models/ATTRIBUTION.md">Full atlas attribution and changes</a></li><li><a href="../models/muscle-reference/ATTRIBUTION.md">Muscle, neck and spine extraction records</a></li></ul>
     </section>
 <section id="tfl">
     <h2>Tensor fasciae latae and iliotibial-tract supplement</h2><p class="credit">BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.</p>
     <p><strong>Used here.</strong> Right TFL, iliotibial tract, hip bone, femur, tibia and fibula from the official BodyParts3D 4.0 IS-A archive are used together as a separate resting reference.</p><p><strong>Our changes.</strong> Original OBJ files are preserved. Conversion applies a shared proper axis rotation and millimetre-to-metre conversion, retaining vertices, topology and relative placement. Runtime color distinguishes muscle from fascia. No fitting, smoothing or pose deformation is applied.</p>
-    
+
     <h3>Sources and terms</h3><p>The official archive license page specifies CC BY 4.0 (updated February 27, 2025; rechecked September 18, 2026). Older OBJ headers mention CC BY-SA 2.1 Japan; those original headers are retained. These current archive terms apply to this separately retrieved supplement and do not relicense the Z-Anatomy derivative.</p>
     <ul><li><a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html">Official BodyParts3D license and attribution</a></li><li><a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html">Official download index</a></li><li><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></li><li><a href="../models/muscle-reference/ATTRIBUTION.md">File identities, hashes and conversion details</a></li></ul>
     </section>
@@ -210,7 +210,7 @@ footer {
 <section id="hosting">
     <h2>Production HTTP service</h2><p class="credit">Gunicorn by Benoit Chesneau and the Gunicorn contributors; Packaging by Donald Stufft and individual contributors.</p>
     <p><strong>Used here.</strong> Gunicorn 26.2.0 serves the native calculations and the lab files. Packaging 26.0 is its dependency.</p><p><strong>Our changes.</strong> No upstream source changes. We configure one threaded worker to preserve the serialized native state and per-tab search ownership.</p>
-    
+
     <h3>Sources and terms</h3><p>Gunicorn is MIT licensed. Packaging offers Apache 2.0 or BSD licensing; all original notices are retained.</p>
     <ul><li><a href="https://pypi.org/project/gunicorn/26.2.0/">Gunicorn</a></li><li><a href="https://pypi.org/project/packaging/26.0/">Packaging</a></li><li><a href="notices/gunicorn-LICENSE.txt">Gunicorn license and copyright</a></li><li><a href="notices/packaging-LICENSE.txt">Packaging license choice</a></li><li><a href="notices/packaging-LICENSE.APACHE.txt">Packaging Apache license</a></li><li><a href="notices/packaging-LICENSE.BSD.txt">Packaging BSD license and copyright</a></li></ul>
     </section><section id="software"><h2>Browser software, fonts and identity</h2>

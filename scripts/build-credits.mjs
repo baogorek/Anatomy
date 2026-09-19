@@ -166,7 +166,7 @@ emit(
 <p>${esc(catalog.interpretation)}</p>
 <p class="downloads"><a href="references.ris" download>Download bibliography (RIS)</a> · <a href="provenance.json" download>Download source and version record (JSON)</a></p>
 ${sections}${software}${guidance}
-<footer>Credits describe the exact sources and adaptations in this build. Model papers and their authors do not endorse this application.<br><a href="../">Return to Movement Lab</a></footer></main></body></html>\n`,
+<footer>Credits describe the exact sources and adaptations in this build. Model papers and their authors do not endorse this application.<br><a href="../">Return to Movement Lab</a></footer></main></body></html>\n`.replace(/[ \t]+$/gm, ""),
 );
 
 emit(
