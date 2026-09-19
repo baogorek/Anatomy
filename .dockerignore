@@ -1,0 +1,15 @@
+**
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+!index.html
+!src/**
+!public/**
+!credits/**
+!scripts/**
+!biomechanics/**
+!deploy/**
+!Dockerfile
+**/__pycache__/**
+biomechanics/models/hip/Geometry/**

@@ -1,3 +1,4 @@
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
@@ -158,11 +159,11 @@ export default function AtlasViewer({
       },
     };
     const decoder = new DRACOLoader()
-      .setDecoderPath("/draco/")
+      .setDecoderPath(assetUrl("/draco/"))
       .setWorkerLimit(2);
     const originalMaterials = new Set<THREE.Material>();
     new GLTFLoader().setDRACOLoader(decoder).load(
-      "/models/body.glb",
+      assetUrl("/models/body.glb"),
       (gltf) => {
         gltf.scene.updateMatrixWorld(true);
         gltf.scene.traverse((obj) => {

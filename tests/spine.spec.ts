@@ -13,6 +13,9 @@ async function open(page: Page) {
     }),
   ).toBeEnabled();
   await page.locator(".bio-presets summary").click();
+  await page
+    .getByRole("button", { name: "Fine-tune individual joints", exact: true })
+    .click();
 }
 test("spinal levels expose three native angles and preserve other levels and saved references", async ({
   page,

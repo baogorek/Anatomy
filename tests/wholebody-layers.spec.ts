@@ -190,6 +190,11 @@ test("default muscle view, side filters and regional groups preserve the shared 
     .filter({ hasText: "Lumbar spine" })
     .click();
   await lab
+    .locator(".wholebody-group")
+    .filter({ hasText: "Lumbar spine" })
+    .locator(".bio-spine-individual > summary")
+    .click();
+  await lab
     .getByRole("slider", {
       name: "Lumbar spine L3–L4 Flexion / extension",
       exact: true,

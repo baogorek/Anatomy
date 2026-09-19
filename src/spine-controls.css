@@ -1,0 +1,82 @@
+.bio-spine-scope {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0 12px;
+  font-size: 13px;
+}
+.bio-spine-scope label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.bio-spine-scope select {
+  border: 1px solid #d5deca;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: #294f41;
+  background: #fafbf7;
+}
+.bio-spine-scope > span {
+  color: #586c51;
+  font-size: 12px;
+}
+.bio-spine-group-controls {
+  margin: 12px 0 20px;
+}
+.bio-spine-group-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.bio-spine-group-help {
+  font-size: 11px;
+  color: #586c51;
+  line-height: 1.7;
+  max-width: 90ch;
+  margin: 10px 0 18px;
+}
+.bio-spine-group-sliders {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.bio-spine-group-sliders .bio-slider {
+  min-width: 0;
+}
+.bio-spine-group-sliders output {
+  white-space: nowrap;
+}
+.bio-spine-fine-toggle {
+  margin: 0 0 10px;
+}
+.bio-spine-individual {
+  border-top: 1px solid #d5deca;
+  margin: 12px 0;
+  padding: 14px 0 0;
+}
+.bio-spine-individual > summary {
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.wholebody-group .bio-spine-group-sliders {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.wholebody-group .bio-spine-group-heading {
+  font-size: 12px;
+}
+@media (max-width: 1000px) {
+  .bio-spine-group-sliders {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}

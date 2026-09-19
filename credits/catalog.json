@@ -1,0 +1,333 @@
+{
+  "title": "Sources & model credits",
+  "introduction": "SplineFitness Movement Lab is a non-commercial experimentation project built on the work of anatomy researchers, model authors and open-source contributors. The sources below identify what we use, where it came from and what we changed. Their authors do not endorse SplineFitness.",
+  "interpretation": "Publications document the source models and their studied tasks. Movement Lab calculates geometric muscle\u2013tendon path lengths; its sliders and longest-path search do not establish tissue tension, activation, a personalized stretch or a safe range of motion. The resting atlas depicts a separate body and does not deform with the moving model.",
+  "entries": [
+    {
+      "id": "shoulder",
+      "title": "Shoulder and deltoid study",
+      "credit": "Thoracoscapular model by A. Seth, M. Dong, R. Matias and S. Delp. Subject-scaled model, geometry and movement data distributed by Italo Belli, Sagar Joshi, J. Micah Prendergast, Irene Beck, Cosimo Della Santina, Luka Peternel and Ajay Seth (2023).",
+      "use": "Regional Shoulder uses 33 model compartments and the supplied ABD01, FLX01 and SHRUG01 inverse-kinematics tracks. The deltoid close-up uses sampled native poses from the same model.",
+      "changes": "The source model and meshes are preserved. We convert geometry for browser display, expose selected native joint controls, and calculate paths and lengths with OpenSim. Recorded tracks supply joint coordinates. Movement Lab does not run the paper\u2019s muscle-redundancy solver or estimate its muscle forces. Deltoid anatomy is extracted separately from the resting atlas.",
+      "terms": "The source package\u2019s data and musculoskeletal-model notice specifies CC BY 4.0. The resting atlas retains its separate CC BY-SA 4.0 terms.",
+      "model": "shoulder",
+      "publications": [
+        "10.3389/fnbot.2019.00090",
+        "10.1371/journal.pone.0295003"
+      ],
+      "links": [
+        {
+          "label": "Original thoracoscapular project",
+          "url": "https://simtk.org/projects/thoracoscapular"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "Deltoid extraction and sampling record",
+          "url": "../models/deltoid/ATTRIBUTION.md"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Preserved shoulder data/model notice",
+          "source": "biomechanics/models/shoulder/LICENSE.txt",
+          "file": "shoulder-LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "hip",
+      "title": "Hip, knee and ankle",
+      "credit": "Lai\u2013Uhlrich 2022 model distributed by the OpenCap team, with model lineage from Apoorva Rajagopal and colleagues and Adrian Lai, Allison Arnold and James Wakeling. Bone display geometry comes from the OpenSim models collection, including its Rajagopal geometry.",
+      "use": "Regional Hip, Knee and Ankle share the model\u2019s 40 right-side lower-limb muscle compartments. The OpenCap video-processing service is not used.",
+      "changes": "Source model and mesh files are preserved. We select the right-side workspace, expose hip/knee/ankle/subtalar coordinates and convert source meshes for the browser. Unexposed joints retain the source\u2019s defaults and coupling relationships. Whole body uses a different model, cited below.",
+      "terms": "The OpenCap repository supplies an Apache 2.0 license for the model source. Redistribution terms for the separate bone-geometry files have not been established individually. Their exact origins are recorded below; the model-source license is not presented as permission covering every mesh.",
+      "model": "hip",
+      "publications": [
+        "10.1109/tbme.2016.2586891",
+        "10.1007/s10439-017-1920-7",
+        "10.1371/journal.pcbi.1011462"
+      ],
+      "links": [
+        {
+          "label": "Rajagopal full-body model project",
+          "url": "https://simtk.org/projects/full_body"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Preserved OpenCap repository license (model source)",
+          "source": "biomechanics/models/hip/LICENSE.txt",
+          "file": "hip-model-LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "title": "Elbow, forearm and wrist",
+      "credit": "MoBL-ARMS by Katherine Saul, Xiao Hu, Craig Goehler, Meghan Vidt, Melissa Daly, Anca Velisar and Wendy Murray; subsequent work by D. C. McFarland, E. M. McCain, M. N. Poppo and K. R. Saul. Retrieved from the public Auctus/Inria model collection.",
+      "use": "Regional Elbow and Wrist expose 17 selected muscle paths from the MoBL-ARMS fixed-41 model. Shoulder position and finger grip remain fixed.",
+      "changes": "Two ECRL wrapping ranges are restricted to their intended path segments. The original model, derived model hashes and exact patch are retained. Attachments and joint definitions are unchanged. Unreliable supinator comparisons in pronated poses are withheld. This is an application correction, not new validation by the source authors.",
+      "terms": "The author terms specify non-commercial research, academic, evaluation and personal use, required citations to Saul (2015) and McFarland (2019), and the complete redistribution conditions below. They are not summarized as an unrestricted BSD license.",
+      "model": "arm",
+      "publications": [
+        "10.1080/10255842.2014.916698",
+        "10.1115/1.4043035"
+      ],
+      "links": [
+        {
+          "label": "Original MoBL-ARMS project",
+          "url": "https://simtk.org/projects/upexdyn/"
+        },
+        {
+          "label": "Author\u2019s model terms",
+          "url": "https://simtk.org/frs/?group_id=657"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Complete MoBL-ARMS author terms and required citations",
+          "source": "biomechanics/models/arm/LICENSE.txt",
+          "file": "arm-LICENSE.txt"
+        },
+        {
+          "label": "Exact local ECRL wrapping patch",
+          "source": "biomechanics/models/arm/ecrl-wrap-ranges.patch",
+          "file": "arm-ecrl-wrap-ranges.patch"
+        }
+      ]
+    },
+    {
+      "id": "neck",
+      "title": "Neck",
+      "credit": "Neck-model lineage by Anita Vasavada, Siping Li and Scott Delp; hyoid-model additions by Jonathan Mortensen, Anita Vasavada and Andrew Merryweather. The preserved reference model and geometry were retrieved from mjhmilla/kinematicPassengerModel.",
+      "use": "The Neck workspace exposes six existing upper/lower cervical controls and 52 bilateral paths from the source\u2019s 72 actuators. Hyoid paths are outside this workspace.",
+      "changes": "No source XML, attachment, mesh or wrapping edits. OpenSim upgrades the older XML representation in memory. The torso and shoulder girdle retain their source relationships. The researcher reference file is used, not its repository\u2019s merged passenger model.",
+      "terms": "The original project supplies MIT-style author terms. The researcher repository\u2019s separate MIT notice is also preserved. We do not assert byte identity with the login-protected original release.",
+      "model": "neck",
+      "publications": [
+        "10.1097/00007632-199802150-00002",
+        "10.1371/journal.pone.0199912"
+      ],
+      "links": [
+        {
+          "label": "Original neck dynamics project",
+          "url": "https://simtk.org/projects/neckdynamics"
+        },
+        {
+          "label": "Author\u2019s model terms",
+          "url": "https://simtk.org/frs/?group_id=1404"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Preserved neck author terms",
+          "source": "biomechanics/models/neck/LICENSE.txt",
+          "file": "neck-LICENSE.txt"
+        },
+        {
+          "label": "Preserved researcher repository notice",
+          "source": "biomechanics/models/neck/LICENSE-mirror.txt",
+          "file": "neck-mirror-LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "spine",
+      "aliases": [
+        "wholebody"
+      ],
+      "title": "Spine and whole body",
+      "credit": "Thoracolumbar spine and rib-cage model by Alexander Bruno, Mary Bouxsein and Dennis Anderson. The preserved full-body v11 LTpT T12Fix template and geometry come from Bern Movement Lab\u2019s tlsm repository.",
+      "use": "Regional Spine exposes 552 upper-body fascicles and 51 intervertebral coordinates. Whole body exposes all 598 muscle paths and 72 native joint coordinates from the same preserved template.",
+      "changes": "No source model or mesh edits. We select controls and displayed paths, normalize some whole-body slider signs and convert geometry for display. Grouped spinal sliders distribute changes within existing joint limits; this convenience is not a published physiological coupling model. Head/neck move as one body in Whole body, and scapulae/wrists remain fixed relative to their parent segments.",
+      "terms": "The original project\u2019s displayed MIT notice is preserved with its Stanford University copyright. The exact Bern template is separately identified; byte identity with the original SimTK archive is not asserted.",
+      "model": "spine",
+      "publications": [
+        "10.1115/1.4030408"
+      ],
+      "links": [
+        {
+          "label": "Original thoracolumbar spine and rib-cage project",
+          "url": "https://simtk.org/projects/spine_ribcage"
+        },
+        {
+          "label": "Original project\u2019s license notice",
+          "url": "https://simtk.org/frs/?group_id=959"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Preserved spine project notice",
+          "source": "biomechanics/models/spine/LICENSE.txt",
+          "file": "spine-LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "title": "Resting anatomy: Z-Anatomy and BodyParts3D",
+      "credit": "Z-Anatomy by Gauthier Kervyn, derived from BodyParts3D, \u00a9 The Database Center for Life Science. Browser model prepared by hpfrei.",
+      "use": "The anatomy catalog, selected-muscle reference panels, deep-spine atlas and deltoid reference use this resting atlas.",
+      "changes": "Unused descriptive metadata was removed from the supplied browser GLB. Local geometry is unchanged. Muscle/bone subsets are extracted with their existing world transforms; colors, visibility, clipping and transparency are applied for display. The surfaces are not registered to the moving OpenSim body and are not deformed by its joint controls.",
+      "terms": "The supplied Z-Anatomy derivative and our atlas-derived subsets retain CC BY-SA 4.0. Earlier BodyParts3D attribution is retained in the detailed notices. The independently retrieved TFL supplement has separate current archive terms below.",
+      "publications": [],
+      "links": [
+        {
+          "label": "Z-Anatomy",
+          "url": "https://www.z-anatomy.com/"
+        },
+        {
+          "label": "BodyParts3D",
+          "url": "https://lifesciencedb.jp/bp3d/"
+        },
+        {
+          "label": "hpfrei\u2019s browser model and preparation",
+          "url": "https://github.com/hpfrei/body-anatomy-3d-viewer"
+        },
+        {
+          "label": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "label": "Full atlas attribution and changes",
+          "url": "../models/ATTRIBUTION.md"
+        },
+        {
+          "label": "Muscle, neck and spine extraction records",
+          "url": "../models/muscle-reference/ATTRIBUTION.md"
+        }
+      ],
+      "notices": []
+    },
+    {
+      "id": "tfl",
+      "title": "Tensor fasciae latae and iliotibial-tract supplement",
+      "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
+      "use": "Right TFL, iliotibial tract, hip bone, femur, tibia and fibula from the official BodyParts3D 4.0 IS-A archive are used together as a separate resting reference.",
+      "changes": "Original OBJ files are preserved. Conversion applies a shared proper axis rotation and millimetre-to-metre conversion, retaining vertices, topology and relative placement. Runtime color distinguishes muscle from fascia. No fitting, smoothing or pose deformation is applied.",
+      "terms": "The official archive license page specifies CC BY 4.0 (updated February 27, 2025; rechecked September 18, 2026). Older OBJ headers mention CC BY-SA 2.1 Japan; those original headers are retained. These current archive terms apply to this separately retrieved supplement and do not relicense the Z-Anatomy derivative.",
+      "publications": [],
+      "links": [
+        {
+          "label": "Official BodyParts3D license and attribution",
+          "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+        },
+        {
+          "label": "Official download index",
+          "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "File identities, hashes and conversion details",
+          "url": "../models/muscle-reference/ATTRIBUTION.md"
+        }
+      ],
+      "notices": []
+    },
+    {
+      "id": "opensim",
+      "title": "OpenSim calculation engine",
+      "credit": "OpenSim authors and contributors, coordinated at Stanford University; Simbody and spdlog contributors. NumPy supplies supporting numerical arrays.",
+      "use": "Native OpenSim supplies joint assembly, bone transforms, wrapped muscle\u2013tendon paths, lengths and supported moment arms. The browser draws these results.",
+      "changes": "Our pinned source build corrects wrap-point cache invalidation and identifies the change in its package version. No source anatomy or acceptance threshold is changed by that patch. CasADi, C3D import and the desktop visualizer are excluded. Movement Lab\u2019s bounded longest-path search is an application feature, not a published OpenSim stretch-prescription method.",
+      "terms": "OpenSim software uses Apache 2.0; its bundled notices and dependency terms are preserved below. Each anatomical model retains its own terms. NumPy has separate notices, including those for bundled components.",
+      "publications": [
+        "10.1371/journal.pcbi.1006223",
+        "10.1109/tbme.2007.901024"
+      ],
+      "links": [
+        {
+          "label": "OpenSim project",
+          "url": "https://opensim.stanford.edu/"
+        },
+        {
+          "label": "Software versus model licensing",
+          "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53086437/License+for+OpenSim+4.0+and+Later"
+        },
+        {
+          "label": "NumPy project",
+          "url": "https://numpy.org/"
+        }
+      ],
+      "notices": [
+        {
+          "label": "OpenSim full license",
+          "source": "credits/notices/opensim-LICENSE.txt",
+          "file": "opensim-LICENSE.txt"
+        },
+        {
+          "label": "OpenSim contributor and dependency notices",
+          "source": "credits/notices/opensim-NOTICE.txt",
+          "file": "opensim-NOTICE.txt"
+        },
+        {
+          "label": "Simbody license",
+          "source": "credits/notices/simbody-LICENSE.txt",
+          "file": "simbody-LICENSE.txt"
+        },
+        {
+          "label": "spdlog license",
+          "source": "credits/notices/spdlog-LICENSE.txt",
+          "file": "spdlog-LICENSE.txt"
+        },
+        {
+          "label": "NumPy distribution license notices",
+          "source": "credits/notices/numpy-LICENSE.txt",
+          "file": "numpy-LICENSE.txt"
+        },
+        {
+          "label": "Exact OpenSim wrap-cache correction",
+          "source": "biomechanics/diagnostics/wrap-cache/opensim-85aaf64-wrap-cache.patch",
+          "file": "opensim-wrap-cache.patch"
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "title": "Production HTTP service",
+      "credit": "Gunicorn by Benoit Chesneau and the Gunicorn contributors; Packaging by Donald Stufft and individual contributors.",
+      "use": "Gunicorn 26.2.0 serves the native calculations and the lab files. Packaging 26.0 is its dependency.",
+      "changes": "No upstream source changes. We configure one threaded worker to preserve the serialized native state and per-tab search ownership.",
+      "publications": [],
+      "terms": "Gunicorn is MIT licensed. Packaging offers Apache 2.0 or BSD licensing; all original notices are retained.",
+      "links": [
+        {
+          "label": "Gunicorn",
+          "url": "https://pypi.org/project/gunicorn/26.2.0/"
+        },
+        {
+          "label": "Packaging",
+          "url": "https://pypi.org/project/packaging/26.0/"
+        }
+      ],
+      "notices": [
+        {
+          "label": "Gunicorn license and copyright",
+          "source": "credits/notices/gunicorn-LICENSE.txt",
+          "file": "gunicorn-LICENSE.txt"
+        },
+        {
+          "label": "Packaging license choice",
+          "source": "credits/notices/packaging-LICENSE.txt",
+          "file": "packaging-LICENSE.txt"
+        },
+        {
+          "label": "Packaging Apache license",
+          "source": "credits/notices/packaging-LICENSE.APACHE.txt",
+          "file": "packaging-LICENSE.APACHE.txt"
+        },
+        {
+          "label": "Packaging BSD license and copyright",
+          "source": "credits/notices/packaging-LICENSE.BSD.txt",
+          "file": "packaging-LICENSE.BSD.txt"
+        }
+      ]
+    }
+  ]
+}

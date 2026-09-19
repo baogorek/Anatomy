@@ -23,6 +23,8 @@ type Props = {
   boneOpacity?: number;
   showPathMarkers?: boolean;
   onBonesOnlyChange?: (value: boolean) => void;
+  isolated?: boolean;
+  onIsolationChange?: (value: boolean) => void;
 };
 export default function BiomechanicsViewer(props: Props) {
   const mount = useRef<HTMLDivElement>(null),
@@ -35,10 +37,15 @@ export default function BiomechanicsViewer(props: Props) {
   const zoom = useRef<((factor: number) => void) | null>(null);
   const update = useRef<(() => void) | null>(null),
     orient = useRef<((view: string, fit?: boolean) => void) | null>(null);
-  const [isolated, setIsolated] = useState(false),
+  const [localIsolated, setLocalIsolated] = useState(false),
     isolation = useRef(false),
     [failed, setFailed] = useState(false),
     [expanded, setExpanded] = useState(false);
+  const isolated = props.isolated ?? localIsolated;
+  function setIsolated(value: boolean) {
+    setLocalIsolated(value);
+    props.onIsolationChange?.(value);
+  }
   isolation.current = isolated;
   const [bonesOnly, setBonesOnly] = useState(false);
   const [hover, setHover] = useState<{
@@ -59,7 +66,7 @@ export default function BiomechanicsViewer(props: Props) {
         ? props.config.meshes[0]?.id || ""
         : joints[props.joint].bones[0],
     );
-    setIsolated(props.joint === "spine");
+    setLocalIsolated(false);
   }, [props.joint]);
   useEffect(() => {
     const sync = () =>
@@ -295,8 +302,10 @@ export default function BiomechanicsViewer(props: Props) {
               !/^(lumbar|thoracic|sacrum)/.test(name))) &&
           !(display.current.bonesOnly && display.current.selectedBone === id);
         const opacity =
-          props.joint === "wholebody" && !display.current.bonesOnly
-            ? (latest.current.boneOpacity ?? 1)
+          props.joint === "wholebody" || props.joint === "spine"
+            ? display.current.bonesOnly
+              ? 1
+              : Math.min(latest.current.boneOpacity ?? 1, context ? 0.3 : 1)
             : context
               ? 0.3
               : 1;
@@ -317,7 +326,11 @@ export default function BiomechanicsViewer(props: Props) {
       paths.visible = !display.current.bonesOnly;
       const referencePaths = new Map(reference.muscles.map((m) => [m.id, m]));
       for (const muscle of pose.muscles) {
-        if (props.joint === "wholebody" && !muscle.available) continue;
+        if (
+          (props.joint === "wholebody" || props.joint === "spine") &&
+          !muscle.available
+        )
+          continue;
         if (
           latest.current.visiblePaths &&
           !latest.current.visiblePaths.has(muscle.id)
@@ -350,7 +363,7 @@ export default function BiomechanicsViewer(props: Props) {
             curve.add(new THREE.LineCurve3(points[i - 1], points[i]));
         if (!curve.curves.length) continue;
         let mesh: THREE.Mesh;
-        if (props.joint === "wholebody") {
+        if (props.joint === "wholebody" || props.joint === "spine") {
           // All native centerlines retain a small screen-space width at any zoom.
           // These widths show selection/context, not anatomical muscle diameters.
           mesh = new Line2(
@@ -361,7 +374,13 @@ export default function BiomechanicsViewer(props: Props) {
               worldUnits: false,
               depthTest: true,
               transparent: !chosen,
-              opacity: chosen ? 1 : related ? 0.72 : 0.22,
+              opacity: chosen
+                ? 1
+                : related
+                  ? 0.72
+                  : props.joint === "spine"
+                    ? 0.4
+                    : 0.22,
               depthWrite: chosen,
             }),
           );
@@ -370,13 +389,7 @@ export default function BiomechanicsViewer(props: Props) {
           const geometry = new THREE.TubeGeometry(
             curve,
             Math.max(40, points.length * 2),
-            props.joint === "spine"
-              ? chosen
-                ? 0.0018
-                : 0.00065
-              : chosen
-                ? 0.0035
-                : 0.0017,
+            chosen ? 0.0035 : 0.0017,
             5,
             false,
           );
@@ -396,7 +409,7 @@ export default function BiomechanicsViewer(props: Props) {
         paths.add(mesh);
         if (
           chosen &&
-          props.joint === "wholebody" &&
+          (props.joint === "wholebody" || props.joint === "spine") &&
           latest.current.showPathMarkers
         ) {
           const endpoints = new THREE.Points(
@@ -419,14 +432,14 @@ export default function BiomechanicsViewer(props: Props) {
           // threshold would otherwise create a huge invisible touch target.
           endpoints.raycast = () => {};
           paths.add(endpoints);
-        } else if (chosen && props.joint !== "wholebody")
+        } else if (
+          chosen &&
+          props.joint !== "wholebody" &&
+          props.joint !== "spine"
+        )
           for (const p of [points[0], points[points.length - 1]]) {
             const dot = new THREE.Mesh(
-              new THREE.SphereGeometry(
-                props.joint === "spine" ? 0.003 : 0.006,
-                12,
-                8,
-              ),
+              new THREE.SphereGeometry(0.006, 12, 8),
               new THREE.MeshStandardMaterial({ color: "#294f41" }),
             );
             dot.position.copy(p);
@@ -985,7 +998,10 @@ export default function BiomechanicsViewer(props: Props) {
               disabled={bonesOnly}
               onClick={() => setIsolated(!isolated)}
             >
-              <Focus size={14} /> Isolate path
+              <Focus size={14} />{" "}
+              {isolated && props.joint === "spine"
+                ? "Show muscle context"
+                : "Isolate path"}
             </button>
           )}
         </div>

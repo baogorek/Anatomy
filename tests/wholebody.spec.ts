@@ -21,7 +21,7 @@ test("combined joints share a pose and reference, with independent regional stat
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   let lab = await open(page);
-  await expect(lab.locator('input[type="range"]')).toHaveCount(72);
+  await expect(lab.locator('input[id^="wholebody-"]')).toHaveCount(72);
   await expect(lab.locator(".wholebody-group")).toHaveCount(13);
   const hip = lab.getByRole("slider", {
     name: "Right hip Flexion / extension",

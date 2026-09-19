@@ -1,3 +1,4 @@
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
@@ -237,12 +238,12 @@ export default function AnatomyViewer({
       }
     }
     const draco = new DRACOLoader();
-    draco.setDecoderPath("/draco/");
+    draco.setDecoderPath(assetUrl("/draco/"));
     draco.setWorkerLimit(2);
     const loader = new GLTFLoader();
     loader.setDRACOLoader(draco);
     loader.load(
-      "/models/body.glb",
+      assetUrl("/models/body.glb"),
       (gltf) => {
         if (!alive) {
           gltf.scene.traverse((obj) => {

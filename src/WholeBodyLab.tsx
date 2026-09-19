@@ -1,9 +1,11 @@
+import { assetUrl } from "./urls";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { MovementTarget } from "./AnatomyCatalog";
 import BiomechanicsViewer from "./BiomechanicsViewer";
 import MuscleReference from "./MuscleReference";
 import WholeBodyLayers from "./WholeBodyLayers";
 import LongestPathSearch from "./LongestPathSearch";
+import SpineGroupControls from "./SpineGroupControls";
 import {
   defaultAppearance,
   visibleBodyPaths,
@@ -528,6 +530,36 @@ export default function WholeBodyLab({
                             c.default,
                         ) > 0.001,
                     ).length;
+                    const spinal = g.id === "lumbar" || g.id === "thoracic";
+                    const sliders = controls.map((c) => {
+                      const value = request.coordinates?.[c.id] ?? c.default;
+                      const label = `${g.label} ${c.level ? c.level.replace("_", "–") + " " : ""}${c.label}`;
+                      return (
+                        <div className="bio-slider" key={c.id}>
+                          <label htmlFor={`wholebody-${c.id}`}>
+                            {c.level && <b>{c.level.replace("_", "–")}</b>}
+                            {c.label}
+                            <output>{value.toFixed(c.level ? 1 : 0)}°</output>
+                          </label>
+                          <input
+                            id={`wholebody-${c.id}`}
+                            aria-label={label}
+                            type="range"
+                            min={c.min}
+                            max={c.max}
+                            step={c.level ? 0.1 : 1}
+                            value={value}
+                            onChange={(e) =>
+                              change({
+                                ...request.coordinates,
+                                [c.id]: Number(e.target.value),
+                              })
+                            }
+                          />
+                          <small>{c.detail}</small>
+                        </div>
+                      );
+                    });
                     return (
                       <details
                         className="wholebody-group"
@@ -541,7 +573,9 @@ export default function WholeBodyLab({
                           <span>
                             {changed
                               ? `${changed} changed`
-                              : `${controls.length} ${controls.length === 1 ? "control" : "controls"}`}
+                              : spinal
+                                ? "3 group controls"
+                                : `${controls.length} ${controls.length === 1 ? "control" : "controls"}`}
                           </span>
                         </summary>
                         <button
@@ -555,38 +589,23 @@ export default function WholeBodyLab({
                         >
                           Reset {g.label.toLowerCase()}
                         </button>
-                        {controls.map((c) => {
-                          const value =
-                            request.coordinates?.[c.id] ?? c.default;
-                          const label = `${g.label} ${c.level ? c.level.replace("_", "–") + " " : ""}${c.label}`;
-                          return (
-                            <div className="bio-slider" key={c.id}>
-                              <label htmlFor={`wholebody-${c.id}`}>
-                                {c.level && <b>{c.level.replace("_", "–")}</b>}
-                                {c.label}
-                                <output>
-                                  {value.toFixed(c.level ? 1 : 0)}°
-                                </output>
-                              </label>
-                              <input
-                                id={`wholebody-${c.id}`}
-                                aria-label={label}
-                                type="range"
-                                min={c.min}
-                                max={c.max}
-                                step={c.level ? 0.1 : 1}
-                                value={value}
-                                onChange={(e) =>
-                                  change({
-                                    ...request.coordinates,
-                                    [c.id]: Number(e.target.value),
-                                  })
-                                }
-                              />
-                              <small>{c.detail}</small>
-                            </div>
-                          );
-                        })}
+                        {spinal ? (
+                          <>
+                            <SpineGroupControls
+                              controls={controls}
+                              coordinates={request.coordinates || {}}
+                              label={g.label}
+                              onChange={change}
+                              showReset={false}
+                            />
+                            <details className="bio-spine-individual">
+                              <summary>Fine-tune individual joints</summary>
+                              {sliders}
+                            </details>
+                          </>
+                        ) : (
+                          sliders
+                        )}
                       </details>
                     );
                   })}
@@ -690,11 +709,19 @@ export default function WholeBodyLab({
               </a>{" "}
               ·{" "}
               <a
-                href="/models/spine/LICENSE.txt"
+                href={assetUrl("/models/spine/LICENSE.txt")}
                 target="_blank"
                 rel="noreferrer"
               >
                 License & credits
+              </a>
+              {" · "}
+              <a
+                href={assetUrl("/credits/index.html#wholebody")}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Full citations, licenses & changes
               </a>
             </p>
             <p className="bio-version">

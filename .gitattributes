@@ -2,6 +2,8 @@
 biomechanics/models/** -text -whitespace
 public/models/** -text -whitespace
 biomechanics/diagnostics/wrap-cache/*.patch -text -whitespace
+credits/notices/** -text -whitespace
+public/credits/notices/** -text -whitespace
 *.vtp binary
 *.obj binary
 *.glb binary

@@ -1,3 +1,4 @@
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
@@ -12,7 +13,7 @@ function load(dataset = "atlas") {
   if (!cached.has(dataset))
     cached.set(
       dataset,
-      fetch(`/models/muscle-reference/${dataset}.json`)
+      fetch(assetUrl(`/models/muscle-reference/${dataset}.json`))
         .then(async (r) => {
           if (!r.ok) throw Error("The anatomy reference could not load.");
           const a = await r.json();
@@ -337,7 +338,7 @@ export default function MuscleReference({
             are not aligned to the moving model’s endpoints. This shape does not
             follow the moving bones.{" "}
             <a
-              href="/models/muscle-reference/ATTRIBUTION.md"
+              href={assetUrl("/models/muscle-reference/ATTRIBUTION.md")}
               target="_blank"
               rel="noreferrer"
             >

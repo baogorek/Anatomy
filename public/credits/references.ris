@@ -1,0 +1,203 @@
+TY  - JOUR
+AU  - Belli, I
+AU  - Joshi, S
+AU  - Prendergast, JM
+AU  - Beck, I
+AU  - Della Santina, C
+AU  - Peternel, L
+AU  - Seth, A
+PY  - 2023
+TI  - Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles.
+JO  - PloS one
+VL  - 18
+IS  - 11
+SP  - e0295003
+DO  - 10.1371/journal.pone.0295003
+UR  - https://doi.org/10.1371/journal.pone.0295003
+ER  -
+
+TY  - JOUR
+AU  - Uhlrich, SD
+AU  - Falisse, A
+AU  - Kidziński Ł
+AU  - Muccini, J
+AU  - Ko, M
+AU  - Chaudhari, AS
+AU  - Hicks, JL
+AU  - Delp, SL
+PY  - 2023
+TI  - OpenCap: Human movement dynamics from smartphone videos.
+JO  - PLoS computational biology
+VL  - 19
+IS  - 10
+SP  - e1011462
+DO  - 10.1371/journal.pcbi.1011462
+UR  - https://doi.org/10.1371/journal.pcbi.1011462
+ER  -
+
+TY  - JOUR
+AU  - Seth, A
+AU  - Dong, M
+AU  - Matias, R
+AU  - Delp, S
+PY  - 2019
+TI  - Muscle Contributions to Upper-Extremity Movement and Work From a Musculoskeletal Model of the Human Shoulder.
+JO  - Frontiers in neurorobotics
+VL  - 13
+SP  - 90
+DO  - 10.3389/fnbot.2019.00090
+UR  - https://doi.org/10.3389/fnbot.2019.00090
+ER  -
+
+TY  - JOUR
+AU  - Seth, A
+AU  - Hicks, JL
+AU  - Uchida, TK
+AU  - Habib, A
+AU  - Dembia, CL
+AU  - Dunne, JJ
+AU  - Ong, CF
+AU  - DeMers, MS
+AU  - Rajagopal, A
+AU  - Millard, M
+AU  - Hamner, SR
+AU  - Arnold, EM
+AU  - Yong, JR
+AU  - Lakshmikanth, SK
+AU  - Sherman, MA
+AU  - Ku, JP
+AU  - Delp, SL
+PY  - 2018
+TI  - OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement.
+JO  - PLoS computational biology
+VL  - 14
+IS  - 7
+SP  - e1006223
+DO  - 10.1371/journal.pcbi.1006223
+UR  - https://doi.org/10.1371/journal.pcbi.1006223
+ER  -
+
+TY  - JOUR
+AU  - Mortensen, JD
+AU  - Vasavada, AN
+AU  - Merryweather, AS
+PY  - 2018
+TI  - The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck.
+JO  - PloS one
+VL  - 13
+IS  - 6
+SP  - e0199912
+DO  - 10.1371/journal.pone.0199912
+UR  - https://doi.org/10.1371/journal.pone.0199912
+ER  -
+
+TY  - JOUR
+AU  - Rajagopal, A
+AU  - Dembia, CL
+AU  - DeMers, MS
+AU  - Delp, DD
+AU  - Hicks, JL
+AU  - Delp, SL
+PY  - 2016
+TI  - Full-Body Musculoskeletal Model for Muscle-Driven Simulation of Human Gait.
+JO  - IEEE transactions on bio-medical engineering
+VL  - 63
+IS  - 10
+SP  - 2068-2079
+DO  - 10.1109/tbme.2016.2586891
+UR  - https://doi.org/10.1109/tbme.2016.2586891
+ER  -
+
+TY  - JOUR
+AU  - McFarland, DC
+AU  - McCain, EM
+AU  - Poppo, MN
+AU  - Saul, KR
+PY  - 2019
+TI  - Spatial Dependency of Glenohumeral Joint Stability During Dynamic Unimanual and Bimanual Pushing and Pulling.
+JO  - Journal of biomechanical engineering
+VL  - 141
+IS  - 5
+SP  - 051006
+DO  - 10.1115/1.4043035
+UR  - https://doi.org/10.1115/1.4043035
+ER  -
+
+TY  - JOUR
+AU  - Bruno, AG
+AU  - Bouxsein, ML
+AU  - Anderson, DE
+PY  - 2015
+TI  - Development and Validation of a Musculoskeletal Model of the Fully Articulated Thoracolumbar Spine and Rib Cage.
+JO  - Journal of biomechanical engineering
+VL  - 137
+IS  - 8
+SP  - 081003
+DO  - 10.1115/1.4030408
+UR  - https://doi.org/10.1115/1.4030408
+ER  -
+
+TY  - JOUR
+AU  - Saul, KR
+AU  - Hu, X
+AU  - Goehler, CM
+AU  - Vidt, ME
+AU  - Daly, M
+AU  - Velisar, A
+AU  - Murray, WM
+PY  - 2015
+TI  - Benchmarking of dynamic simulation predictions in two software platforms using an upper limb musculoskeletal model.
+JO  - Computer methods in biomechanics and biomedical engineering
+VL  - 18
+IS  - 13
+SP  - 1445-1458
+DO  - 10.1080/10255842.2014.916698
+UR  - https://doi.org/10.1080/10255842.2014.916698
+ER  -
+
+TY  - JOUR
+AU  - Lai, AKM
+AU  - Arnold, AS
+AU  - Wakeling, JM
+PY  - 2017
+TI  - Why are Antagonist Muscles Co-activated in My Simulation? A Musculoskeletal Model for Analysing Human Locomotor Tasks.
+JO  - Annals of biomedical engineering
+VL  - 45
+IS  - 12
+SP  - 2762-2774
+DO  - 10.1007/s10439-017-1920-7
+UR  - https://doi.org/10.1007/s10439-017-1920-7
+ER  -
+
+TY  - JOUR
+AU  - Delp, SL
+AU  - Anderson, FC
+AU  - Arnold, AS
+AU  - Loan, P
+AU  - Habib, A
+AU  - John, CT
+AU  - Guendelman, E
+AU  - Thelen, DG
+PY  - 2007
+TI  - OpenSim: open-source software to create and analyze dynamic simulations of movement.
+JO  - IEEE transactions on bio-medical engineering
+VL  - 54
+IS  - 11
+SP  - 1940-1950
+DO  - 10.1109/tbme.2007.901024
+UR  - https://doi.org/10.1109/tbme.2007.901024
+ER  -
+
+TY  - JOUR
+AU  - Vasavada, AN
+AU  - Li, S
+AU  - Delp, SL
+PY  - 1998
+TI  - Influence of muscle morphometry and moment arms on the moment-generating capacity of human neck muscles.
+JO  - Spine
+VL  - 23
+IS  - 4
+SP  - 412-422
+DO  - 10.1097/00007632-199802150-00002
+UR  - https://doi.org/10.1097/00007632-199802150-00002
+ER  -

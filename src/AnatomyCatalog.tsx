@@ -1,3 +1,4 @@
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowUpRight, Search } from "lucide-react";
 import catalog from "./anatomyCatalog.json";
@@ -243,7 +244,11 @@ function AtlasDetails({
       )}
       <p className="atlas-footnote">
         Z-Anatomy / BodyParts3D · original resting geometry.{" "}
-        <a href="/models/ATTRIBUTION.md" target="_blank" rel="noreferrer">
+        <a
+          href={assetUrl("/models/ATTRIBUTION.md")}
+          target="_blank"
+          rel="noreferrer"
+        >
           Source & credits ↗
         </a>
       </p>

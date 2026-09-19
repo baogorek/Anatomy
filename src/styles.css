@@ -104,11 +104,13 @@ a {
   display: flex;
   align-items: center;
   gap: 11px;
+  color: #2c3e50;
+  white-space: nowrap;
 }
 .brand > span:last-child {
   font-family: Manrope, sans-serif;
   font-weight: 800;
-  font-size: 29px;
+  font-size: 26px;
   letter-spacing: -1.2px;
   line-height: 1.1;
 }
@@ -119,30 +121,10 @@ a {
   font-weight: 600;
   margin-top: 7px;
 }
-.brand-mark {
-  width: 43px;
-  height: 47px;
-  position: relative;
-  display: grid;
-  place-items: center;
-  border-radius: 14px 14px 14px 3px;
-  background: var(--green);
-  color: #e5ecce;
-  font-family: Manrope, sans-serif;
-  font-weight: 500;
-  font-size: 39px;
-  line-height: 1;
-  padding-bottom: 7px;
-  padding-right: 2px;
-}
-.brand-mark > span {
-  position: absolute;
-  background: #d5dea2;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  right: 7px;
-  top: 8px;
+.brand-logo {
+  width: 52px;
+  height: 38px;
+  flex-shrink: 0;
 }
 .main-nav {
   display: flex;
@@ -150,8 +132,11 @@ a {
   gap: 14px;
   margin-left: 80px;
 }
-.main-nav button {
+.main-nav button,
+.main-nav a {
   position: relative;
+  display: flex;
+  align-items: center;
   padding: 0 15px;
   color: #5e6560;
   font-size: 13px;
@@ -170,25 +155,6 @@ a {
   right: 15px;
   background: var(--green);
   border-radius: 2px 2px 0 0;
-}
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-}
-.trainer-badge {
-  font-size: 8px;
-  letter-spacing: 1.4px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-.trainer-badge > span {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #87a17b;
 }
 main {
   max-width: 1600px;
@@ -964,6 +930,12 @@ footer button {
   color: #606756;
   padding: 0;
 }
+footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font: inherit;
+}
 .no-results {
   padding: 25px 10px;
   text-align: center;
@@ -1204,9 +1176,6 @@ footer button {
     margin-left: 0;
     gap: 1px;
   }
-  .trainer-badge {
-    display: none;
-  }
   main {
     padding: 0 3%;
   }
@@ -1338,14 +1307,13 @@ footer button {
     position: relative;
     margin-bottom: 48px;
   }
-  .brand-mark {
+  .brand-logo {
     width: 34px;
-    height: 38px;
-    font-size: 32px;
-    border-radius: 11px 11px 11px 3px;
+    height: 26px;
   }
   .brand > span:last-child {
-    font-size: 25px;
+    font-size: 21px;
+    letter-spacing: -0.8px;
   }
   .brand-subtitle {
     font-size: 6px;
@@ -1362,16 +1330,15 @@ footer button {
     justify-content: space-evenly;
     padding: 0 3%;
   }
-  .main-nav button {
+  .main-nav button,
+  .main-nav a {
     font-size: 11px;
     padding: 0 10px;
     gap: 6px;
   }
-  .main-nav button svg {
+  .main-nav button svg,
+  .main-nav a svg {
     width: 15px;
-  }
-  .header-right {
-    gap: 0;
   }
   main {
     padding: 0 5%;

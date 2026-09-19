@@ -122,6 +122,13 @@ export const defaultAppearance: PathAppearance = {
   boneOpacity: 1,
   markers: false,
 };
+export const defaultSpineAppearance: PathAppearance = {
+  mode: "region",
+  side: "both",
+  layers: ["back"],
+  boneOpacity: 0.7,
+  markers: false,
+};
 
 const source = new Map(
   spineMuscles.map((m) => ["wholebody__" + m.nativeId, m]),
@@ -154,7 +161,8 @@ export function wholeBodyMuscles(
   muscles: ModelConfig["muscles"],
 ): BodyMuscle[] {
   return muscles.map((m) => {
-    const entry = source.get(m.id);
+    // Regional spine and Whole body expose the same pinned spinal inventory.
+    const entry = source.get(m.id.replace(/^spine__/, "wholebody__"));
     const lower = /^wholebody__(.+)_(r|l)$/.exec(m.id);
     const family =
       entry?.family || (lower && lowerFamilies[lower[1]]) || m.name;

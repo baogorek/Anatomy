@@ -251,18 +251,18 @@ class SearchJobs:
         self.lock = Lock()
         self.jobs = {}
 
-    def start(self, request):
+    def start(self, request, owner=None):
         engine = self.engines[request["region"]]
         validate_request(engine, request)
         with self.lock:
             now = time.monotonic()
             self.jobs = {k: v for k, v in self.jobs.items() if now-v["created"] < 600}
             if any(j["status"] == "running" for j in self.jobs.values()):
-                raise RuntimeError("A path search is already running. Cancel it or wait for it to finish.")
+                raise RuntimeError("Another path search is running. Try again in a few seconds.")
             while len(self.jobs) >= 16:
                 del self.jobs[next(iter(self.jobs))]
             jid = uuid4().hex
-            job = dict(id=jid, status="running", evaluations=0, created=now, cancel=Event())
+            job = dict(id=jid, status="running", evaluations=0, created=now, cancel=Event(), owner=owner)
             self.jobs[jid] = job
         Thread(target=self.run, args=(engine, request, job), daemon=True).start()
         return dict(id=jid, status="running")
@@ -286,11 +286,11 @@ class SearchJobs:
             with self.lock:
                 job.update(status="error", error=str(error) if isinstance(error, ValueError) else "The model could not complete this search. Your pose is unchanged.")
 
-    def get(self, jid, cancel=False):
+    def get(self, jid, cancel=False, owner=None):
         with self.lock:
             job = self.jobs.get(jid)
-            if job is None:
+            if job is None or job.get("owner") != owner or time.monotonic()-job["created"] >= 600:
                 return None
             if cancel:
                 job["cancel"].set()
-            return {k: v for k, v in job.items() if k not in ("cancel", "created")}
+            return {k: v for k, v in job.items() if k not in ("cancel", "created", "owner")}

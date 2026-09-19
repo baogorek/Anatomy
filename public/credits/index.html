@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Model authors, research publications, licenses and local adaptations for SplineFitness Movement Lab.">
+<title>Sources &amp; model credits — SplineFitness Movement Lab</title><style>:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  color: #253b34;
+  background: #f7f8f5;
+  line-height: 1.65;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  padding: 1rem max(1rem, calc((100% - 960px) / 2));
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid #d5decf;
+  background: #fcfcf9;
+}
+header span {
+  font-weight: 750;
+  color: #2c3e50;
+}
+main {
+  max-width: 960px;
+  margin: auto;
+  padding: 1.5rem;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+}
+h1 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+a {
+  color: #285448;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #417a67;
+  outline-offset: 4px;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+  background: #edf2e9;
+  border-radius: 0.5rem;
+}
+li {
+  padding-bottom: 0.5rem;
+}
+ul {
+  padding-left: 1.5rem;
+}
+section {
+  padding: 2rem 0;
+  border-top: 1px solid #d5decf;
+  scroll-margin-top: 1rem;
+}
+.credit {
+  font-weight: 600;
+}
+details {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #edf2e9;
+  border-radius: 0.5rem;
+}
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+code {
+  overflow-wrap: anywhere;
+  font-size: 0.88em;
+}
+.downloads {
+  margin: 1.5rem 0 2rem;
+}
+footer {
+  border-top: 1px solid #d5decf;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.skip {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  padding: 0.5rem;
+  background: white;
+}
+.skip:focus {
+  top: 0;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+  nav ul {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  header,
+  nav,
+  .skip,
+  .downloads {
+    display: none;
+  }
+  main {
+    max-width: none;
+  }
+  section {
+    break-inside: auto;
+  }
+  a {
+    color: inherit;
+  }
+}
+</style></head>
+<body><a class="skip" href="#main">Skip to credits</a><header><a href="../">← Movement Lab</a><span>SplineFitness</span></header>
+<main id="main"><h1>Sources &amp; model credits</h1><p>SplineFitness Movement Lab is a non-commercial experimentation project built on the work of anatomy researchers, model authors and open-source contributors. The sources below identify what we use, where it came from and what we changed. Their authors do not endorse SplineFitness.</p>
+<nav aria-label="Credit sections"><ul><li><a href="#shoulder">Shoulder and deltoid study</a></li><li><a href="#hip">Hip, knee and ankle</a></li><li><a href="#arm">Elbow, forearm and wrist</a></li><li><a href="#neck">Neck</a></li><li><a href="#spine">Spine and whole body</a></li><li><a href="#atlas">Resting anatomy: Z-Anatomy and BodyParts3D</a></li><li><a href="#tfl">Tensor fasciae latae and iliotibial-tract supplement</a></li><li><a href="#opensim">OpenSim calculation engine</a></li><li><a href="#hosting">Production HTTP service</a></li><li><a href="#software">Software and fonts</a></li><li><a href="#reading">Anatomy references</a></li></ul></nav>
+<p>Publications document the source models and their studied tasks. Movement Lab calculates geometric muscle–tendon path lengths; its sliders and longest-path search do not establish tissue tension, activation, a personalized stretch or a safe range of motion. The resting atlas depicts a separate body and does not deform with the moving model.</p>
+<p class="downloads"><a href="references.ris" download>Download bibliography (RIS)</a> · <a href="provenance.json" download>Download source and version record (JSON)</a></p>
+<section id="shoulder">
+    <h2>Shoulder and deltoid study</h2><p class="credit">Thoracoscapular model by A. Seth, M. Dong, R. Matias and S. Delp. Subject-scaled model, geometry and movement data distributed by Italo Belli, Sagar Joshi, J. Micah Prendergast, Irene Beck, Cosimo Della Santina, Luka Peternel and Ajay Seth (2023).</p>
+    <p><strong>Used here.</strong> Regional Shoulder uses 33 model compartments and the supplied ABD01, FLX01 and SHRUG01 inverse-kinematics tracks. The deltoid close-up uses sampled native poses from the same model.</p><p><strong>Our changes.</strong> The source model and meshes are preserved. We convert geometry for browser display, expose selected native joint controls, and calculate paths and lengths with OpenSim. Recorded tracks supply joint coordinates. Movement Lab does not run the paper’s muscle-redundancy solver or estimate its muscle forces. Deltoid anatomy is extracted separately from the resting atlas.</p>
+    <h3>Publications</h3><ul><li>Seth A, Dong M, Matias R, Delp S. (2019). <a href="https://doi.org/10.3389/fnbot.2019.00090">Muscle Contributions to Upper-Extremity Movement and Work From a Musculoskeletal Model of the Human Shoulder.</a> <em>Frontiers in neurorobotics</em> 13: 90. <a href="https://doi.org/10.3389/fnbot.2019.00090">DOI: 10.3389/fnbot.2019.00090</a></li><li>Belli I, Joshi S, Prendergast JM, Beck I, Della Santina C, Peternel L, Seth A. (2023). <a href="https://doi.org/10.1371/journal.pone.0295003">Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles.</a> <em>PloS one</em> 18(11): e0295003. <a href="https://doi.org/10.1371/journal.pone.0295003">DOI: 10.1371/journal.pone.0295003</a></li></ul>
+    <h3>Sources and terms</h3><p>The source package’s data and musculoskeletal-model notice specifies CC BY 4.0. The resting atlas retains its separate CC BY-SA 4.0 terms.</p>
+    <ul><li><a href="https://simtk.org/projects/thoracoscapular">Original thoracoscapular project</a></li><li><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></li><li><a href="../models/deltoid/ATTRIBUTION.md">Deltoid extraction and sampling record</a></li><li><a href="notices/shoulder-LICENSE.txt">Preserved shoulder data/model notice</a></li></ul>
+    <details><summary>Exact source and version</summary>
+    <ul><li><a href="https://github.com/ComputationalBiomechanicsLab/rmr-solver/tree/d40ebd8ba658633993e531e408c0d96df30ff367">ComputationalBiomechanicsLab/rmr-solver</a></li><li><strong>Commit:</strong> <code>d40ebd8ba658633993e531e408c0d96df30ff367</code></li><li><strong>File:</strong> <code>OpenSim Models/for CMC/TSM_subject_CMC_noWeight.osim</code></li><li><strong>Model SHA-256:</strong> <code>9342ecc5534a533e78ac2efcc72ab6377a5220a71bda1c25f5675ba51e9d8e16</code></li></ul></details></section>
+<section id="hip">
+    <h2>Hip, knee and ankle</h2><p class="credit">Lai–Uhlrich 2022 model distributed by the OpenCap team, with model lineage from Apoorva Rajagopal and colleagues and Adrian Lai, Allison Arnold and James Wakeling. Bone display geometry comes from the OpenSim models collection, including its Rajagopal geometry.</p>
+    <p><strong>Used here.</strong> Regional Hip, Knee and Ankle share the model’s 40 right-side lower-limb muscle compartments. The OpenCap video-processing service is not used.</p><p><strong>Our changes.</strong> Source model and mesh files are preserved. We select the right-side workspace, expose hip/knee/ankle/subtalar coordinates and convert source meshes for the browser. Unexposed joints retain the source’s defaults and coupling relationships. Whole body uses a different model, cited below.</p>
+    <h3>Publications</h3><ul><li>Rajagopal A, Dembia CL, DeMers MS, Delp DD, Hicks JL, Delp SL. (2016). <a href="https://doi.org/10.1109/tbme.2016.2586891">Full-Body Musculoskeletal Model for Muscle-Driven Simulation of Human Gait.</a> <em>IEEE transactions on bio-medical engineering</em> 63(10): 2068-2079. <a href="https://doi.org/10.1109/tbme.2016.2586891">DOI: 10.1109/tbme.2016.2586891</a></li><li>Lai AKM, Arnold AS, Wakeling JM. (2017). <a href="https://doi.org/10.1007/s10439-017-1920-7">Why are Antagonist Muscles Co-activated in My Simulation? A Musculoskeletal Model for Analysing Human Locomotor Tasks.</a> <em>Annals of biomedical engineering</em> 45(12): 2762-2774. <a href="https://doi.org/10.1007/s10439-017-1920-7">DOI: 10.1007/s10439-017-1920-7</a></li><li>Uhlrich SD, Falisse A, Kidziński Ł, Muccini J, Ko M, Chaudhari AS, Hicks JL, Delp SL. (2023). <a href="https://doi.org/10.1371/journal.pcbi.1011462">OpenCap: Human movement dynamics from smartphone videos.</a> <em>PLoS computational biology</em> 19(10): e1011462. <a href="https://doi.org/10.1371/journal.pcbi.1011462">DOI: 10.1371/journal.pcbi.1011462</a></li></ul>
+    <h3>Sources and terms</h3><p>The OpenCap repository supplies an Apache 2.0 license for the model source. Redistribution terms for the separate bone-geometry files have not been established individually. Their exact origins are recorded below; the model-source license is not presented as permission covering every mesh.</p>
+    <ul><li><a href="https://simtk.org/projects/full_body">Rajagopal full-body model project</a></li><li><a href="notices/hip-model-LICENSE.txt">Preserved OpenCap repository license (model source)</a></li></ul>
+    <details><summary>Exact source and version</summary>
+    <ul><li><a href="https://github.com/opencap-org/opencap-core/tree/4c0aab5e2f1c80810585cda212769e9da4ec167e">opencap-org/opencap-core</a></li><li><strong>Commit:</strong> <code>4c0aab5e2f1c80810585cda212769e9da4ec167e</code></li><li><strong>File:</strong> <code>opensimPipeline/Models/LaiUhlrich2022.osim</code></li><li><strong>Model SHA-256:</strong> <code>7499645500d4bca9269f27fd669bd3ed3abbeccd549d87f86cd01119a1a24366</code></li><li><a href="https://github.com/opensim-org/opensim-models/tree/d9b05d470b1a481c222372c85b75772faf8f7792">Pinned bone-geometry source</a></li><li>Individual geometry paths and checksums are included in the downloadable provenance record.</li></ul></details></section>
+<section id="arm">
+    <h2>Elbow, forearm and wrist</h2><p class="credit">MoBL-ARMS by Katherine Saul, Xiao Hu, Craig Goehler, Meghan Vidt, Melissa Daly, Anca Velisar and Wendy Murray; subsequent work by D. C. McFarland, E. M. McCain, M. N. Poppo and K. R. Saul. Retrieved from the public Auctus/Inria model collection.</p>
+    <p><strong>Used here.</strong> Regional Elbow and Wrist expose 17 selected muscle paths from the MoBL-ARMS fixed-41 model. Shoulder position and finger grip remain fixed.</p><p><strong>Our changes.</strong> Two ECRL wrapping ranges are restricted to their intended path segments. The original model, derived model hashes and exact patch are retained. Attachments and joint definitions are unchanged. Unreliable supinator comparisons in pronated poses are withheld. This is an application correction, not new validation by the source authors.</p>
+    <h3>Publications</h3><ul><li>Saul KR, Hu X, Goehler CM, Vidt ME, Daly M, Velisar A, Murray WM. (2015). <a href="https://doi.org/10.1080/10255842.2014.916698">Benchmarking of dynamic simulation predictions in two software platforms using an upper limb musculoskeletal model.</a> <em>Computer methods in biomechanics and biomedical engineering</em> 18(13): 1445-1458. <a href="https://doi.org/10.1080/10255842.2014.916698">DOI: 10.1080/10255842.2014.916698</a></li><li>McFarland DC, McCain EM, Poppo MN, Saul KR. (2019). <a href="https://doi.org/10.1115/1.4043035">Spatial Dependency of Glenohumeral Joint Stability During Dynamic Unimanual and Bimanual Pushing and Pulling.</a> <em>Journal of biomechanical engineering</em> 141(5): 051006. <a href="https://doi.org/10.1115/1.4043035">DOI: 10.1115/1.4043035</a></li></ul>
+    <h3>Sources and terms</h3><p>The author terms specify non-commercial research, academic, evaluation and personal use, required citations to Saul (2015) and McFarland (2019), and the complete redistribution conditions below. They are not summarized as an unrestricted BSD license.</p>
+    <ul><li><a href="https://simtk.org/projects/upexdyn/">Original MoBL-ARMS project</a></li><li><a href="https://simtk.org/frs/?group_id=657">Author’s model terms</a></li><li><a href="notices/arm-LICENSE.txt">Complete MoBL-ARMS author terms and required citations</a></li><li><a href="notices/arm-ecrl-wrap-ranges.patch">Exact local ECRL wrapping patch</a></li></ul>
+    <details><summary>Exact source and version</summary>
+    <ul><li><a href="https://gitlab.inria.fr/auctus-team/components/modelisation/humanmodels/opensim_models/-/tree/e0a35c698513df3809e80b9d10fe61f21145407b">auctus-team/components/modelisation/humanmodels/opensim_models</a></li><li><strong>Commit:</strong> <code>e0a35c698513df3809e80b9d10fe61f21145407b</code></li><li><strong>File:</strong> <code>upper_body/unimanual/MoBL-ARMS Upper Extremity Model/MOBL_ARMS_fixed_41.osim</code></li><li><strong>Model SHA-256:</strong> <code>ecb69946f60b0d63cb207fd07554546afb6a138c10afdcf6fdb0cf4124369518</code></li><li><strong>Original SHA-256:</strong> <code>1dd78c05340dfedb4db51b85ba5353a84ab58ecd6a7f3f5e0b4fec134591bf98</code></li><li>Public Auctus/Inria model collection. Original SimTK release requires login; no claim of byte identity to its zip. Model loaded and tested as pinned here.</li></ul></details></section>
+<section id="neck">
+    <h2>Neck</h2><p class="credit">Neck-model lineage by Anita Vasavada, Siping Li and Scott Delp; hyoid-model additions by Jonathan Mortensen, Anita Vasavada and Andrew Merryweather. The preserved reference model and geometry were retrieved from mjhmilla/kinematicPassengerModel.</p>
+    <p><strong>Used here.</strong> The Neck workspace exposes six existing upper/lower cervical controls and 52 bilateral paths from the source’s 72 actuators. Hyoid paths are outside this workspace.</p><p><strong>Our changes.</strong> No source XML, attachment, mesh or wrapping edits. OpenSim upgrades the older XML representation in memory. The torso and shoulder girdle retain their source relationships. The researcher reference file is used, not its repository’s merged passenger model.</p>
+    <h3>Publications</h3><ul><li>Vasavada AN, Li S, Delp SL. (1998). <a href="https://doi.org/10.1097/00007632-199802150-00002">Influence of muscle morphometry and moment arms on the moment-generating capacity of human neck muscles.</a> <em>Spine</em> 23(4): 412-422. <a href="https://doi.org/10.1097/00007632-199802150-00002">DOI: 10.1097/00007632-199802150-00002</a></li><li>Mortensen JD, Vasavada AN, Merryweather AS. (2018). <a href="https://doi.org/10.1371/journal.pone.0199912">The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck.</a> <em>PloS one</em> 13(6): e0199912. <a href="https://doi.org/10.1371/journal.pone.0199912">DOI: 10.1371/journal.pone.0199912</a></li></ul>
+    <h3>Sources and terms</h3><p>The original project supplies MIT-style author terms. The researcher repository’s separate MIT notice is also preserved. We do not assert byte identity with the login-protected original release.</p>
+    <ul><li><a href="https://simtk.org/projects/neckdynamics">Original neck dynamics project</a></li><li><a href="https://simtk.org/frs/?group_id=1404">Author’s model terms</a></li><li><a href="notices/neck-LICENSE.txt">Preserved neck author terms</a></li><li><a href="notices/neck-mirror-LICENSE.txt">Preserved researcher repository notice</a></li></ul>
+    <details><summary>Exact source and version</summary>
+    <ul><li><a href="https://github.com/mjhmilla/kinematicPassengerModel/tree/b0eb96127ca07dea0266764e837faeaa397092b5/models/reference">mjhmilla/kinematicPassengerModel</a></li><li><strong>Commit:</strong> <code>b0eb96127ca07dea0266764e837faeaa397092b5</code></li><li><strong>File:</strong> <code>models/reference/Mortensen2018.osim</code></li><li><strong>Model SHA-256:</strong> <code>f85b25349a0132938769c18a9f1e6c3049b6e1395c12ffb693e03f38e51acf0b</code></li><li>Preserved reference model from the public researcher repository, not its merged passenger model. No claim of byte identity with the login-protected SimTK archive.</li></ul></details></section>
+<section id="spine"><span id="wholebody"></span>
+    <h2>Spine and whole body</h2><p class="credit">Thoracolumbar spine and rib-cage model by Alexander Bruno, Mary Bouxsein and Dennis Anderson. The preserved full-body v11 LTpT T12Fix template and geometry come from Bern Movement Lab’s tlsm repository.</p>
+    <p><strong>Used here.</strong> Regional Spine exposes 552 upper-body fascicles and 51 intervertebral coordinates. Whole body exposes all 598 muscle paths and 72 native joint coordinates from the same preserved template.</p><p><strong>Our changes.</strong> No source model or mesh edits. We select controls and displayed paths, normalize some whole-body slider signs and convert geometry for display. Grouped spinal sliders distribute changes within existing joint limits; this convenience is not a published physiological coupling model. Head/neck move as one body in Whole body, and scapulae/wrists remain fixed relative to their parent segments.</p>
+    <h3>Publications</h3><ul><li>Bruno AG, Bouxsein ML, Anderson DE. (2015). <a href="https://doi.org/10.1115/1.4030408">Development and Validation of a Musculoskeletal Model of the Fully Articulated Thoracolumbar Spine and Rib Cage.</a> <em>Journal of biomechanical engineering</em> 137(8): 081003. <a href="https://doi.org/10.1115/1.4030408">DOI: 10.1115/1.4030408</a></li></ul>
+    <h3>Sources and terms</h3><p>The original project’s displayed MIT notice is preserved with its Stanford University copyright. The exact Bern template is separately identified; byte identity with the original SimTK archive is not asserted.</p>
+    <ul><li><a href="https://simtk.org/projects/spine_ribcage">Original thoracolumbar spine and rib-cage project</a></li><li><a href="https://simtk.org/frs/?group_id=959">Original project’s license notice</a></li><li><a href="notices/spine-LICENSE.txt">Preserved spine project notice</a></li></ul>
+    <details><summary>Exact source and version</summary>
+    <ul><li><a href="https://github.com/bern-movement-lab/tlsm/tree/0ad72fa2565155f125b3120c37174132708d0130">bern-movement-lab/tlsm</a></li><li><strong>Commit:</strong> <code>0ad72fa2565155f125b3120c37174132708d0130</code></li><li><strong>File:</strong> <code>+tlsm/@ModelBuilder/Templates/MaleFullBody_v11_LTpT_T12Fix.osim</code></li><li><strong>Model SHA-256:</strong> <code>57fda207201b5137dd11c0779dd0a5532ec68d5222a9a950e88d60f8c6262f43</code></li><li>Preserved full-body v11 LTpT T12Fix template from Bern Movement Lab; no byte-identity claim with the login-protected SimTK archives.</li></ul></details></section>
+<section id="atlas">
+    <h2>Resting anatomy: Z-Anatomy and BodyParts3D</h2><p class="credit">Z-Anatomy by Gauthier Kervyn, derived from BodyParts3D, © The Database Center for Life Science. Browser model prepared by hpfrei.</p>
+    <p><strong>Used here.</strong> The anatomy catalog, selected-muscle reference panels, deep-spine atlas and deltoid reference use this resting atlas.</p><p><strong>Our changes.</strong> Unused descriptive metadata was removed from the supplied browser GLB. Local geometry is unchanged. Muscle/bone subsets are extracted with their existing world transforms; colors, visibility, clipping and transparency are applied for display. The surfaces are not registered to the moving OpenSim body and are not deformed by its joint controls.</p>
+    
+    <h3>Sources and terms</h3><p>The supplied Z-Anatomy derivative and our atlas-derived subsets retain CC BY-SA 4.0. Earlier BodyParts3D attribution is retained in the detailed notices. The independently retrieved TFL supplement has separate current archive terms below.</p>
+    <ul><li><a href="https://www.z-anatomy.com/">Z-Anatomy</a></li><li><a href="https://lifesciencedb.jp/bp3d/">BodyParts3D</a></li><li><a href="https://github.com/hpfrei/body-anatomy-3d-viewer">hpfrei’s browser model and preparation</a></li><li><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li><li><a href="../models/ATTRIBUTION.md">Full atlas attribution and changes</a></li><li><a href="../models/muscle-reference/ATTRIBUTION.md">Muscle, neck and spine extraction records</a></li></ul>
+    </section>
+<section id="tfl">
+    <h2>Tensor fasciae latae and iliotibial-tract supplement</h2><p class="credit">BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.</p>
+    <p><strong>Used here.</strong> Right TFL, iliotibial tract, hip bone, femur, tibia and fibula from the official BodyParts3D 4.0 IS-A archive are used together as a separate resting reference.</p><p><strong>Our changes.</strong> Original OBJ files are preserved. Conversion applies a shared proper axis rotation and millimetre-to-metre conversion, retaining vertices, topology and relative placement. Runtime color distinguishes muscle from fascia. No fitting, smoothing or pose deformation is applied.</p>
+    
+    <h3>Sources and terms</h3><p>The official archive license page specifies CC BY 4.0 (updated February 27, 2025; rechecked September 18, 2026). Older OBJ headers mention CC BY-SA 2.1 Japan; those original headers are retained. These current archive terms apply to this separately retrieved supplement and do not relicense the Z-Anatomy derivative.</p>
+    <ul><li><a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html">Official BodyParts3D license and attribution</a></li><li><a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html">Official download index</a></li><li><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></li><li><a href="../models/muscle-reference/ATTRIBUTION.md">File identities, hashes and conversion details</a></li></ul>
+    </section>
+<section id="opensim">
+    <h2>OpenSim calculation engine</h2><p class="credit">OpenSim authors and contributors, coordinated at Stanford University; Simbody and spdlog contributors. NumPy supplies supporting numerical arrays.</p>
+    <p><strong>Used here.</strong> Native OpenSim supplies joint assembly, bone transforms, wrapped muscle–tendon paths, lengths and supported moment arms. The browser draws these results.</p><p><strong>Our changes.</strong> Our pinned source build corrects wrap-point cache invalidation and identifies the change in its package version. No source anatomy or acceptance threshold is changed by that patch. CasADi, C3D import and the desktop visualizer are excluded. Movement Lab’s bounded longest-path search is an application feature, not a published OpenSim stretch-prescription method.</p>
+    <h3>Publications</h3><ul><li>Seth A, Hicks JL, Uchida TK, Habib A, Dembia CL, Dunne JJ, Ong CF, DeMers MS, Rajagopal A, Millard M, Hamner SR, Arnold EM, Yong JR, Lakshmikanth SK, Sherman MA, Ku JP, Delp SL. (2018). <a href="https://doi.org/10.1371/journal.pcbi.1006223">OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement.</a> <em>PLoS computational biology</em> 14(7): e1006223. <a href="https://doi.org/10.1371/journal.pcbi.1006223">DOI: 10.1371/journal.pcbi.1006223</a></li><li>Delp SL, Anderson FC, Arnold AS, Loan P, Habib A, John CT, Guendelman E, Thelen DG. (2007). <a href="https://doi.org/10.1109/tbme.2007.901024">OpenSim: open-source software to create and analyze dynamic simulations of movement.</a> <em>IEEE transactions on bio-medical engineering</em> 54(11): 1940-1950. <a href="https://doi.org/10.1109/tbme.2007.901024">DOI: 10.1109/tbme.2007.901024</a></li></ul>
+    <h3>Sources and terms</h3><p>OpenSim software uses Apache 2.0; its bundled notices and dependency terms are preserved below. Each anatomical model retains its own terms. NumPy has separate notices, including those for bundled components.</p>
+    <ul><li><a href="https://opensim.stanford.edu/">OpenSim project</a></li><li><a href="https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53086437/License+for+OpenSim+4.0+and+Later">Software versus model licensing</a></li><li><a href="https://numpy.org/">NumPy project</a></li><li><a href="notices/opensim-LICENSE.txt">OpenSim full license</a></li><li><a href="notices/opensim-NOTICE.txt">OpenSim contributor and dependency notices</a></li><li><a href="notices/simbody-LICENSE.txt">Simbody license</a></li><li><a href="notices/spdlog-LICENSE.txt">spdlog license</a></li><li><a href="notices/numpy-LICENSE.txt">NumPy distribution license notices</a></li><li><a href="notices/opensim-wrap-cache.patch">Exact OpenSim wrap-cache correction</a></li></ul>
+    <details><summary>Native build identity</summary>
+    <p>4.6+kinetic.wrapcache1 · NumPy 2.5.3</p>
+    <p><a href="https://github.com/opensim-org/opensim-core/tree/85aaf6450a2f22457dac4d1ab35adfed9d3a8e43">Pinned OpenSim source</a></p>
+    <p>Calculation build: <code>aa89e6a1fe8ed9ea9a13b8f9fcea38505276fc145fcc54bc71b2ac5c42904376</code></p>
+    <p>The complete runtime manifest and wheel hash are in the provenance download.</p></details></section>
+<section id="hosting">
+    <h2>Production HTTP service</h2><p class="credit">Gunicorn by Benoit Chesneau and the Gunicorn contributors; Packaging by Donald Stufft and individual contributors.</p>
+    <p><strong>Used here.</strong> Gunicorn 26.2.0 serves the native calculations and the lab files. Packaging 26.0 is its dependency.</p><p><strong>Our changes.</strong> No upstream source changes. We configure one threaded worker to preserve the serialized native state and per-tab search ownership.</p>
+    
+    <h3>Sources and terms</h3><p>Gunicorn is MIT licensed. Packaging offers Apache 2.0 or BSD licensing; all original notices are retained.</p>
+    <ul><li><a href="https://pypi.org/project/gunicorn/26.2.0/">Gunicorn</a></li><li><a href="https://pypi.org/project/packaging/26.0/">Packaging</a></li><li><a href="notices/gunicorn-LICENSE.txt">Gunicorn license and copyright</a></li><li><a href="notices/packaging-LICENSE.txt">Packaging license choice</a></li><li><a href="notices/packaging-LICENSE.APACHE.txt">Packaging Apache license</a></li><li><a href="notices/packaging-LICENSE.BSD.txt">Packaging BSD license and copyright</a></li></ul>
+    </section><section id="software"><h2>Browser software, fonts and identity</h2>
+  <p>The interface uses the following projects. Full distributed notices retain their contributors’ copyrights.</p>
+  <ul><li><a href="https://react.dev/">React</a> 19.2.8 — <a href="notices/react-LICENSE.txt">React license and copyright</a></li><li><a href="https://react.dev/">React DOM</a> 19.2.8 — <a href="notices/react-dom-LICENSE.txt">React DOM license and copyright</a></li><li><a href="https://github.com/facebook/react">React Scheduler</a> 0.27.0 — <a href="notices/scheduler-LICENSE.txt">React Scheduler license and copyright</a></li><li><a href="https://threejs.org/">Three.js</a> 0.185.1 — <a href="notices/three-LICENSE.txt">Three.js license and copyright</a></li><li><a href="https://lucide.dev/">Lucide icons</a> 0.577.0 — <a href="notices/lucide-react-LICENSE.txt">Lucide icons license and copyright</a></li><li><a href="notices/draco-LICENSE.txt">Google Draco decoder license</a></li></ul>
+  <p>DM Sans and Manrope load from Google Fonts with system-font fallbacks. Font authors and license notices:
+    <a href="https://github.com/google/fonts/tree/main/ofl/dmsans">DM Sans</a> ·
+    <a href="https://github.com/google/fonts/tree/main/ofl/manrope">Manrope</a>.</p>
+  <p>The SplineFitness name and spline symbol come from the existing SplineFitness project. The header symbol preserves its original curves and nodes, with the wordmark omitted and the view box cropped.</p></section><section id="reading"><h2>Anatomy and movement references</h2>
+  <p>These support the app’s anatomical explanations and illustrative exercise context. They are distinct from the research-model sources used to calculate path lengths. Textbooks and exercise guidance do not validate arbitrary slider poses or the longest-path search as a stretching program.</p>
+  <ul><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs">OpenStax · Upper limb anatomy</a></li><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements">OpenStax · Body movements</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK534836/">StatPearls · Shoulder muscles</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK537056/">StatPearls · Deltoid</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK441844/">StatPearls · Rotator cuff</a></li><li><a href="https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/">AAOS · Shoulder conditioning</a></li><li><a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447">Mayo Clinic · Stretching principles</a></li><li><a href="https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-back-region/">UAMS · Muscles of the back region (display-group anatomy)</a></li></ul></section>
+<footer>Credits describe the exact sources and adaptations in this build. Model papers and their authors do not endorse this application.<br><a href="../">Return to Movement Lab</a></footer></main></body></html>

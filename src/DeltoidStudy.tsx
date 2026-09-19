@@ -1,3 +1,4 @@
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, BookOpen, Pause, Play, RotateCcw } from "lucide-react";
 import DeltoidCanvas from "./DeltoidCanvas";
@@ -25,7 +26,7 @@ export default function DeltoidStudy({
   useEffect(() => {
     const abort = new AbortController();
     setError("");
-    fetch("/models/deltoid/demo.json", { signal: abort.signal })
+    fetch(assetUrl("/models/deltoid/demo.json"), { signal: abort.signal })
       .then(async (r) => {
         if (!r.ok) throw new Error("The deltoid demonstration could not load.");
         const a = await r.json();
@@ -301,7 +302,7 @@ export default function DeltoidStudy({
             surface developed folds and distorted volume, so it was rejected for
             this learning view.{" "}
             <a
-              href="/models/deltoid/ATTRIBUTION.md"
+              href={assetUrl("/models/deltoid/ATTRIBUTION.md")}
               target="_blank"
               rel="noreferrer"
             >

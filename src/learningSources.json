@@ -1,0 +1,30 @@
+{
+  "anatomy": {
+    "name": "OpenStax · Upper limb anatomy",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  "motion": {
+    "name": "OpenStax · Body movements",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements"
+  },
+  "shoulder": {
+    "name": "StatPearls · Shoulder muscles",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK534836/"
+  },
+  "deltoid": {
+    "name": "StatPearls · Deltoid",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK537056/"
+  },
+  "cuff": {
+    "name": "StatPearls · Rotator cuff",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK441844/"
+  },
+  "exercise": {
+    "name": "AAOS · Shoulder conditioning",
+    "url": "https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/"
+  },
+  "stretch": {
+    "name": "Mayo Clinic · Stretching principles",
+    "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447"
+  }
+}

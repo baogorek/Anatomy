@@ -29,6 +29,9 @@ type Props = {
   onApply: (request: PoseRequest) => void;
 };
 const endpoint = "/api/biomechanics/longest-path";
+// An opaque per-tab owner keeps one visitor from polling/cancelling another's job.
+const searchSession = crypto.randomUUID();
+const searchHeaders = { "X-Movement-Session": searchSession };
 async function responseJson(response: Response) {
   const body = await response.json().catch(() => ({}));
   if (!response.ok)
@@ -39,6 +42,7 @@ function cancelJob(id?: string) {
   if (id)
     void fetch(`${endpoint}/${id}`, {
       method: "DELETE",
+      headers: searchHeaders,
       keepalive: true,
     }).catch(() => {});
 }
@@ -130,7 +134,7 @@ export default function LongestPathSearch(props: Props) {
       const created = await responseJson(
         await fetch(endpoint, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: { "Content-Type": "application/json", ...searchHeaders },
           body: JSON.stringify({
             region: config.region,
             version: config.version,
@@ -153,6 +157,7 @@ export default function LongestPathSearch(props: Props) {
       while (!stale()) {
         const status = await responseJson(
           await fetch(`${endpoint}/${current.id}`, {
+            headers: searchHeaders,
             signal: current.controller.signal,
           }),
         );

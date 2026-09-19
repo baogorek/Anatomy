@@ -1,10 +1,13 @@
 {
-  "name": "kinetic-anatomy-studio",
+  "name": "splinefitness-movement-lab",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "credits": "node scripts/build-credits.mjs",
+    "predev": "npm run credits",
     "dev": "node scripts/studio.mjs",
+    "prebuild": "npm run credits",
     "build": "tsc -b && vite build",
     "preview": "node scripts/studio.mjs preview",
     "test": "playwright test",

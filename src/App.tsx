@@ -1,8 +1,15 @@
+import { assetUrl, fitnessHome } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import { Activity, ArrowRight, BookOpen, ExternalLink, X } from "lucide-react";
+import {
+  Activity,
+  ArrowLeft,
+  ArrowRight,
+  BookOpen,
+  ExternalLink,
+  X,
+} from "lucide-react";
 import MovementLab from "./MovementLab";
-import { sources } from "./data";
 
 function Modal({
   title,
@@ -48,8 +55,7 @@ function Modal({
 }
 function App() {
   const [referenceOpen, setReferenceOpen] = useState(false);
-  const [sourceOpen, setSourceOpen] = useState(false),
-    [helpOpen, setHelpOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
   const referenceButton = useRef<HTMLButtonElement>(null);
   function closeReference() {
     setReferenceOpen(false);
@@ -58,23 +64,23 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <a
-          className="brand"
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            setReferenceOpen(false);
-          }}
-          aria-label="Kinetic home"
-        >
-          <span className="brand-mark">
-            k<span />
-          </span>
+        <a className="brand" href={fitnessHome} aria-label="SplineFitness home">
+          <img
+            className="brand-logo"
+            src={assetUrl("/spline-mark.svg")}
+            alt=""
+            width="52"
+            height="38"
+          />
           <span>
-            kinetic<span className="brand-subtitle">ANATOMY IN MOTION</span>
+            SplineFitness<span className="brand-subtitle">MOVEMENT LAB</span>
           </span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
+          <a href={fitnessHome}>
+            <ArrowLeft size={17} />
+            Workout cards
+          </a>
           <button
             className="active"
             aria-current="page"
@@ -84,18 +90,12 @@ function App() {
             Movement lab
           </button>
         </nav>
-        <div className="header-right">
-          <span className="trainer-badge">
-            <span />
-            THE CURIOUS COACH
-          </span>
-        </div>
       </header>
       <main>
         <section className="page-heading">
           <div>
             <div className="breadcrumb">
-              YOUR ANATOMY STUDIO <span>/</span> MOVEMENT LAB
+              SPLINEFITNESS <span>/</span> MOVEMENT LAB
             </div>
             <h1>
               Change the position. <em>Trace the effect.</em>
@@ -126,87 +126,18 @@ function App() {
             thoughtful movement.
           </span>
           <div>
-            <button onClick={() => setSourceOpen(true)}>
-              Sources & model credits
-            </button>
+            <a
+              href={assetUrl("/credits/index.html")}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sources & model credits <ExternalLink size={12} />
+            </a>
             <span>·</span>
             <button onClick={() => setHelpOpen(true)}>How to explore</button>
           </div>
         </footer>
       </main>
-      {sourceOpen && (
-        <Modal title="SOURCES & CREDITS" onClose={() => setSourceOpen(false)}>
-          <div className="sources-content">
-            <h2>Grounded in anatomy.</h2>
-            <p>
-              Muscle explanations and prompts are written for this studio.
-              Exercise variations are illustrative coaching examples, not
-              individualized rehabilitation plans.
-            </p>
-            <h3>Learning references</h3>
-            {Object.values(sources).map((s) => (
-              <a key={s.url} href={s.url} target="_blank" rel="noreferrer">
-                {s.name}
-                <ExternalLink size={14} />
-              </a>
-            ))}
-            <h3>3D anatomy</h3>
-            <p>
-              Z-Anatomy by Gauthier Kervyn, derived from BodyParts3D, © The
-              Database Center for Life Science. Browser model prepared by
-              hpfrei. Descriptive metadata reduced; geometry unchanged. Colors
-              and upper-body clipping applied in the viewer.
-            </p>
-            <a
-              href="https://github.com/hpfrei/body-anatomy-3d-viewer"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Model source <ExternalLink size={14} />
-            </a>
-            <a
-              href="https://creativecommons.org/licenses/by-sa/4.0/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Model licensed under CC BY-SA 4.0 <ExternalLink size={14} />
-            </a>
-            <a href="/models/ATTRIBUTION.md" target="_blank" rel="noreferrer">
-              Full attribution & modifications <ExternalLink size={14} />
-            </a>
-            <h3>Movement models</h3>
-            <p>
-              Movement Lab uses native OpenSim calculations for the shoulder,
-              elbow, wrist, hip, knee, ankle, neck, spine and whole body. Each
-              workspace draws its source model’s bones and muscle paths. The
-              anatomy reference is a separate resting atlas.
-            </p>
-            <a
-              href="https://github.com/ComputationalBiomechanicsLab/rmr-solver"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Shoulder model & study data · CC BY 4.0 <ExternalLink size={14} />
-            </a>
-            <a
-              href="https://github.com/opencap-org/opencap-core"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Lai–Uhlrich model source · OpenCap repository{" "}
-              <ExternalLink size={14} />
-            </a>
-            <p>
-              Exact package versions, model publications and assumptions are
-              linked in the movement lab.
-            </p>
-            <p className="source-disclaimer">
-              The model is a simplified anatomical reference. It is not a
-              measurement of your anatomy or range of motion.
-            </p>
-          </div>
-        </Modal>
-      )}
       {helpOpen && (
         <Modal
           title="WELCOME TO YOUR ANATOMY STUDIO"

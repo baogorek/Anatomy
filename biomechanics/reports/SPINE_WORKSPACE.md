@@ -1,6 +1,6 @@
 # Thoracolumbar spine workspace
 
-The Spine tab exposes the **17 existing intervertebral joints from T1–T2 through L5–S1**, with three anatomical sliders for the selected level. Changing levels preserves all other angles. There are 552 bilateral upper-body muscle–tendon fascicles available for inspection, including all source multifidus and intercostal fascicles. The default view isolates the selected path so small deep muscles remain visible; toggle **Isolate path** to display all paths. **Focus joint** follows the selected vertebral level; **Whole spine** restores an overview.
+The Spine tab exposes the **17 existing intervertebral joints from T1–T2 through L5–S1**, with grouped controls and optional three-axis fine tuning for a selected level. Changing levels preserves all other angles. There are 552 bilateral upper-body muscle–tendon fascicles available for inspection, including all source multifidus and intercostal fascicles. The default view shows bilateral deep-back context (164 paths at the starting pose). Layer settings selects other groups or all paths; single-path isolation is opt-in. **Focus joint** follows the selected vertebral level; **Whole spine** restores an overview.
 
 ## Source and provenance
 
@@ -19,11 +19,31 @@ The Spine tab exposes the **17 existing intervertebral joints from T1–T2 throu
 | LB | Right / left lateral flexion | Right | −2° to +2° per joint |
 | AR | Left / right axial rotation | Left | −1° to +1° per joint |
 
-The signs were checked against native body transforms. The displayed angles are **native joint coordinates**, not whole-trunk Euler angles, measured clinical range of motion, or safe limits. No universal lumbar/thoracic rhythm is imposed. The multi-joint exploration deliberately applies equal 3° flexion at five lumbar joints and labels that as an illustrative pose. Users can adjust each level independently.
+The signs were checked against native body transforms. Individual controls display **native joint coordinates**; grouped controls display their summed changes from the starting pose. Neither readout is a whole-trunk Euler angle, measured clinical range of motion, or safe limit. No universal lumbar/thoracic rhythm is imposed. The multi-joint exploration deliberately applies equal 3° flexion at five lumbar joints and labels that as an illustrative pose. Users can adjust each level independently.
 
 All unexposed coordinates retain their initialized defaults, including pelvis, hips, abdominal routing body, rib joints, sternum and upper limbs. Ribs follow their parent vertebrae. The model does not deform costal cartilage or simulate breathing. Its abdomen is a routing representation, not a deforming abdominal wall. This simple boundary condition must be considered when interpreting abdominal and intercostal paths, especially combined spine poses. Lumbar and thoracic bones are articulated; the head and neck in this template are lumped. The Neck tab uses a separate cervical model.
 
 The selected joint determines which three moment arms are computed and locally checked. `spineLevel` is a presentation/calculation selection in requests; it does not change joint angles. All 51 angles can be supplied together. Native muscle IDs are namespaced as `spine__<native ID>` in the browser to avoid collisions with different neck/arm source models. `models/spine/muscles.json` records the original IDs and endpoint bodies.
+
+## Grouped spine controls
+
+Regional Spine defaults to three group sliders for all 17 modeled joints (T1–S1), with selectors for the 12 thoracic joints (T1–L1) or five lumbar joints (L1–S1). Whole body exposes the same sliders within its lumbar and thoracic sections. Individual controls remain available under **Fine-tune individual joints**. Opening that section or switching groups does not change the pose.
+
+Each group slider represents the sum of its joint-angle changes from their configured defaults. The frontend solves for a shared offset added to the current angles, clamping each joint to its existing bound. Joints at a bound stop; the remaining joints share the rest of the requested change. Existing differences between joint angles are preserved while those joints remain away from their limits. This is an editing convenience, not a new physiological coupling or distribution model. Reversing after saturation need not recover previous fine adjustments; Reset restores the selected group to source defaults.
+
+Only the chosen axis in the chosen group changes. Other spinal axes, other regions, limb positions and saved references remain untouched. Reset group resets all three axes in that group. Native source models, API coordinates, bounds, solver variables and saved-reference formats are unchanged. The native engine still evaluates the resulting individual coordinates and supplies the muscle lengths and paths. Local moment-arm readouts remain tied to the selected individual joint, which the UI names explicitly.
+
+`tests/spine-groups.spec.ts` checks redistribution at bounds, preservation of custom offsets, nonzero defaults, untouched coordinates, native response angles and length changes, saved references, group resets, individual fine tuning, keyboard operation and mobile accessibility.
+
+## Spine path display
+
+The regional spine view starts with both sides of the deep-back group: 164 native paths at the starting pose, including multifidus, longissimus thoracis and iliocostalis lumborum. It uses the same explicit source-family inventory as Whole body. Selected muscle and All paths modes, group and side filters, bone opacity and optional attachment markers are available above the viewer. The selected strand owns the length readout.
+
+Single-path isolation is opt-in, with **Show muscle context** as the return action. Choosing a layer mode exits isolation. Counts reflect the visible filter, isolation, bones-only state and available current/reference geometry. Layer changes do not change the pose or saved reference. Bones-only and isolation state reset when the regional model reloads.
+
+Selected paths are 4-pixel lines; related paths are 1.5 pixels and other context paths 1 pixel. These are display widths, not anatomical muscle diameters. Markers use fixed screen sizes. The default bone opacity is 70%, with peripheral context bones capped at 30%. The resting muscle surfaces remain in the separate anatomy reference.
+
+`tests/spine-layers.spec.ts` verifies the actual rendered path IDs, default bilateral context, isolation/restore behavior, side filters, markers, opacity, grouped movement, saved references, model switching and accessibility. The automatic single-strand isolation that previously obscured the rest of the spine model is removed.
 
 ## Muscle coverage and the small deep muscles
 

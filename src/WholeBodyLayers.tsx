@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useId, useState } from "react";
 import {
   bodyLayers,
   type BodyMuscle,
@@ -13,13 +13,16 @@ export default function WholeBodyLayers({
   selected,
   count,
   bonesOnly,
+  layers = bodyLayers,
 }: {
   appearance: PathAppearance;
   onChange: (next: PathAppearance) => void;
   selected?: BodyMuscle;
   count: number;
   bonesOnly: boolean;
+  layers?: readonly (typeof bodyLayers)[number][];
 }) {
+  const settingsId = useId();
   const [expanded, setExpanded] = useState(false);
   function mode(next: PathMode) {
     onChange({
@@ -71,19 +74,19 @@ export default function WholeBodyLayers({
         <button
           className="small-button"
           aria-expanded={expanded}
-          aria-controls="wholebody-layer-settings"
+          aria-controls={settingsId}
           onClick={() => setExpanded(!expanded)}
         >
           Layer settings
         </button>
       </div>
       {expanded && (
-        <div id="wholebody-layer-settings" className="wholebody-layer-settings">
+        <div id={settingsId} className="wholebody-layer-settings">
           {appearance.mode === "region" && (
             <fieldset>
               <legend>Add muscle groups</legend>
               <div className="wholebody-layer-groups">
-                {bodyLayers.map((layer) => (
+                {layers.map((layer) => (
                   <label key={layer.id}>
                     <input
                       type="checkbox"

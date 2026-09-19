@@ -1,8 +1,23 @@
+import { assetUrl } from "./urls";
 import WholeBodyLab from "./WholeBodyLab";
+import WholeBodyLayers from "./WholeBodyLayers";
+import {
+  bodyLayers,
+  defaultSpineAppearance,
+  visibleBodyPaths,
+  wholeBodyMuscles,
+  type PathAppearance,
+} from "./wholeBodyDisplay";
+import SpineGroupControls from "./SpineGroupControls";
+import {
+  controlsForSpine,
+  spineScopes,
+  type SpineScope,
+} from "./spineControls";
 import AnatomyCatalog, { type MovementTarget } from "./AnatomyCatalog";
 import LongestPathSearch from "./LongestPathSearch";
 import spineAtlasExtras from "./spineAtlasExtras.json";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
@@ -173,6 +188,17 @@ function JointExplorer({
     [reference, setReference] = useState<Reference | null>(null),
     [request, setRequest] = useState<PoseRequest>({});
   const [atlasOnly, setAtlasOnly] = useState<string | null>(null);
+  const [spineScope, setSpineScope] = useState<SpineScope>("all");
+  const [spineIndividual, setSpineIndividual] = useState(false);
+  const [spineAppearance, setSpineAppearance] = useState<PathAppearance>(
+    defaultSpineAppearance,
+  );
+  const [spineIsolated, setSpineIsolated] = useState(false);
+  const [spineBonesOnly, setSpineBonesOnly] = useState(false);
+  useEffect(() => {
+    setSpineIsolated(false);
+    setSpineBonesOnly(false);
+  }, [config]);
   const spineLevel = request.spineLevel || "L3_L4";
   const [showAnatomy, setShowAnatomy] = useState(false);
   function inspectMuscle(id: string) {
@@ -407,6 +433,7 @@ function JointExplorer({
         );
   }
   function explore(e: Exploration) {
+    if (region === "spine") setSpineIndividual(true);
     change(e.request);
     setExploration(e);
     setSelected(e.muscles[0]);
@@ -449,6 +476,37 @@ function JointExplorer({
     request.track && request.track !== "manual" ? request.track : "";
   const canUse = !!pose && !busy && !error;
   const sampleAvailable = !!sample?.available && !!base?.available;
+  const spineMuscles = useMemo(
+    () => (region === "spine" ? wholeBodyMuscles(config?.muscles || []) : []),
+    [region, config],
+  );
+  const selectedSpineMuscle = spineMuscles.find((m) => m.id === selected);
+  const spinePaths = useMemo(
+    () => visibleBodyPaths(spineMuscles, selected, spineAppearance),
+    [spineMuscles, selected, spineAppearance],
+  );
+  const spineFamily = useMemo(
+    () =>
+      new Set(
+        spineMuscles
+          .filter((m) => m.family === selectedSpineMuscle?.family)
+          .map((m) => m.id),
+      ),
+    [spineMuscles, selectedSpineMuscle?.family],
+  );
+  const referenceSamples = new Map(
+    reference?.pose.muscles.map((m) => [m.id, m]),
+  );
+  const spinePathCount = spineBonesOnly
+    ? 0
+    : pose?.muscles.filter(
+        (m) =>
+          spinePaths.has(m.id) &&
+          (!spineIsolated || m.id === selected) &&
+          m.available &&
+          m.path.length > 1 &&
+          referenceSamples.get(m.id)?.available,
+      ).length || 0;
   return (
     <section className="movement-lab" aria-label="Movement lab">
       <div className="bio-toolbar">
@@ -549,6 +607,21 @@ function JointExplorer({
                     ? "Last successful pose · new result unavailable"
                     : `${config.name} · ${config.muscles.length} muscle compartments`}
               </div>
+              {region === "spine" && (
+                <WholeBodyLayers
+                  appearance={spineAppearance}
+                  onChange={(next) => {
+                    setSpineAppearance(next);
+                    setSpineIsolated(false);
+                  }}
+                  selected={selectedSpineMuscle}
+                  count={spinePathCount}
+                  bonesOnly={spineBonesOnly}
+                  layers={bodyLayers.filter((layer) =>
+                    spineMuscles.some((m) => m.layer === layer.id),
+                  )}
+                />
+              )}
               <div
                 className={`bio-model-pair${showAnatomy ? " has-reference" : ""}`}
               >
@@ -563,6 +636,21 @@ function JointExplorer({
                     inspectMuscle(id);
                   }}
                   hideResults={busy || !!error}
+                  visiblePaths={region === "spine" ? spinePaths : undefined}
+                  familyPaths={region === "spine" ? spineFamily : undefined}
+                  boneOpacity={
+                    region === "spine" ? spineAppearance.boneOpacity : undefined
+                  }
+                  showPathMarkers={
+                    region === "spine" ? spineAppearance.markers : undefined
+                  }
+                  isolated={region === "spine" ? spineIsolated : undefined}
+                  onIsolationChange={
+                    region === "spine" ? setSpineIsolated : undefined
+                  }
+                  onBonesOnlyChange={
+                    region === "spine" ? setSpineBonesOnly : undefined
+                  }
                 />
                 {showAnatomy && (
                   <MuscleReference
@@ -683,94 +771,149 @@ function JointExplorer({
                   </div>
                 )}
                 {region === "spine" && (
-                  <label className="bio-spine-level">
-                    Spinal joint
-                    <select
-                      aria-label="Spinal joint"
-                      value={spineLevel}
-                      onChange={(e) =>
-                        change({ ...request, spineLevel: e.target.value })
-                      }
-                    >
-                      {config.controls
-                        .filter((c) => c.id.endsWith("_FE"))
-                        .map((c) => (
-                          <option key={c.level} value={c.level}>
-                            {c.level!.replace("_", "–")}
-                          </option>
-                        ))}
-                    </select>
-                    <span>
-                      Three angles at this joint. Changing levels preserves the
-                      other joint angles.
-                    </span>
-                  </label>
-                )}
-                <div className="bio-sliders">
-                  {[...config.controls]
-                    .filter((c) => region !== "spine" || c.level === spineLevel)
-                    .sort((a, b) => {
-                      const priority =
-                        joint === "wrist"
-                          ? ["flexion", "deviation", "pro_sup", "elbow_flexion"]
-                          : joint === "ankle"
-                            ? [
-                                "ankle_angle_r",
-                                "subtalar_angle_r",
-                                "knee_angle_r",
-                              ]
-                            : joint === "knee"
-                              ? ["knee_angle_r"]
-                              : [];
-                      const rank = (id: string) =>
-                        priority.includes(id)
-                          ? priority.indexOf(id)
-                          : priority.length;
-                      return rank(a.id) - rank(b.id);
-                    })
-                    .map((c) => (
-                      <div className="bio-slider" key={c.id}>
-                        <label htmlFor={c.id}>
-                          {c.axis && <b>{c.axis}</b>}
-                          <span>{c.label}</span>
-                          <output>
-                            {c.group === "girdle"
-                              ? busy || error
-                                ? "…"
-                                : `${pose.coordinates[c.id].toFixed(1)}°`
-                              : `${(track ? pose.coordinates[c.id] : (request.coordinates?.[c.id] ?? c.default)).toFixed(1)}°`}
-                          </output>
-                        </label>
-                        <input
-                          id={c.id}
-                          aria-label={[c.axis, c.label]
-                            .filter(Boolean)
-                            .join(" ")}
-                          type="range"
-                          min={c.min}
-                          max={c.max}
-                          step={region === "spine" ? "0.1" : "0.5"}
-                          disabled={!!track}
-                          value={
-                            track
-                              ? Math.max(
-                                  c.min,
-                                  Math.min(c.max, pose.coordinates[c.id]),
-                                )
-                              : (request.coordinates?.[c.id] ?? c.default)
-                          }
+                  <>
+                    <div className="bio-spine-scope">
+                      <label>
+                        Move together
+                        <select
+                          aria-label="Spine control group"
+                          value={spineScope}
                           onChange={(e) =>
-                            change({
-                              coordinates: {
-                                ...request.coordinates,
-                                [c.id]: Number(e.target.value),
-                              },
-                            })
+                            setSpineScope(e.target.value as SpineScope)
                           }
-                        />
-                        <small>{c.detail}</small>
-                      </div>
-                    ))}
+                        >
+                          {Object.entries(spineScopes).map(([id, group]) => (
+                            <option key={id} value={id}>
+                              {group.label}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <span>{spineScopes[spineScope].extent}</span>
+                    </div>
+                    <SpineGroupControls
+                      controls={controlsForSpine(config.controls, spineScope)}
+                      coordinates={request.coordinates || {}}
+                      label={spineScopes[spineScope].label}
+                      onChange={(coordinates) =>
+                        change({ ...request, coordinates })
+                      }
+                    />
+                    <button
+                      className="small-button bio-spine-fine-toggle"
+                      aria-expanded={spineIndividual}
+                      aria-controls="regional-spine-individual"
+                      onClick={() => setSpineIndividual((v) => !v)}
+                    >
+                      {spineIndividual
+                        ? "Hide individual joints"
+                        : "Fine-tune individual joints"}
+                    </button>
+                  </>
+                )}
+                <div
+                  id={
+                    region === "spine" ? "regional-spine-individual" : undefined
+                  }
+                  hidden={region === "spine" && !spineIndividual}
+                >
+                  {region === "spine" && (
+                    <label className="bio-spine-level">
+                      Spinal joint
+                      <select
+                        aria-label="Spinal joint"
+                        value={spineLevel}
+                        onChange={(e) =>
+                          change({ ...request, spineLevel: e.target.value })
+                        }
+                      >
+                        {config.controls
+                          .filter((c) => c.id.endsWith("_FE"))
+                          .map((c) => (
+                            <option key={c.level} value={c.level}>
+                              {c.level!.replace("_", "–")}
+                            </option>
+                          ))}
+                      </select>
+                      <span>
+                        Three angles at this joint. Changing levels preserves
+                        the other joint angles.
+                      </span>
+                    </label>
+                  )}
+                  <div className="bio-sliders">
+                    {[...config.controls]
+                      .filter(
+                        (c) => region !== "spine" || c.level === spineLevel,
+                      )
+                      .sort((a, b) => {
+                        const priority =
+                          joint === "wrist"
+                            ? [
+                                "flexion",
+                                "deviation",
+                                "pro_sup",
+                                "elbow_flexion",
+                              ]
+                            : joint === "ankle"
+                              ? [
+                                  "ankle_angle_r",
+                                  "subtalar_angle_r",
+                                  "knee_angle_r",
+                                ]
+                              : joint === "knee"
+                                ? ["knee_angle_r"]
+                                : [];
+                        const rank = (id: string) =>
+                          priority.includes(id)
+                            ? priority.indexOf(id)
+                            : priority.length;
+                        return rank(a.id) - rank(b.id);
+                      })
+                      .map((c) => (
+                        <div className="bio-slider" key={c.id}>
+                          <label htmlFor={c.id}>
+                            {c.axis && <b>{c.axis}</b>}
+                            <span>{c.label}</span>
+                            <output>
+                              {c.group === "girdle"
+                                ? busy || error
+                                  ? "…"
+                                  : `${pose.coordinates[c.id].toFixed(1)}°`
+                                : `${(track ? pose.coordinates[c.id] : (request.coordinates?.[c.id] ?? c.default)).toFixed(1)}°`}
+                            </output>
+                          </label>
+                          <input
+                            id={c.id}
+                            aria-label={[c.axis, c.label]
+                              .filter(Boolean)
+                              .join(" ")}
+                            type="range"
+                            min={c.min}
+                            max={c.max}
+                            step={region === "spine" ? "0.1" : "0.5"}
+                            disabled={!!track}
+                            value={
+                              track
+                                ? Math.max(
+                                    c.min,
+                                    Math.min(c.max, pose.coordinates[c.id]),
+                                  )
+                                : (request.coordinates?.[c.id] ?? c.default)
+                            }
+                            onChange={(e) =>
+                              change({
+                                coordinates: {
+                                  ...request.coordinates,
+                                  [c.id]: Number(e.target.value),
+                                },
+                              })
+                            }
+                          />
+                          <small>{c.detail}</small>
+                        </div>
+                      ))}
+                  </div>
                 </div>
                 {region === "spine" && (
                   <details className="bio-spine-angles">
@@ -844,7 +987,7 @@ function JointExplorer({
                   {joint === "shoulder"
                     ? "The plane of elevation selects the movement: 0° is sideways abduction/adduction; 90° is forward flexion/extension. Shoulder elevation moves the humerus relative to the scapula. The scapular sliders move the shoulder blade while the clavicle follows. The elbow stays straight."
                     : region === "spine"
-                      ? "Each slider moves one native intervertebral joint. Positive flexion/extension means extension; lateral flexion is right; axial rotation is left. Other joint angles are held. Pelvis and the abdominal routing body stay at their starting pose; ribs follow their vertebrae without a breathing or cartilage-deformation simulation."
+                      ? "Group controls move several spinal joints together; individual controls adjust one joint. Pelvis and the abdominal routing body stay at their starting pose; ribs follow their vertebrae without a breathing or cartilage-deformation simulation."
                       : region === "neck"
                         ? "Upper and lower neck motion follow the source model’s vertebral coupling. The thorax, ribs, shoulder girdle and jaw stay fixed relative to their parent segments."
                         : region === "arm"
@@ -944,6 +1087,13 @@ function JointExplorer({
                       <p>
                         Where the native moment arm disagrees with the local
                         length-change check, the action is marked unavailable.
+                      </p>
+                    )}
+                    {region === "spine" && (
+                      <p>
+                        These moment arms are for {spineLevel.replace("_", "–")}
+                        . Choose another joint under Fine-tune individual
+                        joints.
                       </p>
                     )}
                     {selected === "tibant_r" && (
@@ -1095,7 +1245,7 @@ function JointExplorer({
               <summary>Model assumptions, coordinates & evidence</summary>
               <p>
                 {region === "spine"
-                  ? "The preserved Bruno/Bern Movement Lab template contains 552 upper-body fascicles, including 74 thoracic/lumbar multifidus paths and 152 intercostal paths. Its 17 intervertebral joints are independent; the sliders expose their native angles, not whole-trunk Euler angles. The remaining joints and abdominal routing body retain their source defaults. This is a kinematic exploration, with no cartilage deformation, breathing, passive stiffness or muscle activation calculation. Rotatores and several other small muscles are available as static atlas anatomy only. Limits are exploration limits, not a person’s measured or safe range."
+                  ? "The preserved Bruno/Bern Movement Lab template contains 552 upper-body fascicles, including 74 thoracic/lumbar multifidus paths and 152 intercostal paths. Its 17 intervertebral joints retain independent native angles. Group controls distribute a change across the selected joints; their totals are sums of joint angles. The remaining joints and abdominal routing body retain their source defaults. This is a kinematic exploration, with no cartilage deformation, breathing, passive stiffness or muscle activation calculation. Rotatores and several other small muscles are available as static atlas anatomy only. Limits are exploration limits, not a person’s measured or safe range."
                   : region === "neck"
                     ? "This is the preserved Vasavada / Mortensen neck model from a pinned researcher repository. It displays 52 bilateral neck-muscle paths from the source’s 72 actuators; hyoid muscles are outside this workspace. Six existing coordinates distribute movement through the upper (C2–skull) and lower (T1–C2) neck. These prescribed joint relationships are model assumptions, not a measured movement pattern for every person. The torso and shoulder girdle stay fixed, so rib elevation during breathing is not modeled. The separate shoulder workspace uses another model. Four semispinalis-capitis compartments have no matching atlas surface; their native paths remain inspectable."
                     : region === "shoulder"
@@ -1125,6 +1275,14 @@ function JointExplorer({
                     : "Exact source package"}{" "}
                   <ExternalLink size={12} />
                 </a>
+                {" · "}
+                <a
+                  href={assetUrl(`/credits/index.html#${region}`)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Full citations, licenses & changes <ExternalLink size={12} />
+                </a>
               </p>
               {region === "arm" && (
                 <p>
@@ -1138,7 +1296,7 @@ function JointExplorer({
                   </a>
                   ; ECRL routing adapted here.{" "}
                   <a
-                    href="/models/arm/LICENSE.txt"
+                    href={assetUrl("/models/arm/LICENSE.txt")}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -1150,7 +1308,7 @@ function JointExplorer({
               {region === "spine" && (
                 <p>
                   <a
-                    href="/models/spine/LICENSE.txt"
+                    href={assetUrl("/models/spine/LICENSE.txt")}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -1163,7 +1321,7 @@ function JointExplorer({
                   Model by Vasavada, Li and Delp (1998), with the hyoid
                   additions of Mortensen, Vasavada and Merryweather (2018).{" "}
                   <a
-                    href="/models/neck/LICENSE.txt"
+                    href={assetUrl("/models/neck/LICENSE.txt")}
                     target="_blank"
                     rel="noreferrer"
                   >

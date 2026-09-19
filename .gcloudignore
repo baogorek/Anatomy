@@ -1,0 +1,2 @@
+# Upload the same explicit source allowlist used by the container build.
+#!include:.dockerignore
