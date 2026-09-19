@@ -2,7 +2,7 @@
 
 An interactive anatomy and movement workspace for personal trainers. Built with React, TypeScript, Vite, and Three.js.
 
-Movement Lab is an additional card in SplineFitness’s existing home screen. The integrated workspace lives at `/movement-lab`; Workout cards returns to `/`. See the [integration and deployment guide](docs/SPLINEFITNESS_DEPLOYMENT.md) for the local preview, production service and release steps.
+This Anatomy repository is a standalone local tool, separate from `~/devl/SplineFitness`. The SplineFitness branding and full citations are retained. Integration with the fitness app and public hosting were cancelled; the [archived deployment notes](docs/SPLINEFITNESS_DEPLOYMENT.md) record that earlier work, not an active deployment plan.
 
 The **Movement lab** uses native OpenSim models for joint motion and muscle–tendon length comparisons. See [setup, model provenance and assumptions](biomechanics/README.md), [validation and evidence](biomechanics/reports/EVIDENCE.md), and the [original plan with implementation decisions](OPENSIM_PLAN.md).
 

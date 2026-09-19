@@ -1,14 +1,7 @@
-import { assetUrl, fitnessHome } from "./urls";
+import { assetUrl } from "./urls";
 import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import {
-  Activity,
-  ArrowLeft,
-  ArrowRight,
-  BookOpen,
-  ExternalLink,
-  X,
-} from "lucide-react";
+import { Activity, ArrowRight, BookOpen, ExternalLink, X } from "lucide-react";
 import MovementLab from "./MovementLab";
 
 function Modal({
@@ -64,7 +57,15 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <a className="brand" href={fitnessHome} aria-label="SplineFitness home">
+        <a
+          className="brand"
+          href={assetUrl("")}
+          aria-label="SplineFitness Movement Lab home"
+          onClick={(event) => {
+            event.preventDefault();
+            setReferenceOpen(false);
+          }}
+        >
           <img
             className="brand-logo"
             src={assetUrl("/spline-mark.svg")}
@@ -77,10 +78,6 @@ function App() {
           </span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
-          <a href={fitnessHome}>
-            <ArrowLeft size={17} />
-            Workout cards
-          </a>
           <button
             className="active"
             aria-current="page"

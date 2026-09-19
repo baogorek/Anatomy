@@ -1,4 +1,10 @@
-# SplineFitness Movement Lab: integration and deployment
+# Archived: SplineFitness integration and deployment
+
+## Current decision — September 19, 2026
+
+The owner cancelled moving Anatomy into `~/devl/SplineFitness` and is not pursuing public hosting. Keep the repositories separate. Anatomy retains its complete local Movement Lab functionality, SplineFitness branding and citations. The fitness-app card, rewrites and manifest change were reverted locally; they were never pushed or deployed. Anatomy’s links to the fitness app were removed, and the integration preview container was stopped. The normal Vite/Python local app remains available via `npm run dev`.
+
+The remaining sections describe the abandoned integration and its earlier validation. They are historical records, not instructions to deploy, link a billing account or resume integration. Earlier deployment/risk acceptance does not authorize doing that now. Container packaging remains in the repository but is not required for normal local use.
 
 ## Home and routing
 
